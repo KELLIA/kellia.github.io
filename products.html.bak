@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>The Big Picture - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/the-big-picture.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">KELLIA</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="partners.html">Partners</a>
+                    </li>
+                    <li>
+                     <a href="products.html">Products</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h1>KELLIA Products</h1>
+                  <h3><a href="https://corpling.uis.georgetown.edu/coptic-dictionary/">Online digital Coptic dictionary</a></h3>
+                    <p>KELLIA members Frank Feder and Maxim Kupreyev of the The Berlin-Brandenberg Academy of Sciences and Julien Delhez of the University of Göttingen created a digital lexicon of Coptic. Amir Zeldes and his student Emma Manning created a web interface for the lexicon, which is available as a <a href="https://corpling.uis.georgetown.edu/coptic-dictionary/">standalone website</a> and is linked to Coptic SCRIPTORIUM texts in the normalized visualization available through the <a href="http://data.copticscriptorium.org/">web application</a> and <a href="https://corpling.uis.georgetown.edu/annis/scriptorium">ANNIS</a> tool.</p>
+                  <h3><a href="https://corpling.uis.georgetown.edu/coptic-nlp/">Online Coptic Natural Language Processing (NLP) service</a></h3>
+                      <p>KELLIA member Amir Zeldes created a web application and a machine actionable API that simultaneously runs Coptic SCRIPTORIUM's Natural Language Processing tools. Users can input text, including XML tags, and the online NLP pipeline will tokenize, normalize, lemmatize, and tag the text for part-of-speech and language of origin in SGML output.</p>   
+                 </div>
+                      <div class="col-md-6 col-sm-12">
+            
+                <h3>Integration of data from the Database and Dictionary of Greek Loanwords in Coptic (DDGLC) into the NLP tools</h3> 
+                    <p>Information from the DDGLC from the University of Leipzig has been added to NLP tools, improving the <a href="https://github.com/CopticScriptorium/lexical-taggers/">language of origin tagger</a>, the <a href="https://github.com/CopticScriptorium/tokenizers/">tokenizer and morphology analysis</a>, and the <a href="https://github.com/CopticScriptorium/tagger-part-of-speech">lemmatizer and part-of-speech tagger</a>. All of these tools are also available from the <a href="https://corpling.uis.georgetown.edu/coptic-nlp/">online NLP service</a>.</p>
+                <h3>New Besa document</h3> 
+                <p>KELLIA partner So Miyagawa has edited and translated Besa's <em>On Lack of Food</em>, which is available on the Coptic SCRIPTORIUM <a href="http://data.copticscriptorium.org/texts/besa_letters/on_lack_of_food/norm">web application</a> for viewing texts and is searchable in <a href="https://corpling.uis.georgetown.edu/annis/scriptorium#_q=bGVtbWE9IuKyn-KyqeKyseKymSI&_c=YmVzYS5sZXR0ZXJz&cl=5&cr=5&s=0&l=10&_seg=bm9ybV9ncm91cA">ANNIS</a></p>
+                <h3>Online multilayer corpus annotation editing tool</h3>
+                    <p>(forthcoming)</p>
+
+                        
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

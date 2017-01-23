@@ -1,0 +1,29 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+ html {
+ 		height: 30%;
+	margin: 20% auto;
+	padding: 0;
+	display: table;
+ }
+
+body {
+	
+	min-height: 60%;
+	margin: 40% auto;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+	    opacity: 0.99;
+}
+
+.full {
+  background: url(../img/top.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
