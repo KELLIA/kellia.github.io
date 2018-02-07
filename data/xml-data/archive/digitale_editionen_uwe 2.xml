@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<digitalEditions>
+    <projects>
+        <projectData url="http://example.com">
+            <revisionDesc>
+                <date type="entry-added" when="2015-11-15" resp="#us #sm #tz">entry added</date>
+            </revisionDesc>
+            <projectDesc>
+                <title>Testproject</title>
+                <country>Testland</country>
+                <dates>
+                    <date when="1999">project-start</date>
+                    <date when="2000">project-end</date>
+                    <date when="2005">project-update</date>
+                </dates>
+                
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://example.com"/>
+                </links>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://example.com">Project description from some source</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <searchWord type="google"/> This project is about bla bla bla
+                    <kelliaRating points="5">Gute Daten</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Hans Mustermann</name>
+                            <email>hm@example.de</email>
+                        </person>
+                        <person>
+                            <name>Max Test</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <goal>critical edition etc.</goal>
+                    <institution role="funding etc.">DFG</institution>
+                    <textSource>
+                        <lang>gr</lang>
+                        <genre>drama</genre>
+                        <epoche>enlightenment era</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="date of the data" type="">
+                    
+                    <!-- url zu den Daten -->
+                    <url>http://example-url.to/data</url>
+                    
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <api xml:base="url">Kurzbeschreibung der API</api>
+                    
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="" standard="">Kurzbeschreibung des Datensatzes<ref
+                            target="http://example.com/look-it-up">Link</ref>
+                    </desc>
+                </dataSet>
+            </dataDesc>
+        </projectData>
+    </projects>
+    <!-- ######### -->
+
+    <standards>
+        <standard xml:id="mets">
+            <name>METS</name>
+            <url>http://www.loc.gov/standards/mets/</url>
+            <desc/>
+        </standard>
+        <standard xml:id="tei">
+            <name>TEI</name>
+            <url>http://www.tei-c.org</url>
+            <desc/>
+        </standard>
+    </standards>
+
+    <formats>
+        <format xml:id="xml">
+            <name>XML</name>
+            <url/>
+            <desc/>
+        </format>
+    </formats>
+
+</digitalEditions>

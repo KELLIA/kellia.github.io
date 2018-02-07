@@ -1,0 +1,11 @@
+body{
+    font-family:"Georgia", serif;
+    line-height:150%;
+    /*margin:20px auto;
+    max-width:80%;*/
+}
+
+.data-set{
+	background:#D8D8D8;
+	padding: 10px;
+}

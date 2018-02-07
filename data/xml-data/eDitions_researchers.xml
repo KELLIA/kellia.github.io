@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns="http://www.uni-goettingen.de/kellia"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd">
+    <kelliaHead>
+        <title>KELLIA[eDitions]: Researchers</title>
+        <revision>
+            <date when="2016-02-09" version="0.1" resp="#us">file is born digital and linked to projects-xml in the kelliaHead</date>
+        </revision>
+        <researcher>
+            <respStmt>
+                <resp>scientific personal</resp>
+                <person xml:id="US">
+                    <name>Uwe Sikora</name>
+                    <email>sikora@sub.uni-goettingen.de</email>
+                    <desc>Egyptologist and Coptologist, responsible for the KELLIA-Metadata recommedations</desc>
+                </person>
+                <person xml:id="SM">
+                    <name>So Miyagawa</name>
+                    <email>runa.uei@gmail.com</email>
+                    <desc></desc>
+                </person>
+                <person xml:id="TZ">
+                    <name>Tiffany Ziegler</name>
+                    <email>tiffany.ziegler@gmx.de</email>
+                    <desc>Supi</desc>
+                </person>
+            </respStmt>
+        </researcher>
+    </kelliaHead>
+</kelliaEditions>

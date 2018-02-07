@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.uni-goettingen.de/kellia"
+    xmlns="http://www.uni-goettingen.de/kellia" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+
+    <!-- 
+#####################################################################################################################
+#   KELLIA-Schema
+#   rev.1 (2016-02-09): integrated Tiffanys requirements
+#
+#
+#
+#
+#
+#
+#
+#
+#    
+#####################################################################################################################
+-->
+
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+
+    <xs:element name="kelliaEditions">
+        <xs:complexType>
+            <!--<xs:choice minOccurs="1" maxOccurs="unbounded">-->
+            <xs:sequence>
+                <xs:element name="kelliaHead" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" minOccurs="1" maxOccurs="1" type="xs:string"/>
+                            <xs:element ref="revision" minOccurs="1" maxOccurs="1"/>
+                            <xs:element ref="researcher" minOccurs="1" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="projects" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="project" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element ref="revision" minOccurs="1" maxOccurs="1"/>
+                                        <xs:element ref="projectDesc" minOccurs="1" maxOccurs="1"/>
+                                        <xs:element ref="dataDesc" minOccurs="1" maxOccurs="1"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="url"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="standards" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="standard" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name"/>
+                                        <xs:element name="url"/>
+                                        <xs:element name="desc"/>
+                                    </xs:sequence>
+                                    <xs:attribute ref="xml:id" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <!--</xs:choice>-->
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="revision">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="date" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType mixed="true">
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="when" use="required"/>
+                                <xs:attribute name="type" use="optional"/>
+                                <xs:attribute name="resp" use="required"/>
+                                <xs:attribute name="version" use="optional"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="status" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="draft"/>
+                        <xs:enumeration value="to_controll"/>
+                        <xs:enumeration value="controlled"/>
+                        <xs:enumeration value="accepted"/>
+                        <xs:enumeration value="finished"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="researcher">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="respStmt" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="path" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="projectDesc">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="country" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="dates" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="date" type="project-dates" minOccurs="1"
+                                maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="links" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="url" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="target" type="xs:anyURI" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="desc" type="descriptions" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="project-dates">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="when" use="required"/>
+                <xs:attribute name="type" use="optional"/>
+                <xs:attribute name="resp" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <!--<xs:complexType name="urls">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="target" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>-->
+
+    <xs:complexType name="descriptions" mixed="true">
+        <xs:choice maxOccurs="unbounded">
+            <xs:element ref="note" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="searchWord" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="kelliaRating" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="respStmt" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="projectAims" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="institutions" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="textSource" minOccurs="0" maxOccurs="1"/>
+        </xs:choice>
+        <xs:attribute name="source" use="optional"/>
+        <xs:attribute name="resp" use="optional"/>
+    </xs:complexType>
+
+    <xs:element name="searchWord">
+        <xs:complexType mixed="true">
+            <xs:attribute name="key" type="xs:string" use="optional"/>
+            <xs:attribute name="url" type="xs:string" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="kelliaRating">
+        <xs:complexType mixed="true">
+            <xs:attribute name="points" type="xs:string" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="respStmt">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="resp">
+                    <xs:annotation>
+                        <xs:documentation/>
+                    </xs:annotation>
+                </xs:element>
+                <xs:element ref="person" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="person">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" minOccurs="1"/>
+                <xs:element name="email" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="desc" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="institution" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute ref="xml:id" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="institutions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="note" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="institution" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--<xs:element name="phase">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="institution" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="n" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>-->
+
+    <xs:element name="institution">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="role" type="xs:string"/>
+                    <xs:attribute name="url" type="xs:anyURI" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="projectAims">
+        <xs:complexType mixed="false">
+            <xs:sequence>
+                <xs:element name="aim" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="key" type="xs:string" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="textSource">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="lang" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="genre" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType mixed="true">
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="cert" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="epoche" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="cert" type="xs:string"/>
+                        <xs:attribute name="from" type="xs:string"/>
+                        <xs:attribute name="to" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute ref="xml:lang" use="optional"/>
+            <xs:attribute name="when" use="optional" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="dataDesc">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="dataSet" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="dataSet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="note" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="url" minOccurs="0" maxOccurs="unbounded"/>
+                <!-- modularise desc as own element -->
+                <xs:element name="desc" minOccurs="0" maxOccurs="1">
+                    <xs:complexType mixed="true">
+                        <xs:sequence>
+                            <xs:element name="ref" minOccurs="0" maxOccurs="1">
+                                <xs:complexType mixed="true">
+                                    <xs:attribute name="target" type="xs:anyURI"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="format" use="required" type="xs:string"/>
+                        <xs:attribute name="schema" use="optional" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element ref="example" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="when" type="xs:date" use="optional"/>
+            <xs:attribute name="type" type="xs:string" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="url">
+        <xs:complexType mixed="true">
+            <xs:attribute name="target" type="xs:anyURI" use="required"/>
+            <xs:attribute name="type" type="dataUrlTyps" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="dataUrlTyps">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="zip"/>
+            <xs:enumeration value="api"/>
+            <xs:enumeration value="xml"/>
+            <xs:enumeration value="schema"/>
+            <xs:enumeration value="uncertain"/>
+            <xs:enumeration value="documentation"/>
+            <xs:enumeration value="html-representation"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="example">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:any minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+            </xs:sequence>
+            <xs:attribute name="type" use="optional"/>
+            <xs:attribute name="url" type="xs:anyURI" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="note">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="url" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="head" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="p" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType mixed="true">
+                        <xs:sequence>
+                            <xs:element name="lb" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="url" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+            <xs:attribute name="type" use="optional"/>
+            <xs:attribute name="url" type="xs:anyURI" use="optional"/>
+            <xs:attribute name="resp" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+
+</xs:schema>

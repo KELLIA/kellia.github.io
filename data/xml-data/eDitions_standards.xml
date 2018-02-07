@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd" 
+    xmlns="http://www.uni-goettingen.de/kellia">
+    <standards>
+        <standard xml:id="mets">
+            <name>METS</name>
+            <url>http://www.loc.gov/standards/mets/</url>
+            <desc/>
+        </standard>
+        <standard xml:id="tei">
+            <name>TEI</name>
+            <url>http://www.tei-c.org</url>
+            <desc/>
+        </standard>
+    </standards>
+</kelliaEditions>

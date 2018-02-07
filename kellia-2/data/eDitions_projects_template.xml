@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns="http://www.uni-goettingen.de/kellia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd">
+    <kelliaHead>
+        <title>eDitions</title>
+        <revision>
+            <date when="" version="" resp=""/>
+        </revision>
+        <respStmt>
+            <resp>scientific personal</resp>
+            <person xml:id="US">
+                <name>Uwe Sikora</name>
+                <email>sikora@sub.uni-goettingen.de</email>
+            </person>
+            <person xml:id="SM">
+                <name>So Miyagawa</name>
+                <email>sm@example.de</email>
+            </person>
+            <person xml:id="TZ">
+                <name>Tiffany Ziegler</name>
+                <email>tz@example.de</email>
+            </person>
+        </respStmt>
+    </kelliaHead>
+    <projects>
+        <project url="http://example.com">
+            <revision>
+                <date type="entry-added" when="2015-11-15" resp="#US #SM #TZ">entry added</date>
+            </revision>
+            <projectDesc>
+                <title>Testproject</title>
+                <country>Testland</country>
+                <dates>
+                    <date when="1999">project-start</date>
+                    <date when="2000">project-end</date>
+                    <date when="2005">project-update</date>
+                </dates>
+
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://example.com"/>
+                </links>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://example.com">Project description from some source</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <searchWord key="google">tetete</searchWord>
+                    <kelliaRating points="5">Gute Daten</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Hans Mustermann</name>
+                            <email>hm@example.de</email>
+                        </person>
+                        <person>
+                            <name>Max Test</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <goal>critical edition etc.</goal>
+                    <institution role="funding etc.">DFG</institution>
+                    <textSource xml:lang="coptic">
+                        <lang>gr</lang>
+                        <genre>drama</genre>
+                        <epoche>enlightenment era</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+
+                    <!-- url zu dem Datendownload -->
+                    <url target="http://example-url.to/data" type="download"/>
+
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <url type="api" target="http://example-url.to/data/api"/>
+
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>etc</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+    </projects>
+    <!-- ######### -->
+
+    <!--<standards>
+        <standard xml:id="mets">
+            <name>METS</name>
+            <url>http://www.loc.gov/standards/mets/</url>
+            <desc/>
+        </standard>
+        <standard xml:id="tei">
+            <name>TEI</name>
+            <url>http://www.tei-c.org</url>
+            <desc/>
+        </standard>
+    </standards>-->
+</kelliaEditions>

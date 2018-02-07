@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns="http://www.uni-goettingen.de/kellia"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd">
+    <kelliaHead>
+        <title>eDitions</title>
+        <revision status="draft">
+            <date when="" version="" resp=""/>
+        </revision>
+        <researcher path="">
+            <respStmt>
+                <resp>scientific personal</resp>
+                <person xml:id="US">
+                    <name>Uwe Sikora</name>
+                    <email>sikora@sub.uni-goettingen.de</email>
+                    <desc>genious</desc>
+                    <institution>GAUG</institution>
+                </person>
+                <person xml:id="SM">
+                    <name>So Miyagawa</name>
+                    <email>smiyaga@gwdg.de</email>
+                    <desc/>
+                    <institution>GAUG/Kyoto</institution>
+                </person>
+                <person xml:id="TZ">
+                    <name>Tiffany Ziegler</name>
+                    <email>tz@example.de</email>
+                    <desc>our saviour</desc>
+                    <institution>GAUG</institution>
+                </person>
+            </respStmt>
+        </researcher>
+    </kelliaHead>
+
+    <projects>
+        <project url="http://copticscriptorium.org/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-11-15" resp="#SM">entry added</date>
+                <date type="entry-added" when="2015-04-05" resp="#SM">content modified</date>
+            </revision>
+            <title>Coptic SCRIPTORIUM</title>
+            <country>United States</country>
+            <dates>
+                <date when="2013">project-start</date>
+                <date when="?">project-end</date>
+                <date when="2016">project-update</date>
+            </dates>
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <!-- 
+                <desc source="http://example.com">Project description from some source</desc>
+                -->
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <kelliaRating points="5">Not bad</kelliaRating>
+                    <responsibles>
+
+                        <respStmt type="Editor">
+
+                            <person>
+                                <name>Caroline Schroeder</name>
+                                <email>carrieschroeder@mac.com</email>
+                            </person>
+                            <person>
+                                <name>Amir Zeldes</name>
+                                <email>Amir.Zeldes@georgetown.edu </email>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim>Richly annotated linguistic corpora of Sahidic Coptic</aim>
+                    </aims>
+                    <institutions>
+                        <institution>NEH</institution>
+                    </institutions>
+                    <textSource xml:lang="coptic">
+                        <lang>cp</lang>
+                        <genre>letters, sermons, Bible etc.</genre>
+                        <dating>Late Antiquity</dating>
+                    </textSource>
+                    <note>
+                        <p>Coptic SCRIPTORIUM is a short form of Sahidic Corpus Research: Internet
+                            Platform for Interdisciplinary multilayer Methods. It is "a platform for
+                            interdisciplinary and computational research in texts in the Coptic
+                            language, particularly the Sahidic dialect. As an open-source,
+                            open-access initiative, our technologies and corpus facilitate a
+                            collaborative environment for digital research for all scholars working
+                            in Coptic." As it says, it is a richly annotated text corpus of Sahidic
+                            Coptic. The way to annotated is based on Corpus Linguistics. Amir Zeldes
+                            and his team in Berlin made a platform to realize a corpus that is based
+                            on a rigid linguistic discipline and that is using XML as the data
+                            storage file format. This platform is called ANNIS and Coptic
+                            SCRIPTORIUM is take an advantage of it since its beginning. Now, the
+                            number of texts are small compared with the whole number of all the
+                            Coptic manuscripts. Nevertheless, this corpus has tokens more than
+                            200,000. This number is good compared with corpora of other historical
+                            languages except Greek, Latin, Sanskrit, Arabic and Classical Chinese."
+                        </p>
+                    </note>
+                </desc>
+
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <dataSet when="2014-01-01" type="">
+                    <p>
+                        <standard name="epidoc"><resource format="xml" type="example"
+                                target="https://github.com/CopticScriptorium/corpora/blob/master/abraham/shenoute.abraham.our.father_TEI/XL93-94.xml"
+                                /><resource type="visual" format="html"
+                                target="http://data.copticscriptorium.org/texts/abraham_our_father/xl93-94/norm"
+                            /></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://www.hf.uio.no/ifikk/english/research/projects/proiel">
+            <revision status="draft">
+                <date when="2016-04-06" resp="#sm">entry added</date>
+            </revision>
+            <title>PROIEL</title>
+            <country>Norway</country>
+            <information>
+
+                <desc resp="#sm">
+                    <kelliaRating points="5"/>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Dag Haug</name>
+                                <email/>
+                            </person>
+                        </respStmt>
+
+                    </responsibles>
+                    <aims>
+                        <aim>Pragmatic Resources in Old Indo-European Languages </aim>
+                    </aims>
+                    <institutions>
+                        <institution>University of Oslo</institution>
+                        <institution>British Academy</institution>
+                        <institution>Arts &amp; Humanities Research Council</institution>
+                    </institutions>
+                    <textSource xml:lang="Sanskrit">
+                        <lang/>
+                        <genre/>
+                        <dating/>
+                    </textSource>
+                    <textSource xml:lang="Greek">
+                        <lang/>
+                        <genre/>
+                        <dating/>
+                    </textSource>
+                    <textSource xml:lang="Latin">
+                        <lang/>
+                        <genre/>
+                        <dating/>
+                    </textSource>
+                    <textSource xml:lang="Armenian">
+                        <lang/>
+                        <genre/>
+                        <dating/>
+                    </textSource>
+                    <textSource xml:lang="Gothic">
+                        <lang/>
+                        <genre/>
+                        <dating/>
+                    </textSource>
+                    <textSource xml:lang="Russian">
+                        <lang/>
+                        <genre/>
+                        <dating/>
+                    </textSource>
+                </desc>
+            </information>
+            <data/>
+        </project>
+
+        <project url="http://vsarpj.orinst.ox.ac.uk/corpus/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-04-05" resp="#SM">entry added</date>
+            </revision>
+            <title>The Oxford Corpus of Old Japanese</title>
+            <country>The United Kingdom of Great Britain and Northern Ireland</country>
+            <dates>
+                <date when="2013">project-start</date>
+                <date when="?">project-end</date>
+                <date when="2016">project-update</date>
+            </dates>
+
+
+            <information>
+
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <kelliaRating points="2">You can see all the texts with romanization on the
+                        website, but you cannot download the data. It says it the data format is XML
+                        and the website is displayed using XSLT. Lexicon Search allows you to see
+                        all the ocurrences of lemmas. However, the user-interface does not look good
+                        and difficult to understand. The website says KWIC (keyword-in-cotext)
+                        search will be available soon. THis will make you search a token as if you
+                        are looking at a concordance. </kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+
+                            <person>
+                                <name>FRELLESVIG, Bjarke</name>
+                                <email>vsarpj@orinst.ox.ac.uk</email>
+                            </person>
+                            <person>
+                                <name>HORN, Stephen Wright</name>
+                            </person>
+                            <person>
+                                <name>RUSSELL, Kerri L</name>
+                            </person>
+
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim>Text data of all the Old Japnese texts with romanization</aim>
+                    </aims>
+                    <institutions>
+                        <institution>The University of Oxford</institution>
+                        <institution>British Academy</institution>
+                        <institution>Arts &amp; Humanities Research Council</institution>
+                    </institutions>
+                    <textSource xml:lang="Japanese">
+                        <lang>jp</lang>
+                        <genre>poetry, epics etc.</genre>
+                        <dating>500?-794?</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="xml">
+                    <p>
+                        <standard name="tei">This is the first electric text corpus of Old Japanese
+                                <resource target="http://vsarpj.orinst.ox.ac.uk/corpus/texts.html"
+                                format="html" type="visual"/></standard>
+                    </p>
+
+                </dataSet>
+            </data>
+        </project>
+
+
+
+        <project url="http://pj.ninjal.ac.jp/corpus_center/bccwj/en/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-11-15" resp="#SM">entry added</date>
+                <date type="entry-added" when="2015-04-05" resp="#SM">content modified</date>
+            </revision>
+            <title>Balanced Corpus of Contemporary Written Japanese (BCCWJ)</title>
+            <country>Japan</country>
+            <dates>
+                <date when="2006">project-start</date>
+                <date when="?">project-end</date>
+                <date when="2016">project-update</date>
+            </dates>
+
+
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="https://www.ninjal.ac.jp/english/products/bccwj/">"BCCWJ is a balanced
+                    corpus of one hundred million words of contemporary written Japanese. BCCWJ is
+                    one of the components of KOTONOHA. It is probably the most important of all the
+                    KOTONOHA component corpora, because it is the written register of the
+                    contemporary Japanese that is the greatest focus of interest for language
+                    researchers as well as the general public. It is also the contemporary written
+                    language that has the greatest applicability to such applications as
+                    dictionaries and teaching materials. The compilation of BCCWJ started in 2006 as
+                    a five-year project, and is supported partly by a Grant-in-Aid for Scientific
+                    Research on Priority Area from MEXT (Japanese ministry of education) : Japanese
+                    Corpus. As shown in the figure below, BCCWJ consists of three subcorpora. The
+                    one in the top left corner is called the Publication Subcorpus. Samples of this
+                    corpus are extracted randomly from the population of all books, magazines, and
+                    major newspapers published in the years 2001-2005. The corpus in the top right
+                    corner is called the Library Subcorpus. Its population consists of all books
+                    that are catalogued at more than 13 metropolitan libraries in Tokyo. Lastly, the
+                    corpus at the bottom is called the Special-purpose Subcorpus. This corpus
+                    contains a series of mutually unrelated mini corpora that are required for
+                    specific research purposes of the NINJAL research groups. The mini corpora
+                    include governmental white papers, textbooks, laws, bestselling books, and text
+                    from the Internet (provided by the courtesy of Yahoo! Japan Inc). Each of these
+                    mini corpora contains text of several million words."</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <kelliaRating points="4">This corpus allows you to search various aspects of
+                        Japanese language. You can search for various conjugation of verbs,
+                        collocation, co-occurence etc. within highly detailed conditions. However,
+                        the schema of XML is very special only for this project. It means the data
+                        itself is not compatible and can not be applied for other platform freely.
+                        And they do not allow us to download the data.</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+
+                            <person>
+                                <name/>
+
+                            </person>
+
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim>Richly annotated linguistic corpora of Written Japanese</aim>
+                    </aims>
+                    <institutions>
+
+                        <institution>NINJAL</institution>
+                        <institution>MEXT</institution>
+                    </institutions>
+                    <textSource xml:lang="Japanese">
+                        <lang>jp</lang>
+                        <genre>novels, newspapers, reports etc.</genre>
+                        <dating>Postwar period till today</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <dataSet>
+                    <p><standard name="other">own standard <resource type="documentation"
+                                format="html"
+                                target="http://pj.ninjal.ac.jp/corpus_center/bccwj/en/XML.html"
+                            /></standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://ramses.ulg.ac.be/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-12-21" resp="#SM">entry added</date>
+                <date type="modification" when="2015-1-16" resp="#SM">entry modified</date>
+                <date type="modification" when="2015-1-16" resp="#SM">content modified</date>
+            </revision>
+            <title>Projet Ramsès</title>
+            <country>Beligium</country>
+            <dates>
+                <date when="2006">project-start</date>
+                <date when="?">project-end</date>
+                <date when="?">project-update</date>
+            </dates>
+            <information>
+
+                <desc source="http://www.egypto.ulg.ac.be/Ramses.htm">Le projet Ramsès ambitionne de
+                    constituer un corpus électronique rassemblant la totalité des textes écrits en
+                    néo-égyptien. Allant bien au-delà de la simple saisie informatique de l'égyptien
+                    (sous forme translittérée), le corpus est encodé sous sa forme hiéroglyphique
+                    [capture d'écran] et enrichi d'annotations ecdotiques [capture d'écran] et
+                    linguistiques (morphologique, syntaxique, sémantique et pragmatique). Cet outil
+                    — innovant à la fois dans le domaine de l'égyptologie et, par les méthodes mises
+                    en oeuvre, dans celui de la linguistique de corpus en général — devrait
+                    renouveler entièrement les perspectives d'étude de la langue des Ramsès.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <searchWord key="google">Dictionary &amp; corpus of Late Egyptian </searchWord>
+                    <kelliaRating points="5">This corpus is highly well-organized. And the goal of
+                        the project is really high as well. The good thing of this corpus is that
+                        all the morphs have their glossings and transliteration. This allows
+                        beginners to read Late Egyptian texts easily. Also, it records different
+                        spellings of the morph and this allows researcher of the grammatology to
+                        study the varieties of the spelling quite well. Also, this corpus has
+                        multi-searching function. One eminence of them is the collocation search.
+                        This makes syntacticians search collocations under a detailed condition.
+                        Thus, this corpus is a great tool for linguists that study Late Egyptian. </kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+
+                            <person>
+                                <name>Jean Winand</name>
+                                <email>j.winand@ulg.ac.be</email>
+                            </person>
+                            <person>
+                                <name>Stéphane Polis</name>
+                                <email>s.polis@ulg.ac.be</email>
+                            </person>
+                            <person>
+                                <name>Serge Rosmorduc</name>
+                                <email>mt@example.de</email>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim>Richly annotated linguistic corpora of Late Egyptian with more than
+                            500,000 tokens and translation in French and English.</aim>
+                    </aims>
+                    <institutions>
+                        <institution>Université de Liège</institution>
+                        <institution>fnrs</institution>
+                        <institution>le cnam</institution>
+                        <institution>Communauté française</institution>
+                        <institution>la Fondation von Humboldt</institution>
+                    </institutions>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <dating>1,800 BCE-?</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <data>
+                <dataSet>
+                    <p><standard name="tei">TEI-P5. There's no downloadble data.</standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="https://wdb.jinsha.tsukuba.ac.jp/hdb/">
+            <revision status="draft">
+                <date when="2016-02-03" version="1" resp="#SM">entry added</date>
+                <date when="2016-04-06" version="2" resp="#SM">description changed</date>
+            </revision>
+            <title>Hieratic Database Project</title>
+            <country>Japan</country>
+            <dates>
+                <date when="?">project-start</date>
+                <date when="?">project-end</date>
+                <date when="?">project-update</date>
+            </dates>
+            <information>
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="https://wdb.jinsha.tsukuba.ac.jp/hdb/">Hieratic Database
+                    Project</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <searchWord key="google">Hieratic Database</searchWord>
+                    <kelliaRating points="0">bad</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Masakatsu Nagai</name>
+                                <email>hm@example.de</email>
+                            </person>
+                            <person>
+                                <name>Stéphane Polis</name>
+                                <email>mt@example.de</email>
+                            </person>
+                            <person>
+                                <name>Serge Rosmorduc</name>
+                                <email>mt@example.de</email>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim>Database of Hieratic</aim>
+                    </aims>
+                    <institutions>
+                        
+                        <institution role="funding etc.">Tsukuba University</institution>
+                        <institution role="funding etc.">Japan Society for the Promotion of
+                            Science</institution>
+                    </institutions>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <dating>3,000 BCE-</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <data>
+                <dataSet>
+                    <p><standard name="unspecified">The deveoper mentions this database is based on
+                            XML. However, I found no further information than that.</standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://otdo.aa.tufs.ac.jp/">
+            <revision status="draft">
+                <date when="2016-04-05" resp="#SM">ENTRY ADDED</date>
+            </revision>
+            <title>Old Tibetan Documents Online</title>
+            <country>Japan</country>
+            <information>
+                <desc resp="#us">
+                    <kelliaRating points="3">
+                        site seems to be promissing, but no information regarding formats or the like. Emailing!
+                    </kelliaRating>
+                </desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p><standard name="unspecified"><resource format="html" type="visual"
+                                target="http://otdo.aa-ken.jp/text"/></standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://vega-vocabulaire-egyptien-ancien.fr/">
+            <revision status="draft">
+                <date when="2016-03-23" version="1" resp="SM"/>
+            </revision>
+            <title>Véga: vocabulaire de l'égyptien ancien</title>
+            <country>France</country>
+            <dates>
+                <date when="2014">project-start</date>
+                <date when="?">project-end</date>
+                <date when="?">project-update</date>
+            </dates>
+            <information>
+                <desc source="http://vega-vocabulaire-egyptien-ancien.fr/">Véga: vocabulaire de
+                    l'égyptien ancien</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+
+                    <kelliaRating points="1">The promotion video says this is the first Egyptian
+                        dictionary that is made by a team of many young scholars. The design of
+                        website is up-to-date and the way of the promotion is brilliant. It has even
+                        a promotion video on Vimeo. However, on the website, there is just a project
+                        description and this description is quite abstract and it seems that this
+                        project is at the starting point. It does not describe the future format for
+                        data.</kelliaRating>
+                    <responsibles><respStmt type="Editor">                        
+                        <person>
+                            <name>Frédéric Servajean</name>
+                        </person>
+                        <person>
+                            <name>Adrienn Almásy</name>
+                        </person>
+                        <person>
+                            <name>Charlène Cassier</name>
+                        </person>
+                        <person>
+                            <name>Janie Chun Hung Kee</name>
+                        </person>
+                        <person>
+                            <name>Federico Contardi</name>
+                        </person>
+                        <person>
+                            <name>Jérémie Florès</name>
+                        </person>
+                        <person>
+                            <name>Magali Massiera</name>
+                        </person>
+                        <person>
+                            <name>Anaïs Martin</name>
+                        </person>
+                        <person>
+                            <name>Émilie Martinet</name>
+                        </person>
+                        <person>
+                            <name>Alexandra Nespoulous‑Phalippou</name>
+                        </person>
+                        <person>
+                            <name>Isabelle Régen</name>
+                        </person>
+                        <person>
+                            <name>Frédéric Rouffet</name>
+                        </person>
+                        <person>
+                            <name>Laurie Rouvière</name>
+                        </person>
+                    </respStmt></responsibles>
+                    <aims>
+                        <aim>Make a beautiful and styllistic online dictionary of Ancient
+                            Egyptian</aim>
+                    </aims>
+                    <institutions>
+
+                        <institution role="funding etc.">Université Paul-Valéry
+                            Montpellier</institution>
+                        <institution role="funding etc.">archimede: arcéologie et histoire de la
+                            méditerrané et de l'égypte anciennes</institution>
+                        <institution role="funding etc.">intactile DESIGN</institution>
+                        <institution role="funding etc.">cnrs</institution>
+                        <institution role="funding etc.">Investissement d'Avenir</institution>
+                        <institution role="funding etc.">Ministère de l'Éducation Nationale, de
+                            l'Enseignement Supérieur et de la Recherche</institution>
+                        <institution role="funding etc.">Huma-Num</institution>
+                    </institutions>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <dating>3,000 BCE-</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <data>
+                
+                <dataSet>
+ 
+                </dataSet>
+            </data>
+        </project>
+        
+    </projects>
+</kelliaEditions>

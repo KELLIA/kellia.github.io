@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns="http://www.uni-goettingen.de/kellia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd">
+    <kelliaHead>
+        <title>eDitions: Uwes stuff</title>
+        <revision>
+            <date when="2016-03-15" version="0.1" resp="us">entered InsAph</date>
+        </revision>
+        <researcher path="eDitions_researchers.xml"/>
+    </kelliaHead>
+    <projects>
+        <project url="http://insaph.kcl.ac.uk/">
+            <revision>
+                <date type="entry-added" when="2015-11-15" resp="#US">Datensatz angelegt</date>
+            </revision>
+            <projectDesc>
+                <title>InsAph - Inscriptions of Aphrodisias Project</title>
+                <country>United Kingdom</country>
+                <!--<dates>
+                    <date when="1999">project-start</date>
+                    <date when="2000">project-end</date>
+                    <date when="2005">project-update</date>
+                </dates>-->
+
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <!--<links>
+                    <url target="http://example.com"/>
+                </links>-->
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html"> Betreut von Gabriel
+                    Bodard et al., London, King's College London / Centre for Computing in the
+                    Humanities, 2005-. Projekt zur verteilten Internet-Edition der Inschriften von
+                    Aphrodisias auf der Grundlage eines community-spezifischen XML-Dialekts für
+                    epigraphische Texte (Epidoc) und in Verbindung mit archäologischen
+                    Informationen. Die teilweise bereits im Druck edierten Inschriften werden in das
+                    Projekt eingebunden und elektronisch neu herausgegeben (Beispiel).</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#us">
+                    <kelliaRating points="5">very good data, conformant to EpiDoc and TEI P5</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Bodard, Gabriel</name>
+                            <!--<email>hm@example.de</email>-->
+                        </person>
+                    </respStmt>
+                    <projectAims>
+                        <aim>edition</aim>
+                    </projectAims>
+                    <!--<institutions>
+                        <institution role="funding">DFG</institution>
+                    </institutions>-->
+                    <!--<textSource xml:lang="coptic">
+                        <lang>gr</lang>
+                        <genre>drama</genre>
+                        <epoche>enlightenment era</epoche>
+                    </textSource>-->
+                </desc>
+            </projectDesc>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <!--<dataSet when="2014-01-01" type="">
+
+                    <!-\- url zu dem Datendownload -\->
+                    <url target="http://example-url.to/data" type="uncertain"/>
+
+                    <!-\- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -\->
+                    <url type="api" target="http://example-url.to/data/api"/>
+
+                    <!-\- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -\->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+
+                    <!-\- Datenbeispiel mit Ausschnitten aus den XML-Daten -\->
+                    <example>
+                        <div xmlns="hghjgjh">
+                            <test>etc</test>
+                        </div>
+                    </example>
+                </dataSet>-->
+                <dataSet when="2004-01-01" type="encoded-text">
+                    <url target="http://insaph.kcl.ac.uk/ala2004/redist/inscriptions/inscriptions.zip">download files as *.zip archive</url>
+                    <desc format="xml" schema="epidoc">Kurzbeschreibung des Datensatzes</desc>
+                </dataSet>
+                <dataSet when="2004-01-01" type="digital-text">
+                    <url target="http://insaph.kcl.ac.uk/ala2004/inscription/index.html">HTML-serialisation</url>
+                    <desc format="html">"The inscriptions can be viewed by number, by section, by
+                        date, by location, by type of text, and by type of monument."</desc>
+                </dataSet>
+                <dataSet when="2007-01-01" type="encoded-text">
+                    <url type="api" target="http://insaph.kcl.ac.uk/iaph2007/xml/">API: "We have
+                        also made all of the XML files available online at this website via a direct
+                        URL http://insaph.kcl.ac.uk/iaph2007/xml/ followed by the inscription
+                        filename in the form iAph+6-digit number+.xml. You may download these files,
+                        or point your database or XML processor directly to them and generate the
+                        results elsewhere. These files validate to the EpiDoc DTD version 5, which
+                        is online both at the Stoa and on this site."</url>
+                    <desc format="xml" schema="epidoc">EPIDOC-Data of InsAph</desc>
+                    <example url="http://insaph.kcl.ac.uk/iaph2007/xml/iAph010001.xml"/>
+                </dataSet>
+                <dataSet when="2007-01-01" type="digital-text">
+                    <url target="http://insaph.kcl.ac.uk/iaph2007/inscriptions/index.html">HTML-serialisation</url>
+                    <desc format="html">"Slightly more than 1 500 inscriptions—about one-third
+                        previously unpublished—are presented in this edition of the Inscriptions of
+                        Aphrodisias. The texts are numbered by location, with each major monument or
+                        zone of the site given a chapter heading (between 1 and 15); the primary
+                        table of contents lists the files in this order."</desc>
+                </dataSet>
+            </dataDesc>
+        </project>
+    </projects>
+    <!-- ######### -->
+
+    <!--<standards>
+        <standard xml:id="mets">
+            <name>METS</name>
+            <url>http://www.loc.gov/standards/mets/</url>
+            <desc/>
+        </standard>
+        <standard xml:id="tei">
+            <name>TEI</name>
+            <url>http://www.tei-c.org</url>
+            <desc/>
+        </standard>
+    </standards>-->
+</kelliaEditions>

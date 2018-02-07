@@ -1,0 +1,33 @@
+/* Application styles could go here */
+footer .poweredby { float: right; margin: 33px 10px 0 0;}
+footer .poweredby img { width: 120px; }
+
+.project-list > li {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.statistics {
+    font-size: 13px;
+    font-family: Verdana,sans-serif;
+    font-style: normal;
+}
+
+a.website {
+    font-size: 13px;
+    font-family: Verdana,sans-serif;
+    font-style: normal;
+}
+
+div.small-profile {
+    border: 1px solid #dddddd;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+div.small-profile, div.small-profile > a {
+    font-size: 13px;
+    font-family: Verdana,sans-serif;
+    font-style: normal;
+}

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns="http://www.uni-goettingen.de/kellia" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd">
+    <kelliaHead>
+        <title>eDitions</title>
+        <revision>
+            <date when="" version="" resp=""/>
+        </revision>
+        <respStmt>
+            <resp>scientific personal</resp>
+            <person xml:id="US">
+                <name>Uwe Sikora</name>
+                <email>sikora@sub.uni-goettingen.de</email>
+            </person>
+            <person xml:id="SM">
+                <name>So Miyagawa</name>
+                <email>sm@example.de</email>
+            </person>
+            <person xml:id="TZ">
+                <name>Tiffany Ziegler</name>
+                <email>tz@example.de</email>
+            </person>
+        </respStmt>
+    </kelliaHead>
+    <projects>
+        <project url="http://copticscriptorium.org/">
+            <revision>
+                <date type="entry-added" when="2015-11-15" resp="#US #SM #TZ">entry added</date>
+            </revision>
+            <projectDesc>
+                <title>Coptic SCRIPTORIUM</title>
+                <country>United States</country>
+                <dates>
+                    <date when="2013?">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="?">project-update</date>
+                </dates>
+
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://copticscriptorium.org/"/>
+                </links>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://example.com">Project description from some source</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <searchWord key="google">Coptic corpus</searchWord>
+                    <kelliaRating points="5">Not bad</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Caroline Schroeder</name>
+                            <email>hm@example.de</email>
+                        </person>
+                        <person>
+                            <name>Amir Zeldes</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <projectAims>Richly annotated linguistic corpora of Sahidic Coptic</projectAims>
+                    <institution role="funding etc.">NEH</institution>
+                    <textSource xml:lang="coptic">
+                        <lang>cp</lang>
+                        <genre>letters, sermons, Bible etc.</genre>
+                        <epoche>Late Antiquity</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+
+                    <!-- url zu dem Datendownload -->
+                    <url target="http://example-url.to/data" type="download"/>
+
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <url type="api" target="http://example-url.to/data/api"/>
+
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>etc</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+        <project url="http://aaew.bbaw.de/tla/index.html">
+            <revision>
+                <date type="entry-added" when="2015-11-15" resp="#US #SM #TZ">entry added</date>
+            </revision>
+            <projectDesc>
+                <title>Thesaurus Linguae Aegyptiae</title>
+                <country>Germany</country>
+                <dates>
+                    <date when="2013?">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="?">project-update</date>
+                </dates>
+                    
+                    <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://aaew.bbaw.de/tla/index.html"/>
+                </links>
+                    
+                    <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+                    
+                    <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://example.com">Project description from some source</desc>
+                    
+                    <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <searchWord key="google">Dictionary &amp; corpus of Ancient Egyptian language </searchWord>
+                    <kelliaRating points="5">Not bad</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Tonio Sebastian Richter</name>
+                            <email>hm@example.de</email>
+                        </person>
+                        <person>
+                            <name>Daniel Werning</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <goal>Richly annotated linguistic corpora of Sahidic Coptic</goal>
+                    <institution role="funding etc.">NEH</institution>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <epoche>3,000 BCE-</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+                
+                <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                    <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                        
+                        <!-- url zu dem Datendownload -->
+                    <url target="http://example-url.to/data" type="download"/>
+                        
+                        <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <url type="api" target="http://example-url.to/data/api"/>
+                        
+                        <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+                        
+                        <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>etc</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+        <project url="http://ramses.ulg.ac.be/">
+            <revision>
+                <date type="entry-added" when="2015-11-15" resp="#US #SM #TZ">entry added</date>
+            </revision>
+            <projectDesc>
+                <title>Ramses Online</title>
+                <country>Beligium</country>
+                <dates>
+                    <date when="2015">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="?">project-update</date>
+                </dates>
+                
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://ramses.ulg.ac.be/"/>
+                </links>
+                
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+                
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://example.com">Project description from some source</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <searchWord key="google">Dictionary &amp; corpus of Late Egyptian  </searchWord>
+                    <kelliaRating points="5">Not bad</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Jean Winand</name>
+                            <email>hm@example.de</email>
+                        </person>
+                        <person>
+                            <name>Stéphane Polis</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Serge Rosmorduc</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <goal>Richly annotated linguistic corpora of Sahidic Coptic</goal>
+                    <institution role="funding etc.">NEH</institution>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <epoche>3,000 BCE-</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+            
+            
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    
+                    <!-- url zu dem Datendownload -->
+                    <url target="http://example-url.to/data" type="download"/>
+                    
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <url type="api" target="http://example-url.to/data/api"/>
+                    
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+                    
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>etc</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+        <project url="https://wdb.jinsha.tsukuba.ac.jp/hdb/">
+            <revision>
+                <date type="entry-added" when="2015-11-15" resp="#US #SM #TZ">entry added</date>
+            </revision>
+            <projectDesc>
+                <title>Hieratic Database Project</title>
+                <country>Japan</country>
+                <dates>
+                    <date when="2015">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="?">project-update</date>
+                </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="https://wdb.jinsha.tsukuba.ac.jp/hdb/"/>
+                </links>
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="https://wdb.jinsha.tsukuba.ac.jp/hdb/">Hieratic Database Project</desc>
+            
+            <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <searchWord key="google">Hieratic Database</searchWord>
+                    <kelliaRating points="5">bad</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Masakatsu Nagai</name>
+                            <email>hm@example.de</email>
+                        </person>
+                        <person>
+                            <name>Stéphane Polis</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Serge Rosmorduc</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <goal>Database of Hieratic?</goal>
+                    <institution role="funding etc.">Tsukuba University?</institution>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <epoche>3,000 BCE-</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+        
+        
+        
+        <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+            <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                
+                <!-- url zu dem Datendownload -->
+                    <url target="http://example-url.to/data" type="download"/>
+                
+                <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <url type="api" target="http://example-url.to/data/api"/>
+                
+                <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+                
+                <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>etc</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+    </projects>
+    <!-- ######### -->
+
+    <!--<standards>
+        <standard xml:id="mets">
+            <name>METS</name>
+            <url>http://www.loc.gov/standards/mets/</url>
+            <desc/>
+        </standard>
+        <standard xml:id="tei">
+            <name>TEI</name>
+            <url>http://www.tei-c.org</url>
+            <desc/>
+        </standard>
+    </standards>-->
+</kelliaEditions>

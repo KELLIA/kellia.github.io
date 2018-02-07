@@ -1,0 +1,3030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns="http://www.uni-goettingen.de/kellia"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd">
+    <kelliaHead>
+        <title>eDitions: Tiffany</title>
+        <revision status="draft">
+            <date when="2016-03-15" version="" resp="us tz sm">made some modifications on @schema
+                and @format</date>
+            <date when="2016-03-18" version="" resp="tz">validation of data</date>
+            <date when="2016-06-03" version="" resp="us">updated new version in exist-db</date>
+        </revision>
+        <researcher path="eDitions_researchers.xml"/>
+    </kelliaHead>
+
+    <projects>
+        
+        <project url="http://totenbuch.awk.nrw.de/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-01-28" resp="#tz">entry added to the XML</date>
+                <date when="2016-02-09" resp="#uz">changed some elements to be valid with schema</date>
+                <date when="2016-02-11" resp="#tz">added some information</date>
+                <date when="2016-02-25" resp="#tz">added some information</date>
+                <date when="2016-03-18" resp="#tz">validation of data</date>
+                <date when="2016-05-20" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Das Altägyptische Totenbuch. Ein Digitales Textzeugenarchiv</title>
+            <country>Germany</country>
+            <dates>
+                <date when="beginning of the 1990s">project-start</date>
+                <date when="2012">project-end</date>
+                <!--<date when="2005">project-update</date>-->
+            </dates>
+
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="http://dhd-blog.org/?p=747"/>
+                <linkDesc url="http://dhd-blog.org/?p=1315"/>
+            </links>
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://totenbuch.awk.nrw.de/projekt/das-projekt">Zentrale
+                    Fragestellung des Totenbuch-Projekts ist die Entwicklung des Totenbuchs, sowohl
+                    seiner Texte, seiner Vignetten als auch der Gestaltung der Handschriften als
+                    Ganzes. Dazu werden einerseits repräsentative Textzeugen aus den verschiedenen
+                    Belegungsperioden, andererseits außergewöhnliche Handschriften, die den
+                    vermeintlichen Standards nicht entsprechen, ediert. Der Edition der
+                    Totenbuch-Manuskripte dienen die „Handschriften des Altägyptischen Totenbuches“
+                    (HAT), von denen bisher 13 Bände erschienen sind. Die ebenfalls projekteigenen
+                    „Studien zum Altägyptischen Totenbuch“ (SAT), von denen bisher 16 Bände
+                    existieren, begleiten die Edition durch die Bereitstellung von Hilfsmitteln
+                    sowie Einzel- bzw. Überblicksstudien zum Thema. Diese Reihe dient auch als Forum
+                    für die internationale Forschergemeinschaft, die etwa ein Drittel der
+                    Publikationen beigesteuert hat. Um signifikante Manuskripte auszuwählen und zu
+                    edieren, muss man sich zunächst einen Überblick über das weltweit noch erhaltene
+                    Material verschaffen. Für die 18. Dynastie hatte Irmtraut Munro diese in ihrer
+                    Dissertation bereits weitgehend gesammelt. Heute umfasst das Archiv etwa 3000
+                    Datensätze von der späten 17. Dynastie bis zur Römerzeit, auf Papyrus, Leinen,
+                    Leder, Särgen und Sarkophagen. In der Datenbank sind Schlüsselinformationen und
+                    Bildmaterialien über fast alle weltweit noch erhaltenen Quellen des Totenbuchs
+                    gesammelt. Wenngleich sicherlich einige verstreute Handschriften noch nicht
+                    registriert sind, insbesondere Objekte aus Privatsammlungen, die wir nur bedingt
+                    auf Auktionen finden können, ist der aktuelle Bestand annähernd vollständig und
+                    sowohl für statistische Auswertungen als auch für Vergleiche ausreichend und
+                    repräsentativ. Damit auch andere Forscher auf diese Daten zugreifen können, ist
+                    das Archiv seit März 2012 im Internet öffentlich zugänglich; ein entscheidender
+                    wirtschaftlicher Aspekt, denn so entfallen aufwendige Anreisen aus dem In- und
+                    Ausland, denn immerhin reicht das Netz der Totenbuchforscher von der Ukraine bis
+                    in die USA. Hilfsmittel für diejenigen, die außerhalb des Projekts am Totenbuch
+                    interessiert sind zur Verfügung zu stellen, war von Beginn an ein weiteres
+                    Anliegen und findet mit der Öffnung des Archivs seinen quantitativen und
+                    qualitativen Abschluss. Bestandteil sind nicht nur Daten und Bilder zu den
+                    einzelnen Manuskripten, auch die Übersetzungen von Burkhard Backes von Hunderten
+                    von Totenbuchsprüchen, die zeitweise ausschließlich von der Datenbank getrennt
+                    publiziert waren, sowie die über die 20 Jahre hinweg aufgebaute
+                    Literaturdatenbank sind nun miteinander verknüpft. Auf diese Weise wird 2012
+                    passend zum Wissenschaftsjahr der Nachhaltigkeitsforschung garantiert, dass auch
+                    über das Projektende hinaus, die Daten verfügbar und nutzbar bleiben, damit
+                    andere Projekte und einzelne Forscher mit den gesammelten Informationen und
+                    Materialien weiterarbeiten können.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">Each papyri has a link to Trismegistos.
+                        Regarding the place of origion, there is a link to pleiades.stoa.org,
+                        a homepage with maps and information about ancient places. The
+                        identification is carried out by the assignment of Pleiades-IDs. For
+                        viewing the images, one has to be registered and agreed to the right clarifcation.
+                        There are two possible search options: the "faceted
+                        search", in which filter criteria of the object search can be entered,
+                        the second possibility is the directed browsing via menu structures,
+                        which allow a fast access to objects through visualizations and registers.
+                        The search help is explained here:
+                            <url>http://totenbuch.awk.nrw.de/projekt/dokumentation</url>. PURLs
+                        ensure direct and persistent addressability of the object descriptions,
+                        as they are based on the Trismegistos-IDs and decoupled from the technical system.
+                        If requested by the specialist community, an addressing system can be implemented, 
+                        which gives an object description corresponding to the data inventory at due date:
+                        &lt;totenbuch.awk.nrw.de/objekt/tm[Trismegistos-Nummer]/[Datum]>.
+                        Translations of spells originate in part from the Thesaurus Linguae
+                        Aegyptiae. Visualization of the Book of the Dead via displayal of the neighbourliness
+                        of spells in the text corpus:
+                            <url>http://totenbuch.awk.nrw.de/uebersicht/sprueche</url>. A bibliography and graphics
+                        like origion, epoch, object groups and so on can be advertised for each spell.
+                        The graphics can also refer to all spells.</note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via the DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Rößler-Köhler, Ursula </name>
+                                <email>aegyptologisches.seminar@uni-bonn.de</email>
+                                <email>totenbuch@awk.nrw.de</email>
+                                <institution>Rheinische Friedrich-Wilhelms-Universität
+                                Bonn</institution>
+                            </person>
+                            <person>
+                                <name>Thissen, Heinz-Josef</name>
+                                <!--<email></email>-->
+                                <institution>Institut für Ägyptologie der Universität zu
+                                Köln</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">development of the texts and vignettes of the Book of the Dead und Vignetten des Totenbuchs</aim>
+                        <aim key="">design of the manuscript as a whole</aim>
+                        <aim key="">visualization of the neighbourliness of the spells</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz">Ursula Rößler-Köhler obtained a bi-annual start-up financing at the beginning of the project.
+                            But it is not mentioned from when till when and who the supporter was. 
+                            Maybe the University of Bonn? <url>http://totenbuch.awk.nrw.de/projekt/das-projekt</url></note>
+                        <institution role="funding" from="1994" to="2004">DFG</institution>
+                        <institution role="funding" from="2004" to="2012">Nordrhein-Westfälische
+                            Akademie der Wissenschaften und der Künste</institution>
+                        <institution role="lead partner">Rheinische Friedrich-Wilhelms-Universität
+                            Bonn</institution>
+                        <institution role="cooperation">Institut für Ägyptologie der Universität zu
+                            Köln</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>hieroglyphic</lang>
+                        <lang>Demotic</lang>
+                        <lang>Greek</lang>
+                        <genre>Spells from the Book of the Dead</genre>
+                        <dating from="Late 17th dynasty" to="Roman period">Late 17th dynasty to the Roman period</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+
+                <dataSet>
+                    <note resp="#tz" type="general-information">
+                        <url>http://totenbuch.awk.nrw.de/projekt/dokumentation#OAIPMH</url>
+                        Bibliographical information. For using bibliographical statements, 
+                        an unAPI-interface is provied: <url>http://totenbuch.awk.nrw.de/apis/unAPI</url>.
+                        It is defined in the module bibliografie.xqm. 3 HTTP-interface functions
+                        are provided: <url>http://totenbuch.awk.nrw.de/apis/unAPI</url> specifies
+                        the formats, in which the bibliographical statements are available.
+                        <url>http://totenbuch.awk.nrw.de/apis/unAPI?id=bibl-2</url>
+                        names the format, in which a certain bibliographical object (identified
+                        by an internal ID) is available. All bibliographical statements are provided
+                        in the formats listed below.
+                        <url>http://totenbuch.awk.nrw.de/apis/unAPI?id=bibl-2&amp;format=rdf</url>
+                        gives a certain object in a certain format. 
+                    </note>
+
+                    <p>
+                        <api url="http://totenbuch.awk.nrw.de/apis/unAPI">A unAPI</api>
+                    </p>
+                    <p>
+                        <api url="http://totenbuch.awk.nrw.de/apis/oai?verb=GetRecord&amp;metadataPrefix=epidoc&amp;identifier=134968"
+                            >API-example</api>
+                    </p>
+
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <p><unsure>Metadata is provided in HTML-Header.</unsure> There are 3 functions of HTTP-interfaces: 
+                        <resource type="documentation" target="http://totenbuch.awk.nrw.de/projekt/dokumentation">documentation</resource>.
+                        The annotation datasets for the linking to Pelagios are available: <unsure>http://totenbuch.awk.nrw.de//apis/pelagios/herkunft/dump.rdf</unsure>. 
+                        The object descriptions are provided in an<api
+                            url="http://totenbuch.awk.nrw.de/apis/oai?verb=GetRecord&amp;metadataPrefix=epidoc&amp;identifier=134968"
+                            >OAI-PMH-interface</api>.
+                        They can be displayed in the metadata-formats <standard name="dc">OAI Dublin Core</standard>, <standard name="epidoc">EpiDoc</standard> and
+                        <standard name="other">Totenbuch-XML</standard>.</p>
+
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <sampleData url="http://totenbuch.awk.nrw.de/projekt/dokumentation">
+                        <meta name="dc:subject" content="Das altägyptische Totenbuch"/>
+                        <meta name="DC.subject" content="The Old Egyptian Book of the Dead"
+                            xml:lang="en"/>
+                        <meta name="DC.publisher"
+                            content="Totenbuchprojekt, Ägyptologie Universität Bonn"/>
+                        <meta name="DC.publisher" content="Nordrhein-Westfälische Akademie ..."/>
+                        <meta name="DC.contributor" content="Dr. Marcus Müller"/>
+                        <meta name="DC.coverage" content="Ägyptologie, Altes Ägypten"/>
+                        <meta name="DC.coverage" content="Egyptology, Ancient Egypt" xml:lang="en"/>
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+      
+    
+        <project url="http://aaew.bbaw.de/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-01-28" resp="#tz">entry added to the XML</date>
+                <date when="2016-02-09" resp="#uz">changed some elements to be valid with schema</date>
+                <date when="2016-02-28" resp="#tz">added some information</date>
+                <date when="2016-03-18" resp="#tz">validation of data</date>
+                <date when="2016-05-20" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Strukturen und Transformation des Wortschatzes der ägyptischen Sprache. Text-
+                    und Wissenskultur im Alten Ägypten (Altägyptische Wörterbuch)</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2013">project-start, 22 years duration</date>
+                <!--<date when="">project-end</date>-->
+                <!--<date when="">project-update</date>-->
+            </dates>
+
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="https://www.saw-leipzig.de/de/projekte/strukturen-und-transformationen-des-wortschatzes-der-aegyptischen-sprache"/>
+            </links>
+            <information>
+                
+                <!-- 
+                    Description-Section 
+
+                <! eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://aaew.bbaw.de/">Das Vorhaben hat sich die Aufgabe gestellt, das
+                    Ägyptisch-Koptische, das mit seiner 4500-jährigen Geschichte die am längsten
+                    schriftlich überlieferte Sprache der Menschheit darstellt, in einem komplexen
+                    lexikalischen System aufzubereiten. Ein elektronisches Wörterbuch, das
+                    Worteinträge aus allen Zeiten der ägyptischen Sprachgeschichte enthält, wird mit
+                    einem diachron angelegten Corpus ägyptischer Texte verknüpft. In diesem System
+                    werden die verschiedenen Entwicklungsstadien der ägyptisch-koptischen Sprache
+                    integriert darstellt. Damit wird die Möglichkeit geschaffen, im Wortschatz sowie
+                    im Textcorpus über die Grenzen der verschiedenen Schriftformen und
+                    Entwicklungsstadien dieser Sprache hinweg zu recherchieren und den Sprachwandel
+                    über mehr als 4000 Jahre bis ins Koptische nachzuvollziehen. Die Ergebnisse
+                    werden auf der Publikationsplattform des Vorhabens - dem Thesaurus Linguae
+                    Aegyptiae - veröffentlicht.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">The corpus relies on the database of the project "Altägyptisches
+                        Wörterbuch" (1992-2012):
+                            <url>http://aaew.bbaw.de/projekt/das-projekt-altaegyptisches-woerterbuch-1992-bis-2012</url>
+                        as well as on the Demotic text database (2000-2012):
+                            <url>http://www.adwmainz.de/projekte/altaegyptisches-woerterbuch/informationen.html</url>.
+                        The textcorpus is supposed to contain: transcription, translation, lemmatization,
+                        morphological-syntactical annotation, notation of the original written form as well as
+                        extralinguistid metadata (e.g. dating, provenance of the text and so on).
+                        An image database and electronically encoded hieroglyphs and character shapes are used
+                        for the displayal of the written forms. The user can contribute his own comments.</note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via the DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. phil. habil. Fischer-Elfert, Hans-Werner</name>
+                                <email>fischere@rz.uni-leipzig.de</email>
+                                <institution>Sächsische Akademie der Wissenschaften zu
+                                Leipzig</institution>
+                            </person>
+                               <person>
+                                <name>Prof. Dr. Sebastian Richterm Tonio</name>
+                                <email>sebastian.richter@bbaw.de</email>
+                                <institution>Berlin-Brandenburgische Akademie der
+                                Wissenschaften</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Quack, Joachim F.</name>
+                                <!--<email>mt@example.de</email>-->
+                                <institution>Universität Heidelberg</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digital dictionary</aim>
+                        <aim key="">language development of Egyptian/Coptic</aim>
+                        <aim key="">linking to text corpus</aim>
+                        <aim key="">establishment of a TEI-standard for the encoding of egyptian texts</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding">Akademiprogramm von Bund und
+                            Ländern</institution>
+                        <institution role="lead partner">Berlin-Brandenburgische Akademie der
+                            Wissenschaften</institution>
+                        <institution role="lead partner">Sächsische Akademie der Wissenschaften zu
+                            Leipzig</institution>
+                        <institution role="cooperation"
+                            url="http://research.uni-leipzig.de/ddglc/project.html">Universität
+                            Leipzig, Projekt: The Database and Dictionary of Greek Loanwords in
+                            Coptic</institution>
+                        <institution role="cooperation" url="http://www.egypto.ulg.ac.be/Ramses.htm"
+                            >Université de Liège, Projekt: RAMSÈS</institution>
+                        <institution role="cooperation"
+                            url="https://wikis.hu-berlin.de/annotated_text_databases/Main_Page"
+                            >Humboldt-Universität zu Berlin, Projekt: Annotated Text
+                            Databases</institution>
+                        <institution role="cooperation" url="http://senereko.ceres.rub.de/">Ruhr
+                            Universität Bochum, Projekt: Semantische und Soziale Netzwerkstrukturen
+                            als Instrument zur Erforschung von Religionskontakten
+                            (SENEREKO)</institution>
+                        <institution role="cooperation" url="http://senereko.ceres.rub.de/">Trier
+                            Center for Digital Humanities, Projekt: Semantische und Soziale
+                            Netzwerkstrukturen als Instrument zur Erforschung von Religionskontakten
+                            (SENEREKO)</institution>
+                        <institution role="cooperation" url="http://giza3d.3ds.com/#discover"
+                            >Harvard University, Projekt: Giza Project</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Egyptian</lang>
+                        <lang>Coptic</lang>
+                        <genre>uncertain</genre>
+                        <dating from="3000 BC" to="14th century AD">around 3000 BC to the 14th century AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ############
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <p>
+                        Using<standard name="tei">TEI<resource format="xml"></resource></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+    
+    
+    
+        <project url="http://www.stmatthias.uni-trier.de/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-01-28" resp="#tz">entry added to the XML</date>
+                <date when="2016-02-09" resp="#uz">changed some elements to be valid with
+                    schema</date>
+                <date when="2016-02-25" resp="#tz">added some information</date>
+                <date when="2016-03-18" resp="#tz">validation of data</date>
+                <date when="2016-05-20" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Virtuelles Skriptorium St. Matthias</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2010">project-start</date>
+                <date when="2014">project-end</date>
+                <!--<date when="2005">project-update</date>-->
+            </dates>
+
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url="http://example.com"/>
+            </links>-->
+            <information>
+                <!--    
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://www.stmatthias.uni-trier.de/?l=n&amp;s=projekt">Das
+                    Digitalisierungsprojekt „Virtuelles Skriptorium St. Matthias“ präsentiert den
+                    noch erhaltenen Bestand an Handschriften der mittelalterlichen Bibliothek der
+                    Benediktinerabtei St. Matthias in Trier. Dieser beläuft sich auf ungefähr 500
+                    Kodizes, die weltweit auf 25 Standorte verteilt sind. Der überwiegende Teil von
+                    ungefähr 450 Handschriften befindet sich noch heute in Trier. Neben der
+                    Stadtbibliothek Trier und der Bibliothek des Bischöflichen Priesterseminars, die
+                    zusammen 434 Kodizes besitzen, finden sich darüber hinaus weitere Handschriften
+                    im Bistumsarchiv Trier und der Bibliothek des heutigen Klosters St. Matthias.
+                    Mit Hilfe der Digitalisierung wurden diese kulturellen Zeugnisse nicht nur für
+                    die Öffentlichkeit zugänglich gemacht, sondern auch eine vereinfachte
+                    wissenschaftliche Arbeit mit ihnen ermöglicht. Der hier vorgestellte Bestand ist
+                    für unterschiedliche Disziplinen von Wert. Genannt seien die Fächer
+                    Altphilologie, Germanistik, Geschichte, Kunstgeschichte, Theologie, Medizin und
+                    Rechtsgeschichte. Mit einer derart rekonstruierten Bibliothek ist die Absicht
+                    verbunden, das geistige Profil eines wichtigen Bildungszentrums und seines
+                    Wachstums nachzuzeichnen und neuartige Einblicke in die Produktions- und
+                    Rezeptionsbedingungen ihrer Bestände zu gewähren. Das in den Jahren 2010 bis
+                    2014 von der Deutschen Forschungsgemeinschaft (DFG) geförderte Projekt wurde von
+                    der Universität Trier, der Technischen Universität Darmstadt und der
+                    Stadtbibliothek Trier gemeinsam getragen. Die Federführung lag bei Frau Prof.
+                    Dr. Claudine Moulin (Universität Trier) und Frau Prof. Dr. Andrea Rapp (jetzt
+                    Technische Universität Darmstadt) sowie von Seiten der Stadtbibliothek bei Herrn
+                    Prof. Dr. Michael Embach. Kooperiert wurde bei dem Projekt mit der Bibliothek
+                    des Bischöflichen Priesterseminars Trier, dem Center für Digital Humantities
+                    (Universität Trier), dem Karlsruher Institut für Technologie, DARIAH und
+                    TextGrid.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">Not all entries have a digitized codex. But if so, it is
+                        divided into sections, which can be reached by clicking on the name in the right bar.
+                        The search help is described here:
+                            <url>http://www.stmatthias.uni-trier.de/index.php?l=n&amp;s=hilfe</url></note>
+                    <searchWord key="Dhd-Blog" url="http://dhd-blog.org/">found on the Dhd-blog</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Embach, Michael</name>
+                                <email>michael.embach@trier.de</email>
+                                <institution>Universität Trier</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Moulin, Claudine</name>
+                                <email>moulin@uni-trier.de</email>
+                                <institution>Universität Trier</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Rapp, Andrea</name>
+                                <email>rapp@linglit.tu-darmstadt.de</email>
+                                <institution>Technische Universität Darmstadt</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digitization of manuscripts</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding">DFG</institution>
+                        <institution role="funding">Historisch-Kulturwissenschaftliche
+                            Forschungszentrum (HKFZ)</institution>
+                        <institution role="lead partner">Universität Trier</institution>
+                        <institution role="lead partner">Technische Universität
+                            Darmstadt</institution>
+                        <institution role="lead partner">Stadtbibliothek Trier</institution>
+                        <institution role="cooperation">Bibliothek des Bischöflichen
+                            Priesterseminars Trier</institution>
+                        <institution role="cooperation">Center for Digital Humanities (Universität
+                            Trier)</institution>
+                        <institution role="cooperation">Karlsruher Institut für
+                            Technologie</institution>
+                        <institution role="cooperation">DARIAH</institution>
+                        <institution role="cooperation">TextGrid</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Latin</lang>
+                        <lang>German</lang>
+                        <genre>liturgical texts</genre>
+                        <genre>vitae</genre>
+                        <genre>fables</genre>
+                        <dating>Middle Ages</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="XML">
+                    <p>
+                        Using<standard name="tei">TEI<resource format="xml" type="example" target="http://zimks68.uni-trier.de/stmatthias/SBB0283/SBB0283-digitalisat.xml">The XML file of every entry can be downloaded.</resource></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+    
+    
+    
+        <project url="http://www.hethport.uni-wuerzburg.de/HPM/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-01-28" resp="#tz">entry added to the XML</date>
+                <date when="2016-02-09" resp="#uz">changed some elements to be valid with
+                    schema</date>
+                <date when="2016-02-26" resp="#tz">added some information</date>
+                <date when="2016-02-27" resp="#tz">added some information</date>
+                <date when="2016-02-28" resp="#tz">added some information</date>
+                <date when="2016-03-18" resp="#tz">validation of data</date>
+                <date when="2016-05-20" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Hethitische Forschungen: Hethitologie-Portal Mainz</title>
+            <country>Germany</country>
+            <dates>
+                <date when="1961">project-start</date>
+                <date when="2015">project-end</date>
+                <!--<date when="">project-update</date>-->
+            </dates>
+
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="http://www.altorientalistik.uni-wuerzburg.de/forschung/hethitische_forschungen_hethitologie_portal_mainz/"/>
+                <linkDesc url="http://www.hethport.uni-wuerzburg.de/HPM/hpm.php?p=projektHethForsch"/>
+            </links>
+            <information>
+                <!-- 
+                    Description-Section                                                  
+                -->
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://www.altorientalistik.uni-wuerzburg.de/forschung/hethitische_forschungen_hethitologie_portal_mainz/"
+                    >Das Projekt Hethitische Forschungen der Akademie der Wissenschaften und der
+                    Literatur Mainz dient der Bearbeitung und Veröffentlichung der vielen tausend
+                    Keilschrifttexte aus dem 2. Jahrtausend v. Chr., die bei den deutschen
+                    Ausgrabungen in der Hauptstadt des Hethiterreiches in Zentralanatolien entdeckt
+                    wurden.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">
+                        <head>The portal is a result of various projects or rather enriched by them.</head>
+                        <p>Informationsinfrastruktur für digitale Publikation keilschriftlicher
+                            Staatsverträge der Hethiter und für darauf bezogene netzbasierte
+                            Forschungskooperation<lb/> 
+                            2001-2007<lb/> 
+                            Julius-Maximilians-Universität
+                            Würzburg, Lehrstuhl für Altorientalistik (Prof. Dr. Gernot Wilhelm)<lb/>
+                            Aim: digital publication of texts in cuneiform writing<lb/> 
+                            Within this project, the Hittite-portal was established. Further expansion by the "Hethtische Forschungen".<lb/>
+                            <url>http://www.hethport.uni-wuerzburg.de/HPM/hpm.php?p=projektDFGinfrastruktur</url></p>
+                        <p>Cuneiform. 3D-Joins und Schriftmetrologie<lb/> 
+                            2009-?<lb/>
+                            Julius-Maximilians-Universität Würzburg, Institut für
+                            Altertumswissenschaften (Prof. Dr. Gerfrid Müller)<lb/> 
+                            Technische Universität Dortmund (Dr. Frank Weichert)<lb/> 
+                            Akademie der Wissenschaften und der Literatur Mainz (Prof. Dr. Gernot Wilhelm)<lb/>
+                            Aim: threedimensional photographies of the tablets for combining fragments from different museums<lb/>
+                            <url>lhttp://www.hethport.uni-wuerzburg.de/HPM/hpm.php?p=3djoins</url>
+                            <url>http://www.altorientalistik.uni-wuerzburg.de/forschung/3d_joins_und_schriftmetrologie/</url></p>
+                        <p>Hethitische mythologische Texte<lb/> 
+                            ?-2008<lb/> 
+                            Philipps-Universität Marburg (Prof. Dr. Elisabeth Rieken)<lb/> 
+                            Aim: digital new edition of the mythological texts from the Hittite-portal Mainz<lb/>
+                            <url>http://www.uni-marburg.de/fb10/iksl/sprachwissenschaft/forschung/projekte/hethmyth</url></p>
+                        <p>Das Corpus der hethitischen Festrituale: staatliche Verwaltung des
+                            Kultwesens im spätbronzezeitlichen Anatolien<lb/> 
+                            21 years duration<lb/>
+                            Akademie der Wissenschaften und der Literatur Mainz (Prof. Dr. phil.
+                            Daniel Schwemer, Prof. Dr. phil. Elisabeth Rieken)<lb/> 
+                            Aim: reconstruction and exploitation of the festival ritual texts in form of web-based editions<lb/>
+                            <url>http://www.adwmainz.de/projekte/corpus-der-hethitischen-festrituale/informationen.html</url></p>
+                        <p>DPHT - Hethitische Rituale<lb/> 
+                            2010-2016<lb/>
+                            Johannes-Gutenberg-Universität Mainz (Doris Prechel)<lb/> 
+                            Aim: digital new edition of the texts of the "Catalogue des textes hittites (CTH)" by E. Laroche<lb/>
+                            <url>http://www.ao.altertumswissenschaften.uni-mainz.de/dpht-hethitische-rituale/</url></p>
+                        <p>Sprachlich-philologische Bearbeitung und digitale Edition der Hymnen und
+                            Gebete in hethitischer Sprache<lb/> 
+                            2011-2014<lb/> 
+                            Philipps-Universität Marburg<lb/> 
+                            Aim: digital complete edition of the corpus, textual-linguistic investigation of the hymns and prayers<lb/>
+                            <url>http://www.uni-marburg.de/fb10/iksl/sprachwissenschaft/forschung/projekte/hymnen</url></p>
+                        <p>Altassyrische Texte<lb/> 
+                            no supported project<lb/> 
+                            Westfälische Wilhelms-Universität Münster, Altorientalisches Seminar (Prof. Dr. Karl Hecker)<lb/> 
+                            Aim: electronical presentation of cuneiform writings<lb/>
+                            <url>http://www.hethport.uni-wuerzburg.de/altass/</url></p>
+                        <p>Staatsverträge der Hethiter<lb/> 
+                            1990-1994, 2001-2006<lb/>
+                            Julius-Maximilians-Universität Würzburg, Lehrstuhl für Altorientalistik
+                            (Albertine Hagenbuchner, Gerfrid Müller)<lb/> 
+                            Aim: new edition of all international treaties of the Hittite<lb/>
+                            <url>http://www.altorientalistik.uni-wuerzburg.de/forschung/hethitische_forschungen_hethitologie_portal_mainz/</url></p>
+                        <p>The portal offers a concordance of all Hittite text, including multiple search
+                            requests and linkings to the digitized photo collection with 70.000 images
+                            (Das Mainzer Photoarchiv, Altassyrische Photothek, Durham University - Oriental Museum Hittite
+                            Tablets, Hittite Cuneiform Tablets of the Ermitage, Oriental Institute
+                            Hittite Tablet Fragments). Furthermore there is a digital edition
+                            of the "Catalogue des textes hittites (CTH)" by E. Laroche. A subproject
+                            deals with the threedimensional presentation of Hittite cuneiform tablets.
+                            Additional, there are sketches of clay tablets, texts in transcription, translations
+                            as well as comments (linked by hypertext markers) bibliographies
+                            (Hittite bibliography, systematic bibliography, Groddeks list,
+                            lexeme bibliography, secondary literature for the texts of Emar, library 
+                            of the research center in Mainz), text corpora (written texts of the Hittite,
+                            ancient Assyrian texts, Nuzi-Texte), onomastics (Répertoire onomastique)
+                            and the possibility for registered users to contribute their own texts.
+                            Free fonts are provided for download.</p>
+                    </note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via the DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                              <name>Wilhelm, Gernot</name>
+                              <!--<email>hm@example.de</email>-->
+                              <!--<institution></institution>-->
+                            </person>
+                            <!--<person>
+                                <name>Hans Mustermann</name>
+                                <email>mt@example.de</email>
+                            </person>-->
+                        </respStmt>
+                    </responsibles>    
+                    <aims>
+                        <aim key="">cross-linking the international Hittite research</aim>
+                        <aim key="">digital three-dimensional presentation of Hittite
+                            cuneiform tablets</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding" from="1979" to="2015">Akademienprogramm des
+                            Bundes und der Länder</institution>
+                        <institution role="lead partner">Akademie der Wissenschaften und der
+                            Literatur Mainz</institution>
+                        <institution role="lead partner">Akademie der Wissenschaften und der
+                            Literatur Mainz</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Hittite</lang>
+                        <lang>Accadian</lang>
+                        <lang>Ugaritic</lang>
+                        <lang>Egyptian</lang>
+                        <genre>contracts</genre>
+                        <genre>decree</genre>
+                        <genre>summoning rituals</genre>
+                        <genre>uncertain</genre>
+                        <dating>2nd millenium BC</dating>
+                    </textSource>
+                </desc>
+            </information>
+            <data>
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <p><resource format="xml"></resource></p>
+                    <p>
+                        The XLM files are displayed in an <standard name="unspecified">open XML-format</standard>. 
+                            <unsure>It is talked about hidden, internal XML-structures
+                            (<resource target="http://www.hethport.uni-wuerzburg.de/HPM/hpm.php?p=projektDFGinfrastruktur"></resource>, see "publication").</unsure>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+    
+    
+    
+        <project url="http://www.teuchos.uni-hamburg.de/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-02-11" resp="#tz">entry added to the XML</date>
+                <date when="2016-02-09" resp="#uz">changed some elements to be valid with schema</date>
+                <date when="2016-02-25" resp="#tz">added some information</date>
+                <date when="2016-03-18" resp="#tz">validation of data</date>
+                <date when="2016-05-20" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Teuchos - Zentrum für Handschriften- und Textforschung</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2005">project-start</date>
+                <date when="2010">project-end</date>
+                <!--<date when="2005">project-update</date>-->
+            </dates>
+
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                 <linkDesc url="http://example.com"/>
+            </links>-->
+            
+            <information>
+                
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://beta.teuchos.uni-hamburg.de/projekt">Die am TEUCHOS-Zentrum in
+                    Entwicklung befindliche elektronische Arbeitsumgebung für die philologische
+                    Grundlagenforschung wird zunächst an drei Schwerpunkten im Bereich der Gräzistik
+                    erprobt. Textüberlieferung: Im Mittelpunkt steht der Aristoteles Graecus mit
+                    präzisen Beschreibungen der mittelalterlich-byzantinischen und
+                    renaissancezeitlichen Manuskripte der Aristoteles-Tradition. Der erste Band von
+                    1976 und zahlreiche vorliegende, aber noch nicht veröffentlichte Beschreibungen
+                    für die Folgebände werden online frei verfügbar gemacht und durch Indizes,
+                    Suchfunktionen usw. erschlossen. Dabei werden die Prinzipien moderner
+                    fachwissenschaftlicher Katalogisierung für die elektronische Version übernommen.
+                    Parallel dazu werden die Fundamente für ein online verfügbares
+                    Handschrifteninventar der griechischen Aristoteleskommentare seit der Antike
+                    geschaffen Handschriftenkunde: Digitalisate ausgewählter Handschriften werden
+                    zugänglich gemacht; dabei wird insbesondere im Bereich der Palimpseste an den im
+                    EU-Projekt Rinascimento virtuale – Digitale Palimpsestforschung erprobten
+                    Einsatz multispektraler Aufnahmeverfahren angeknüpft. Die Digitalisate werden
+                    durch Kurzbeschreibungen der Handschriften und eine erste inhaltliche
+                    Erschließung ergänzt. Als weitere Serviceleistungen sind Wasserzeichenalben
+                    sowie Incipitarien, Nachweise von Mikrofilmbeständen und die Sammlung
+                    einschlägiger Online-Ressourcen vorgesehen. Durch die Einrichtung einer offenen
+                    Plattform für Notizen und Beobachtungen zu einzelnen Handschriften sollen solche
+                    sporadisch anfallenden und isolierten, häufig jedoch sehr wertvollen
+                    Informationen für die Wissenschaft gesammelt und in einer übergreifenden
+                    Handschriftendatenbank erschlossen werden. Die Datenbank wird mit einem
+                    Diskussionsforum verknüpft sein, so daß der Informationsgehalt durch die
+                    Beiträge einschlägiger Experten erhöht werden kann. Textvarianten: In diesem
+                    Bereich sind insbesondere Projekte zur editorischen Bearbeitung von spätantiken
+                    und byzantinischen Kommentatoren des Aristoteles bzw. zur Auswertung einzelner
+                    (neuerschlossener) Überlieferungsträger vorgesehen. Prosopographie: In Ergänzung
+                    der aus den überlieferungsgeschichtlichen Materialien zu erschließenden
+                    prosopographischen Informationen werden in einem Teilprojekt auch gezielt
+                    Einträge v.a. zu Protagonisten der philologischen Grundlagenforschung und
+                    Aristoteles-Philologie des 19. und 20. Jahrhunderts erstellt.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">Digital versions of 11 manuscripts. Each contains
+                        chapter structure, overviews over unstructured titles or a concordance
+                        to an edited, varying version of the text. The philological 
+                        writer-dictionary of Wilhelm Pökels and regenerated biographies, especially 
+                        of text researchers of the 19th century, are online.</note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via the DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Brockmann, Christian</name>
+                                <email> christian.brockmann@uni-hamburg.de</email>
+                                <email>teuchos-team@uni-hamburg.de</email>
+                                <institution>Institut für Griechische und Lateinische Philologie der
+                                Universität Hamburg</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Harlfinger, Dieter</name>
+                                <email>dieter.harlfinger@uni-hamburg.de</email>
+                                <institution>Institut für Griechische und Lateinische Philologie der
+                                Universität Hamburg</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digitization of manuscripts</aim>
+                        <aim key="">discussion forum to the manuscript database</aim>
+                        <aim key="">support of the workflow concerning the scientifical edition of ancient texts</aim>
+                        <aim key="">transcriptions</aim>
+                        <aim key="">text reconstruction</aim>
+                        <aim key="">variant lists</aim>
+                        <aim key="">comments</aim>
+                        <aim key="">translations</aim>
+                        <aim key="">online availability of the manuscript inventory of the greek Aristotels comments</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding" from="2005" to="2006">DFG (Projektplanung)</institution>
+                        <institution role="funding" from="2007" to="2010">DFG</institution>
+                        <institution role="funding">Staats- und Universitätsbibliothek Hamburg</institution>
+                        <institution role="lead partner">Institut für Griechische und Lateinische Philologie der Universität Hamburg</institution>
+                        <institution role="lead partner">Regionales Rechenzentrum der Universtität Hamburg</institution>
+                        <institution role="cooperation">Aristotels-Archiv der Freien Universität Berlin</institution>
+                        <institution role="cooperation">Perseus Digital Library</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Ancient Greek</lang>
+                        <genre>Aristoteles Graecus</genre>
+                        <dating>Late Antiquity</dating>
+                        <dating>Middle Ages</dating>
+                        <dating>Renaissance</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet>    
+                    <p>
+                        An API is mentioned: <api documentation="http://beta.teuchos.uni-hamburg.de/technik">Link to the documentation</api>
+                        Using<standard name="tei">TEI<resource format="xml">XML in the Release P5</resource></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+    
+       
+        <project url="http://www.ecodicology.org/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-02-25" resp="#TZ">entry added to the XML</date>
+                <date when="2016-03-18" resp="#tz">validation of data</date>
+                <date when="2016-05-20" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>eCodicology - Algorithmen zum automatischen Tagging mittelalterlicher
+                    Handschriften</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2014?">project-start</date>
+                <!--<date when="2000">project-end</date>-->
+                <!--<date when="2005">project-update</date>-->
+            </dates>
+
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="http://dhd-blog.org/?p=2885"/>
+                <linkDesc url="https://de.dariah.eu/ecodicology"/>
+            </links>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://www.ecodicology.org/index.php?id=4">Das Projekt eCodicology
+                    wird in Zusammenarbeit zwischen der Technischen Universität Darmstadt, dem
+                    Karlsruher Institut für Technologie und der Universität Trier durchgeführt. Das
+                    Ziel ist die Entwicklung, Überprüfung und Verbesserung von neuen Algorithmen,
+                    die makro- und mikrostrukturelle Gestaltungsmerkmale auf mittelalterlichen
+                    Handschriftenseiten erkennen, um deren Metadaten im XML-Format gemäß TEI P5
+                    anzureichern. Die Beschreibungen aus den früheren Handschriftenkatalogen können
+                    auf diese Weise automatisiert ergänzt werden. Das Vorhaben wird unterstützt
+                    durch Verfahren der Bildprozessierung, die es erlauben, einfache Layoutmerkmale
+                    auf den gescannten Handschriftenseiten zu erkennen und zu extrahieren. Es werden
+                    Seitenmerkmale definiert, die verlässlich mit der Hilfe von Algorithmen zur
+                    Merkmalsextraktion gemessen werden können. Auf dieser Grundlage sollen neue
+                    wissenschaftliche Erkenntnisse gewonnen werden. eCodicology geht über die
+                    etablierten Standards der virtuellen Rekonstruktion historischer Bibliotheken
+                    hinaus, die vor allem auf die Zusammenführung, inhaltliche Aufbereitung und
+                    Präsentation des Materials abzielen. Das Besondere am Projekt ist zudem sein
+                    Modellcharakter, den es erreichen will, indem es die Möglichkeit der Nachnutzung
+                    anstrebt. Die an den Beständen von St. Matthias erprobten Algorithmen könnten so
+                    als Ausgangspunkt für die Untersuchung weiterer Handschriftenbestände
+                    dienen.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">Using the manuscripts of the virtual Scriptorium St. Matthias.
+                        Parameters for the examination are: page size, space for scripture, space for images
+                        distance and border (unused space), graphical elements,
+                        amount of text columns, amount of text lines. Its expansion,
+                        amount and position are supposed to be added to a metadata schema
+                        (<url>http://www.ecodicology.org/index.php?id=3)</url>.</note>
+                    <searchWord key="Dhd-Blog" url="http://dhd-blog.org/">found on the Dhd-blog</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Rapp, Andrea</name>
+                                <email>rapp@linglit.tu-darmstadt.de </email>
+                                <institution>Technische Universität Darmstadt</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Moulin, Claudine</name>
+                                <email>moulin@uni-trier.de</email>
+                                <institution>Universität Trier</institution>
+                            </person>
+                            <person>
+                                <name>Dr. Stotzka, Rainer</name>
+                                <email>rainer@stotzka.de</email>
+                                <institution>Karlsruher Institut für Technologie</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">winning of new codicological data</aim>
+                        <aim key="">development, examination and improvement of algorithms,
+                            which recognize the macro- and micro-structural design features of
+                            medieval manuscripts</aim>
+                        <aim key="">enrichment of the metadata</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding">Bundesministerium für Bildung und Forschung (BMBF)</institution>
+                        <institution role="cooperation">DARIAH</institution>
+                        <institution role="cooperation">TextGrid</institution>
+                        <institution role="cooperation">Institut für Sprach- und Literaturwissenschaft der Technischen Universtität
+                            Darmstadt</institution>
+                        <institution role="cooperation">Center for Digital Humanitites der Universität Trier</institution>
+                        <institution role="cooperation">Institut für Prozessdatenverarbeitung und
+                            Elektronik des Karlsruher Institut für Technologie</institution>
+                        <institution role="cooperation">Stadtbibliothek Trier</institution>
+                        <institution role="cooperation">Universität Trier</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Latin</lang>
+                        <lang>German</lang>
+                        <genre>liturgical manuscripts</genre>
+                        <genre>vitae</genre>
+                        <genre>fables</genre>
+                        <dating>Middle Ages</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <p>
+                        Using<standard name="tei">TEI 5<resource format="xml"></resource></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+    
+    
+    
+        <project
+            url="http://www.adwmainz.de/projekte/altaegyptische-kursivschriften/informationen.html">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-02-26" resp="#TZ">entry added</date>
+                <date when="2016-03-18" resp="#tz">validation of data</date>
+                <date when="2016-05-20" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Altägyptische Kursivschriften. Digitale Paläographie und systematische
+                    Analyse des Hieratischen und der Kursivhieroglyphen</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2015">project-start, 23 years duration</date>
+                <!--<date when="2000">project-end</date>
+                <date when="2005">project-update</date>-->
+            </dates>
+
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="http://www.uni-mainz.de/presse/62743.php"/>
+            </links>
+            
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc
+                    source="http://www.adwmainz.de/projekte/altaegyptische-kursivschriften/beschreibung.html"
+                    >Im Alten Ägypten gab es neben den eher monumentalen Hieroglyphen auch kursive
+                    (Hand-)Schriften, von denen das Hieratische über 3000 Jahre lang in Verwendung
+                    war. Es ist in diesem Projekt erstmals Gegenstand umfassender
+                    Grund­lagen­forschung. Anhand ausgewählter und aussagekräftiger Text­zeu­gen
+                    wird das hieratische, kursivhieroglyphische und kursivhiera­tische
+                    Zei­chen­inven­tar systematisch und digital er­fasst, wobei verschie­dene
+                    Epochen, Regionen, Textgat­tun­gen und Schriftträger (vor allem Papyrus, Leinen,
+                    Leder, Holz, Ton, Stein) aus dem Be­leg­zeit­raum von ca. 2700 v. Chr. bis 300
+                    n. Chr. berücksichtigt werden. Das Projekt erstellt zum einen eine digitale
+                    Paläo­graphie: Sie wird das gesamte Zeichenreper­toire, Ligaturen und
+                    ausgewählte Lexeme nebst umfangreichen Metadaten zu den verwendeten Quellen in
+                    Form von Datenbanken beinhalten und für diverse Suchmöglichkeiten sowie die
+                    Kooperation mit der internatio­nalen Fachwelt präsentieren. Die großen
+                    historischen Entwicklungsstufen der Kursivschriften werden dabei nach und nach
+                    modular behandelt. Der Zugang zu den Quellen erfolgt über unterschiedliche
+                    Aufbereitungen des Mate­rials (Originale, Print- und Online-Editionen,
+                    Photographien, Scans, Faksimiles, bereits publizierte Paläographien bzw.
+                    Zeichenlisten). Zum anderen stehen im Bereich der Analyse verschiedene
+                    Fragestellungen im Fokus des Projekts: die Entwicklungen der kursiven
+                    Schrift­arten, deren Abhängigkeiten von den zeitgleichen Monumentalhieroglyphen
+                    sowie deren Anpassungen an spezifische Bedürfnisse und Kontexte; Maßnahmen der
+                    Schriftökonomie wie Zeichengröße und -vielfalt, Schreibrichtung, Reduzierung,
+                    Erweiterung oder Verknüpfung von Einzelzeichen (Abkürzungen, diakritische
+                    Zeichen, Ligaturen); Aussagekraft von Handschriften für die Zuweisung an
+                    Einzelpersonen, Schulen, Regionen oder Zeiträume; materielle und praktische
+                    Aspekte des Schreibens mit der Hand und der Gestaltung von Manuskripten;
+                    Funktion der Handschriften für die (Re-)Organisation und Kommunikation der
+                    Beamten, Priester und Gelehrten. Neben dem klassischen Forschungs- und
+                    Methodeninventar der ägyptologischen Paläographie werden aufgrund der
+                    Kooperation mit der Computerphilologie auch algorithmische und digitale
+                    Auswertungsverfahren einbezogen. Das Projekt beinhaltet auch Module zur Praxis
+                    des Schreibens und zur Didaktik des Hieratischen im Altertum ebenso wie im
+                    aktuellen Studium.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">Project duration: 23 years. So far there is just a project description on the homepage, no database.</note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via the DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Verhoeven-van Elsbergen, Ursula</name>
+                                <email>verhoeve@uni-mainz.de</email>
+                                <institution>Akademie der Wissenschaften und der Literatur Mainz</institution>
+                            </person>
+                            <!--<person>
+                                <name>Max Test</name>
+                                <email>mt@example.de</email>
+                            </person>-->
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digital paleography</aim>
+                        <aim key="">development of cursive writing</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="lead partner">Akademie der Wissenschaften und der Literatur Mainz</institution>
+                        <institution role="cooperation">Technische Universität Darmstadt</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Coptic</lang>
+                        <genre>uncertain</genre>
+                        <dating from="2700 BC" to="300 AD">2700 BC to 300 AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+
+                </dataSet>
+            </data>
+        </project>
+    
+    
+   
+        <project url="http://ww2.smb.museum/berlpap/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-02-26" resp="#TZ">entry added</date>
+                <date when="2016-03-20" resp="#tz">validation of data</date>
+                <date when="2016-05-31" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Berliner Papyrusdatenbank</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2010">project-start</date>
+                <!--<date when="2000">project-end</date>-->
+                <!--<date when="2005">project-update</date>-->
+            </dates>
+
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url="http://example.com"/>
+            </links>-->
+
+            <!-- 
+                Description-Section 
+                ################### 
+            -->
+
+            <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+            <information>
+                <desc source="http://ww2.smb.museum/berlpap/index.php/projekt/">Das seit November
+                    2010 von der DFG geförderte Projekt „Digitalisierung von Papyri und Ostraka der
+                    Papyrussammlung Berlin, Bereitstellung einer Datenbank mit den Bildern im
+                    Internet“ hat zum Ziel, digitale Abbildungen und alle relevanten Informationen
+                    zu 6000 in griechischer und latei­nischer Sprache verfaßten Texten auf einer
+                    Website im Internet zu präsentieren. Die betreffenden Originale werden in hoher
+                    Qualität auf einem Auflichtscanner gescannt und zusammen mit Angaben zu Inhalt,
+                    Datierung, Herkunft und Erwerbungsgeschichte der Schriftstücke durch die
+                    Internet-Datenbank zugänglich gemacht. Es ist geplant, durch Verlinkung mit
+                    anderen Fach­da­tenbanken den Bildern auf der Internetseite jeweils Originaltext
+                    und Übersetzung gegenüberzustellen. Die Internet-Datenbank wird somit allen
+                    Altertumswissenschaftlern und am antiken Ägypten Interessierten eine reiche
+                    Auswahl an hochwertigen Abbildungen der Originalobjekte zur Ansicht und zum
+                    Studium bereitstellen und eine Fülle von Erkenntnissen über das Leben im
+                    griechisch-römischen Ägypten bieten. In der Vorbereitung des Projektes haben wir
+                    tatkräftige Unterstützung durch zahlreiche Kollegen und Partnerprojekte
+                    erhalten. Ein besonderer Dank geht an Prof. D. Hagedorn und Dr. J. Cowey für die
+                    Bereitstellung der Metadaten im Heidelberger Gesamtverzeichnis der griechischen
+                    Papyrusurkunden Ägyptens (HGV) sowie an Proff. W. Clarysse und M. Depauw, die
+                    uns die Metadaten der Leuven Database of Ancient Books (LDAB) zu den Berliner
+                    Texten zur Weiternutzung überlassen haben.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz ">Linkings to other databases (Trismegistos, Heidelberger
+                        Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens, Papyri.info).
+                        Use of PURLs for the entries. Decleration of text and content of the object.</note>
+                    <searchWord url="http://www.hieratistik.uni-mainz.de/32.php">found via the link list of the hieratic seminar of the Johannes-Gutenberg-Universität
+                        Mainz</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Seyfried, Friederike</name>
+                                <email>berlpap@smb.spk-berlin.de</email>
+                                <institution>Ägyptisches Museum und Papyrussammlung Berlin</institution>
+                            </person>
+                            <person>
+                                <name>Dr. Reiter, Fabian</name>
+                                <email>reiterf@uni-trier.de</email>
+                                <institution>Universität Trier, Papyrologie</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digitization of big parts of the stock of the Berliner Papyrussammlung</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding">DFG</institution>
+                        <institution role="cooperation">Heidelberger Gesamtverzeichnis der
+                            griechischen Papyrusurkunden Ägyptens (HGV)</institution>
+                        <institution role="cooperation">Papyrus-Portal</institution>
+                        <institution role="cooperation">Leuven Database of Ancient Books
+                            (LDAB)</institution>
+                        <institution role="cooperation">Trismegistos</institution>
+                        <institution role="cooperation">Papyri.info</institution>
+                        <institution role="cooperation">Aristarchus, Scholia Minora</institution>
+                        <institution role="cooperation">New Testament Virtual Manuscript
+                            Room</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Greek</lang>
+                        <lang>Latin</lang>
+                        <genre>certificates</genre>
+                        <genre>contracts</genre>
+                        <genre>bills</genre>
+                        <genre>teachings</genre>
+                        <genre>liturgical texts</genre>
+                        <dating from="4th century BC" to="10th century AD">4th century BC to 10th century AD.</dating>
+                    </textSource>
+                </desc>
+            </information>            
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+<!--                <dataSet when="2014-01-01" type="">
+                    <!-\- url zu dem Datendownload -\->
+                    <url target="http://example-url.to/data" type="uncertain"/>
+
+                    <!-\- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -\->
+                    <url type="api" target="http://example-url.to/data/api"/>
+
+                    <!-\- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -\->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+
+                    <!-\- Datenbeispiel mit Ausschnitten aus den XML-Daten -\->
+                </dataSet>-->
+            </data>
+        </project>
+    
+        
+        <project
+            url="http://papyri.dl.uni-leipzig.de/content/below/start.xml?XSL.lastPage.SESSION=/content/below/start.xml">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-02-26" resp="#TZ">entry added</date>
+                <date when="2016-03-20" resp="#tz">validation of data</date>
+                <date when="2016-05-31" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Papyrus und Ostraka Projekt</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2001?">project-start</date>
+                <!--<date when="2000">project-end</date>
+                <date when="2005">project-update</date>-->
+            </dates>
+
+             <!--Wenn noch zusätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url="http://example.com"/>
+            </links>-->
+
+             
+                <!--Description-Section 
+                ################### 
+            
+
+             eine externe Beschreibung mit Angabe der Quelle als URL--> 
+            <information>
+                <desc source="http://papyri.dl.uni-leipzig.de/content/below/start.xml?XSL.lastPage.SESSION=/content/below/start.xml"
+                    >Das gemeinsame Vorhaben der Papyrussammlungen in Halle, Jena und Leipzig hat
+                    sich zum Ziel gesetzt, die jeweiligen Papyrus-und seit 2009 auch die
+                    Ostrakabestände nach gemeinsam entwickelten Kriterien zu katalogisieren, zu
+                    digitalisieren sowie gleichzeitig eine Sicherheitsverfilmung durchzuführen. Die
+                    Ergebnisse der Digitalisierung und Katalogisierung werden mit Kurzbeschreibung
+                    und Bild über diese Seite sowohl den Spezialisten als auch einer breiteren
+                    Öffentlichkeit zur Verfügung gestellt. Die Implementierung erfolgte auf Basis
+                    des Open Source Projektes MyCoRe, welches von einer Reihe deutscher
+                    Universitäten entwickelt wurde und weiterentwickelt wird.</desc>
+
+                 <!--eine eigene Beschreibung mit Angabe des Verantwortlichen--> 
+                <desc resp="#tz">
+                    <note resp="#tz">Already published papyri have links to the according database. All themes for @genre are listet on p. 33 f.:
+                        <url>http://papyri.dl.uni-leipzig.de/Papyri_Konzept.pdf?XSL.lastPage.SESSION=/Papyri_Konzept.pdf</url>
+                    </note>
+                    <searchWord url="http://www.hieratistik.uni-mainz.de/32.php">found via the link list of the hieratic seminar of the Johannes-Gutenberg-Universität
+                        Mainz</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Scholl, Reinhold</name>
+                                <email>scholl@ub.uni-leipzig.de</email>
+                                <institution>Universitätsbibliothek der Universität Leipzig</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Thiel, Rainer</name>
+                                <email>r.thiel@uni-jena.de</email>
+                                <institution>Institut für Altertumswissenschaften der Friedrich-Schiller-Universtität Jena</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digitization</aim>
+                        <aim key="">cataloging</aim>
+                        <aim key="">backup films</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding">DFG</institution>
+                        <institution role="lead partner">Institut für Altertumswissenschaften der
+                            Friedrich-Schiller-Universtität Jena</institution>
+                        <institution role="lead partner">Thüringer Universitäts- und
+                            Landesbibliothek</institution>
+                        <institution role="lead partner">Institut für klassische
+                            Altertumswissenschaften der Martin-Luther-Universität
+                            Halle-Wittenberg</institution>
+                        <institution role="lead partner">Universitätsbibliothek der Universität
+                            Leipzig</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Arabic</lang>
+                        <lang>Aramaic</lang>
+                        <lang>Demotic</lang>
+                        <lang>Greek</lang>
+                        <lang>Hebrew</lang>
+                        <lang>hieroglypic</lang>
+                        <lang>Coptic</lang>
+                        <lang>Latin</lang>
+                        <genre>bills</genre>
+                        <genre>contracts</genre>
+                        <genre>prose</genre>
+                        <dating from="323 BC" to="30 AD">Ptolemaic: 323 BC to 30 AD</dating>
+                        <dating from="30 BC" to="284 AD">Roman: 30 BC to 284 AD</dating>
+                        <dating from="284 AD" to="641 AD">Byzantine: 284 to 641 AD</dating>
+                        <dating from="641 AD" to="today">Arabic: 641 AD to today</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+             
+                <!--Data-Section 
+                ###################--> 
+            
+            <data>
+                 <!--dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="XML">
+                    <note resp="#tz">There are two masks for data collection: one with information on the writing surface, the other with information on the texts written thereon. Use of MyCore as database for the metadata and images which are collected in the project. The following information are taken out of this PDF: <url>http://papyri.dl.uni-leipzig.de/Papyri_Konzept.pdf?XSL.lastPage.SESSION=/Papyri_Konzept.pdf</url>. Data access via an OAI-interface. Exports via LIDO, EAD and MODS as replacement for Dublin Core are planned. Already implemented is the Mapping on Dublin Core. It is talked about the creation of an inventory book, which lists all the data of the writing surface, the belonging texts and fragments as well as the thumbnails. But I think that this function is reserved for employees only.</note>
+                    <p>
+                        <resource format="xml" type="example" target="http://papyri.uni-leipzig.de/receive/UBLPapyri_schrift_00010090?XSL.Style=structure"></resource>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+    
+        
+        <project url="http://www.ceec.uni-koeln.de/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-02-28" resp="#TZ">entry added</date>
+                <date when="2016-02-29" resp="#TZ">added some information</date>
+                <date when="2016-03-01" resp="#TZ">added some information</date>
+                <date when="2016-03-20" resp="#tz">validation of data</date>
+                <date when="2016-06-01" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Codices Electronici Ecclesiae Coloniensis (CEEC)</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2001">project-start</date>
+                <date when="2005">project-end</date>
+                <!--<date when="2005">project-update</date>-->
+            </dates>
+
+             <!--Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein--> 
+            <links>
+                <linkDesc url="http://www.dombibliothek-koeln.de/"/>
+            </links>
+            
+            <!-- 
+                Description-Section 
+                ################### -->
+                
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://www.ceec.uni-koeln.de/">Das Projekt CEEC wird von der DFG im
+                    Programm "Retrospektive Digitalisierung von Bibliotheksbeständen" gefördert.
+                    Dieses Programm gehört zu dem Förderbereich "Verteilte Digitale
+                    Forschungsbibliothek". Im Rahmen des Projektes CEEC werden die mittelalterlichen
+                    Kodizes der Erzbischöflichen Diözesan- und Dombibliothek Köln (DDB)
+                    digitalisiert. Die DDB ist damit weltweit die erste Bibliothek, die ihre
+                    mittelalterlichen Handschriftenbestände komplett(1) digitalisieren lässt und als
+                    "Digitale Bibliothek" der Öffentlichkeit zugänglich macht.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">Since the first of June 2016, Marcus Stark is the new director of the Diözesan- und Dombibliothek in Cologne instead of Heinz Finger.</note>
+                    <searchWord key="teuchos"
+                        url="http://beta.teuchos.uni-hamburg.de/digitalisierte-handschriften"
+                        >found via the link list of Teuchos</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Thaller, Manfred</name>
+                                <email>Thaller@spinfo.uni-koeln.de</email>
+                                <institution>Universität zu Köln</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Finger, Heinz</name>
+                                <institution>Diözesan- und Dombibliothek in Köln</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digitization of the manuscripts</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="lead partner">Universität zu Köln</institution>
+                        <institution role="funding">DFG</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Latin</lang>
+                        <genre>Gospel books</genre>
+                        <genre>psalms</genre>
+                        <genre>chronicles</genre>
+                        <genre>others</genre>
+                        <dating from="6th century AD" to="16th century AD">6th to 16th century AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <p>
+                        Using<standard name="master">MASTER(tei:msDesc)<resource format="xml"></resource></standard>
+                        <resource type="unspecified" target="http://www.ceec.uni-koeln.de/projekte/CEEC/project/ceec-dtd-xml.htm"></resource>
+                        <api url="http://example-url.to/data/api"></api>
+                        <unsure>Using XML files whose header are inspired by a standard for electronic manuscript descriptions (MASTER).</unsure>
+                    </p>
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                </dataSet>
+            </data>
+        </project>
+    
+    
+    
+        <project url="http://pom.bbaw.de/ig/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-03-22" resp="#TZ">entry added</date>
+                <date when="2016-06-01" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Inscriptiones Graecae</title>
+            <country>Germany</country>
+            <dates>
+                <date when="1815">project-start</date>
+                <!--<date when="2000">project-end</date>
+                <date when="2005">project-update</date>-->
+            </dates>
+
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="http://ig.bbaw.de/ueberblick"/>
+            </links>
+
+            <!-- 
+                Description-Section 
+                ################### 
+            -->
+
+            <information>
+            <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://ig.bbaw.de/ueberblick">Die ‘Inscriptiones Graecae’ haben die
+                    kritische Edition sämtlicher bekannter antiker griechischer Inschriften,
+                    gegliedert nach einzelnen Regionen und Landschaften, zur Aufgabe. Gemäß dem im
+                    Jahre 1903 modifizierten Gesamtplan beschränkt sich das Unternehmen auf das
+                    griechische Festland und die Inseln der Ägäis, wobei das epigraphische Material
+                    in 15 Bänden, die aus jeweils mehreren Faszikeln bestehen, vorgelegt wird. Für
+                    die neuen Inschriften, die in stetig wachsender Zahl zum Vorschein kommen, sind
+                    Neubearbeitungen (editiones alterae) bzw. Supplementbände vorgesehen. Die
+                    Ausarbeitung der Bände erfolgt traditionell in lateinischer Sprache. Von den
+                    zuletzt erschienenen Bänden sind auf der IG-website neben einer elektronischen
+                    Textversion auch Übersetzungen verfügbar. Die meisten In den IG publizierten
+                    Inschriften sind in der Datenbank des Packard Humanities Institute erfasst und
+                    recherchierbar (<url target="">http://epigraphy.packhum.org/</url>). Bisher sind insgesamt
+                    55 Einzelbände bzw. Faszikel erschienen, in denen etwa 55.000 Inschriften ediert
+                    und für die wissenschaftliche Benutzung erschlossen sind. Unter Einbeziehung
+                    älterer Auflagen verteilen sich diese Bände nach der geographischen Gliederung
+                    wie folgt: IG I-III: Attika (24 Bde.) IG IV-VI: Peloponnes (6 Bde.) IG VII-IX:
+                    Mittelgriechenland (7 Bde.) IG X: Nordgriechenland (2 Bde.) IG XI-XII: ägäische
+                    Inseln (15 Bde.) IG XIV: Italien (1 Bd.). Die Bedeutung des Unternehmens liegt
+                    in der Bereitstellung eines eminent wichtigen urkundlichen Materials für die
+                    Erforschung des griechisch-römischen Altertums, insbesondere für historische,
+                    sprachliche und kulturgeschichtliche Untersuchungen im weitesten Sinne. Dabei
+                    ist keine bloße Zusammenstellung der publizierten Inschriften unter
+                    Berücksichtigung der erschienenen philologischen und historischen Literatur
+                    beabsichtigt, sondern stets eine Revision des originalen Schriftträgers
+                    angestrebt, der zugleich in Photographie und Abklatsch für weitergehendes
+                    Studium zu sichern ist. Nur durch Autopsie ist es möglich, das Verhältnis von
+                    Inschrift und Schriftträger zu bestimmen, Zusammenfügungen von Fragmenten zu
+                    verifizieren, frühere Lesungen und Ergänzungen zu prüfen, eingetretene Verluste
+                    zu dokumentieren oder gar, mit etwas Glück, neue Inschriften zu entdecken.
+                    Deshalb wird verständlich, warum die erzwungene wissenschaftliche Isolation in
+                    der ehemaligen DDR dem Projekt schwersten Schaden zugefügt hat.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">The project is a successor of the Corpus Inscriptionum
+                        Graecarum (CIG), founded in 1815. German translations are available, for the attic inscriptions in English.</note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via the DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Funke, Peter</name>
+                                <!--<email></email>-->
+                                <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Hallof, Klaus</name>
+                                <email>hallof@bbaw.de</email>
+                                <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">collection of ancient inscriptions</aim>
+                        <aim key="">edition of ancient inscriptions</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="lead partner">Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                        <institution role="cooperation">TELOTA</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Greek</lang>
+                        <genre>decrees</genre>
+                        <genre>funerary inscriptions</genre>
+                        <genre>dedicatory inscriptions</genre>
+                        <genre>inscriptions of honour</genre>
+                        <genre>inscriptions of sculptors</genre>
+                        <genre>certificates of release</genre>
+                        <genre>boundary stones</genre>
+                        <genre>stones regarding mortgages</genre>
+                        <genre>law</genre>
+                        <genre>religious texts</genre>
+                        <genre>letters</genre>
+                        <genre>building inscriptions</genre>
+                        <genre>billing certificates</genre>
+                        <genre>inventory lists</genre>
+                        <genre>intergovernmental certificates</genre>
+                        <dating>antiquity</dating>
+                    </textSource>
+                </desc>
+            </information>
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="XML">
+                    <p>
+                        Using<standard name="tei">TEI<resource format="xml" target="http://telota.bbaw.de/ig/IG%20II_III%C2%B3%201,%201135?xml=true" type="example"></resource></standard>
+                    </p>
+
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+
+                </dataSet>
+            </data>
+        </project>
+        
+    
+        <project url="https://www5.cs.fau.de/de/papsturkunden-des-hohen-mittelalters/startseite/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-04-28" resp="#TZ">entry added</date>
+                <date when="2016-06-01" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Papsturkunden des frühen und hohen Mittelalters</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2007">project-start, 15 years duration</date>
+                <date when="2022">project-end</date>
+                <!--<date when="2005">project-update</date>-->
+            </dates>
+            <links>
+                <linkDesc url="http://www.papsturkunden.de/EditMOM/home.do"/>
+                <linkDesc
+                    url="http://www.papsturkunden.gwdg.de/Akademieprojekt/akademieprojekt.html"/>
+                <linkDesc
+                    url="http://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/papsturkunden-des-fruehen-und-hohen-mittelalters/"/>
+                <linkDesc
+                    url="http://www.mittelalter.geschichte.uni-erlangen.de/cms/forschung/aktuelle-forschungsprojekte/papsturkunden-des-fruehen-und-hohen-mittelalters.php"
+                />
+            </links>
+            <information>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc
+                    source="https://www5.cs.fau.de/de/papsturkunden-des-hohen-mittelalters/startseite/"
+                    >Die Papsturkunden des hohen Mittelalters (PUhMA) stehen im Mittelpunkt des auf
+                    drei Jahre angelegten Forschungsvorhabens „Schrift und Zeichen.
+                    Computergestützte Analyse von hochmittelalterlichen Papsturkunden. Ein Schlüssel
+                    zur Kulturgeschichte Europas“. Dieses vom BMBF im Rahmen der eHumanities
+                    geförderte Projekt ist eine Kooperation zwischen der
+                    Friedrich-Alexander-Universität Erlangen-Nürnberg (Lehrstuhl für
+                    Mittelalterliche Geschichte, Prof. Dr. Klaus Herbers; Lehrstuhl für Informatik 5
+                    Mustererkennung, Prof. Dr. Joachim Hornegger) und der
+                    Ludwig-Maximilians-Universität München (Lehrstuhl für Historische Medienkunde,
+                    (Prof. Dr. Irmgard Fees). Das Ziel des Vorhabens ist insbesondere die
+                    detaillierte und systematische Untersuchung der Schriftentwicklung in den
+                    Papsturkunden des 11. und 12. Jahrhunderts. Der neue Ansatz profitiert dabei von
+                    seinem interdisziplinären Charakter, der die neuen Methoden der Mustererkennung
+                    mit denen der klassischen historischen und paläographischen Arbeitsweisen
+                    verbindet. Mit den Möglichkeiten, welche die Mustererkennung anbietet, können
+                    die Prozesse der Schriftveränderung detailliert nachgezeichnet werden, während
+                    bisher nur grob die Entwicklung von der päpstlichen Kuriale über die päpstliche
+                    Minuskel hin zur gotischen Schrift allgemein konstatiert wurde. Auch die
+                    weiteren äußeren Merkmale der Urkunde wie Benevalete und Rota werden im Projekt
+                    in die Betrachtung mit einbezogen. Die Ergebnisse der Untersuchung werden dabei
+                    nicht nur im paläographischen und diplomatischen Sinn analysiert, sondern auch
+                    in einen kulturhistorischen Kontext gestellt. Beginnen wird die Untersuchung mit
+                    dem Pontifikat Leos IX. (1048-1054), unter dem die Papsturkunden eine äußere
+                    Gestalt erhielten, die für die nächsten Jahrhunderte maßgebend wurde. Enden wird
+                    die Untersuchung mit dem Jahr 1198, dem Pontifikat Innozenz‘ III. Neben der
+                    deskriptiven Beobachtung, wann und wie die Veränderung der Schrift von statten
+                    gegangen ist, soll innerhalb des Vorhabens auch weiteren Fragestellungen
+                    nachgegangen werden. Warum kommt es zu diesen Veränderungen? Können dafür
+                    einzelne Personen oder Ereignisse in Verbindung gebracht werden? Auch neue
+                    Erkenntisse zum päpstlichen Kanzleiwesen – der effizientesten Kanzlei des
+                    Hochmittelalters – werden durch die ebenfalls automatisch unterstützte Zuweisung
+                    zu einzelnen Schreiberhänden erwartet.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">The exploration of papal letters started 1896 in a project of the Göttinger Akademie – the Papsturkundenwerk, which is supported since 1931 by the Pius-Stiftung. In the coming 15 years, the pontifical influence on the peripheral areas of the East and West will be investigated. In 2007, the Göttinger Papsturkundenwerk was incorporated into the program of the Union der deutschen Akademien der Wissenschaften. In the wake of these developments, the database Regesta Pontificum Romanorum was established, in which the certificates are provided in the form of regesta. Photographic depictions and drawings are to be added. A geo-browser shows the geographical distribution of the certificates.</note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via the DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Fees, Irmgard</name>
+                                <email>Irmgard.Fees@lrz.uni-muenchen.de</email>
+                                <institution>Ludwig-Maximilians-Universität München, Lehrstuhl für
+                                Historische Medienkunde</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Hornegger, Joachim</name>
+                                <email>joachim.hornegger@fau.de</email>
+                                <institution>Ludwig-Maximilians-Universität München, Lehrstuhl für
+                                Informatik 5 Mustererkennung</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Herbers, Klaus</name>
+                                <email>klaus.herbers@fau.de</email>
+                                <institution>Friedrich-Alexander Universität Erlangen-Nürnberg,
+                                Lehrstuhl für Mittelalterliche Geschichte</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">systematical investigation of writing development</aim>
+                        <aim key="">examination of the outer features of the certificates</aim>
+                        <aim key="">place results in a historico-cultural context</aim>
+                        <aim key="">revision of the second edition of the Regesta pontificum Romanorum by Philipp Jaffé</aim>
+                        <aim key="">reconditioning of the pontifical influence on the peripheral areas of the East and West</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding">Bundesministerium für Bildung und Forschung</institution>
+                        <institution role="lead partner">Friedrich-Alexander Universität
+                            Erlangen-Nürnberg, Lehrstuhl für Mittelalterliche
+                            Geschichte</institution>
+                        <institution role="lead partner">Friedrich-Alexander Universität
+                            Erlangen-Nürnberg, Lehrstuhl für Informatik 5
+                            Mustererkennung</institution>
+                        <institution role="lead partner">Ludwig-Maximilians-Universität München,
+                            Lehrstuhl für Historische Medienkunde</institution>
+                        <institution role="lead partner">Akademie der Wissenschaften zu Göttingen</institution>
+                        <institution role="cooperation">Pius-Stifutung</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Latin</lang>
+                        <genre>certificates</genre>
+                        <dating from="11th century AD" to="1198 AD">11th century to 1198 AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz">There is a side giving information about materials and software:
+                            <url>https://www5.cs.fau.de/de/papsturkunden-des-hohen-mittelalters/materialien-und-software/</url>.
+                        It also gives the reference to a Github-account.</note>
+                    <p>
+                        <resource format="xml"></resource>
+                    </p>
+                    <!-- url zu dem Datendownload -->
+
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                </dataSet>
+            </data>
+        </project>
+   
+    
+    
+        <project url="http://edh-www.adw.uni-heidelberg.de/home">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-05-13" resp="#TZ">entry added</date>
+                <date when="2016-06-01" resp="#tz">changed some elements to be valid with schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Epigraphic Database Heidelberg</title>
+            <country>Germany</country>
+            <dates>
+                <date when="1986">project-start</date>
+                <!--<date when="2000">project-end</date>-->
+                <!--<date when="2005">project-update</date>-->
+            </dates>
+
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="http://www.haw.uni-heidelberg.de/forschung/forschungsstellen/epi_datenbank.de.html"/>
+            </links>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://edh-www.adw.uni-heidelberg.de/projekt/konzept">The task of the
+                    Epigraphic Database Heidelberg (EDH) is the systematic entry of ancient Latin
+                    and bilingual (usually Latin and Greek) inscriptions into a complex database. As
+                    a result of its interdisciplinary approach, conception and method of work EDH is
+                    to be counted among the leading international database projects which collects
+                    and provides reliable historical analysis of epigraphic monuments. A
+                    distinguishing feature of EDH is its regional focus, its capability of combining
+                    the stored metadata as freely as possible and the reciprocal linking of the
+                    Epigraphic Text Database with both of the constituent databases of EDH, the
+                    Bibliographic Database and the Photographic Database. Its aim is to render the
+                    epigraphic documentation of the provinces of the Roman Empire as completely and
+                    reliably as possible for online research work. Under the leadership of the
+                    Commissione epigrafia e informatica of the AIEGL a decision was made in 2003 to
+                    create an international epigraphic database confederation EAGLE (Electronic
+                    Archives of Greek and Latin Epigraphy). Since then EDH is responsible for the
+                    inscriptions of the Roman provinces. The inscriptions of Italy which had already
+                    been entered into EDH were passed on to the Epigraphic Database Rome (EDR). It
+                    is now the domain of EDR to improve these records as well as adding to their
+                    number in order to complete the entry of all inscriptions of Italy. The long
+                    term aim of this confederation is to make all Latin and Greek inscriptions from
+                    Antiquity available on the Internet in a standardised system of criteria. It was
+                    with this in mind that EDR was founded on the model of and in cooperation with
+                    EDH. Concept: The Epigraphic Text Database is the heart of EDH and contains
+                    about 72.000 inscriptions at present. Almost all of the records present texts,
+                    which have already either been edited in the monumental Inscription corpora – in
+                    many cases still valid, but often do not fulfill the standards of modern textual
+                    editorial practice – or published, revised and discussed in thousands of
+                    scholarly articles. The texts and metadata of the inscriptions are thus
+                    presented on the basis of up to date scholarly research. One of the basic
+                    principles of the working method of EDH is that readings are not simply accepted
+                    from the edtions and secondary literature. As much as possible these readings
+                    are verified at least on the basis of drawings or photographs – in the case of
+                    the latter these belong to the records of the Photographic Database – or ideally
+                    through autopsy. By means of the "status field" the user of the database is
+                    informed about the manner of verification of the readings. The revision of the
+                    inscriptions being processed for the Epigraphic Text Database is based on a
+                    card-index. On the one hand the publications presented in L'Année Épigraphique
+                    since 1888 are systematically collected. On the other hand in which the relevant
+                    corpora editions and local publications are systematically collected according
+                    to the regional method applied by EDH. EDH enjoys a lively exchange of
+                    information with native and foreign scholars and institutions. This makes it
+                    possible within the framework of external cooperation to include their
+                    specialist and regionally founded profile in the data presented by EDH.</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">Linking to the Trismegistos-numbers.</note>
+                    <searchWord url="http://cil.bbaw.de/dateien/links.html">found via the link list of the
+                        Corpus Inscriptionum Latinarum</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Witschel, Christian</name>
+                                <email>christian.witschel@zaw.uni-heidelberg.de</email>
+                                <email>epigraphische.datenbank@adw.uni-heidelberg.de</email>
+                                <institution>Universität Heidelberg</institution>
+                            </person>
+                            <!--<person>
+                                <name>Test, Max</name>
+                                <email>mt@example.de</email>
+                                <institution></institution>
+                            </person>-->
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">incorporation and processing of inscriptions of the imperium Romanum in a database</aim>
+                        <aim key="">linking to metadata and pictures</aim>
+                    </aims>
+                    <institutions>
+                        <institution role="funding" from="1986" to="1990">Gottfried-Wilhelm-Leibniz-Programm</institution>
+                        <institution role="funding" from="1991" to="1993">DFG</institution>
+                        <institution role="lead partner" from="1993">Heidelberger Akademie der Wissenschaften</institution>
+                        <institution role="cooperation" from="2003">Commissione epigrafia e
+                            informatica der Association Internationale d'Epigraphie Grecque et
+                            Latine</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Latin</lang>
+                        <lang>Greek</lang>
+                        <genre>uncertain</genre>
+                        <dating from="509 BC" to="830 AC">509 BC to 830 AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <p>
+                        Using<standard name="tei">TEI</standard>
+                        <resource format="xml" target="http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD000146.xml" type="example"></resource>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+   
+    
+    
+        <project url="http://icar-us.eu/cooperation/online-portals/monasterium-net/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-06-21" resp="#TZ">entry added</date>
+                <date when="2016-06-24" resp="#TZ">added more information to the schema</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Monasterium (mom)</title>
+            <country>Austria</country>
+            <dates>
+                <date when="2006">project-start</date>
+                <!--<date when="2000">project-end</date>-->
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="https://de.wikipedia.org/wiki/Monasterium"/>
+            </links>
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://icar-us.eu/cooperation/online-portals/monasterium-net/">Dieses online Portal ermöglicht zeit- und raumunabhängige Forschung. Mit mehr als 500.000 mittelalterlichen und frühneuzeitlichen Urkunden aus über 60 Institutionen in 10 europäischen Ländern, ist Forschung von reiner Urkundenerschließung bis hin zur Anwendung der verfügbaren Informationen im Bildungssektor möglich. Monasterium sammelt jene historischen Dokumente Europas, die die politische, wirtschaftliche und kulturelle Entwicklung seit dem Mittelalter dokumentieren und bietet freien Zugang zu den ensprechenden digitalen Kopien.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="" url="">unknown</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Thaller, Manfred</name>
+                                <email>info@monasterium.net</email>
+                                <institution>Universität zu Köln</institution>
+                            </person>
+                            <!--<person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>-->
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">provide historical documents as digital facsimiles</aim>
+                        <aim key="">scientifical cooperation of archives, universities and individual researchers</aim>
+                        <aim key="">documentation of the political, economical and cultural development in Europe</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz">The project started in the archive of the diocese St. Pölten in Lower Austria (but I'm not sure if they are still the lead partner). Since 2007, the european cooperation is organised by the Association 'International Centre for Archival Research (ICARus)'. Participation of more than 60 instituions in 10 european countries. Some are listed here: <url>https://de.wikipedia.org/wiki/Monasterium</url></note>
+                        <institution role="funding" from="" to="">Europäische Union</institution>
+                        <institution role="funding" from="" to="">DFG</institution>
+                        <institution role="lead partner" from="2006" to="">Diözesanarchiv St. Pölten</institution>
+                        <institution role="cooperation" from="2006" to="">Österreichisches Bundesministerium für Unterricht, Kunst und Kultur</institution>
+                        <institution role="cooperation" from="2007" to="">International Centre for Archival Research (ICARus)</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>mediaeval German</lang>
+                        <lang>Latin</lang>
+                        <genre>certificates</genre>
+                        <dating from="Mittelalter" to="Frühe Neuzeit">Mittelalter bis frühe Neuzeit</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz">XML file can be displayed for every document.</note>
+                    <p>
+                        Using<standard name="other">Atom</standard>
+                        Using<standard name="other">cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter"</standard>
+                        <resource format="xml" target="http://monasterium.net/mom/atom/GET/metadata.charter.public/AeviSaxonici/01f85e81-3ae5-4eb1-9c86-3fd16f07ef7b.cei.xml" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="http://www.steinheim-institut.de/cgi-bin/epidat">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-21" resp="#TZ">entry added</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>epidat - epigraphische Datenbank</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2001">project-start</date>
+                <date when="2006">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="http://steinheim-institut.de/wiki/index.php/Forschungsprojekte"/>
+            </links>
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://www.steinheim-institut.de/cgi-bin/epidat?function=Inf&amp;sel=hha">Das Salomon Ludwig Steinheim-Institut für deutsch-jüdische Geschichte, Duisburg inventarisierte und dokumentierte seit Dezember 2000 die 5936 Inschriften und Fragmente des aschkenasischen Teils des Friedhofes in Hamburg-Altona. Das Projekt endete im Mai 2006. Seit 2005 laufen Restaurierungsarbeiten in denen mittlerweile knapp 1000 Grabmale und Fragmente behandelt wurden. Dutzende Fragmente und ganze Steine wurden während der Arbeiten gefunden und konnten zugeordnet bzw. aufgestellt werden, so dass die Gesamtzahl der Grabmale auf knapp 6000 wuchs.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">The database was developed within the project "Der jüdische Friedhof Hamburg-Altona Königstraße: Inventarisierung und Dokumentation des aschkenasischen Teils (ca. 6.000 Grabmale aus den Jahren 1621-1871)" by the research associate Thomas Kollatz. It is constantly expanded by other projects of the STI.</note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via the DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Brocke, Michael</name>
+                                <email>epidat@steinheim-institut.org</email>
+                                <institution>Salomon-Ludwig-Steinheim Institut für deutsch-jüdische Geschichte (STI)</institution>
+                            </person>
+                            <person>
+                                <name>Kollatz, Thomas</name>
+                                <email>epidat@steinheim-institut.org</email>
+                                <institution>Salomon-Ludwig-Steinheim Institut für deutsch-jüdische Geschichte (STI)</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">online-archive of Jewish inscriptions</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <institution role="funding" from="2001" to="2006">"Stiftung Denkmalpflege Hamburg" (Mittel der Reemtsma-Stiftung, der ZEIT-Stiftung Ebelin und Gerd Bucerius und der Axel Springer-Stiftung)</institution>
+                        <institution role="lead partner" from="2001" to="2006">Salomon-Ludwig-Steinheim Institut für deutsch-jüdische Geschichte (STI)</institution>
+                        <!--<institution role="cooperation" from="" to=""></institution>-->
+                    </institutions>
+                    <textSource>
+                        <lang>Hebrew</lang>
+                        <genre>funerary</genre>
+                        <dating from="1050 AD" to="1960 AD">1050 to 1960 AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz">For getting the XML file, click "Export: TEI P5" in the grey box.</note>
+                    <p>
+                        Using<standard name="tei">TEI 5</standard>
+                        <resource format="xml" target="http://www.steinheim-institut.de/cgi-bin/epidat?sel=hgw&amp;function=Ins&amp;anzeige=mix&amp;inv=0005" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+    
+
+        <project url="http://usepigraphy.brown.edu/projects/usep/collections/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-21" resp="#TZ">entry added</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>U.S. Epigraphy Project (USEP)</title>
+            <country>United Stated of America</country>
+            <dates>
+                <date when="1995">project-start</date>
+                <date when="ongoing">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://usepigraphy.brown.edu/projects/usep/about/">The goal of the U.S. Epigraphy Project (USEP) is to collect and share information about ancient Greek and Latin inscriptions preserved in the United States of America.
+                    The Project currently provides access to a database of some 750 Greek and 1,700 Latin inscriptions in the USA through browsing by collection and publication and by searching various categories of metadata (language, date, origin, type, material) and bibliographic information. A growing digital corpus of the collection registers some 400 EpiDoc editions of Latin texts and provides some 1,000 images of the inscriptions registered by the Project, each of which is identified by a unique USEP number based upon its location.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="Corpus Inscriptionum Latinarum" url="http://cil.bbaw.de/dateien/links.html">found via the link list of the
+                        Corpus Inscriptionum Latinarum</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>DiGiulio, Scott</name>
+                                <email>john_bodel@brown.edu</email>
+                                <institution>Brown University</institution>
+                            </person>
+                            <!--<person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>-->
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">collect and share information about ancient Greek and Latin inscriptions preserved in the United States of America</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <!--<institution role="funding" from="" to=""></institution>-->
+                        <institution role="lead partner" from="1995" to="2002">Rutgers University</institution>
+                        <institution role="lead partner" from="2003" to="">Brown University</institution>
+                        <institution role="cooperation" from="2003" to="2008">Brown's Scholarly Technology Group</institution>
+                        <institution role="cooperation" from="2009" to="?">Center for Digital Scholarship</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Ancient Greek</lang>
+                        <lang>Latin</lang>
+                        <lang>Etruscan</lang>
+                        <lang>Raetic</lang>
+                        <genre>funerary</genre>
+                        <genre>magical</genre>
+                        <genre>commercial</genre>
+                        <genre>others</genre>
+                        <dating from="" to="">?</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz"></note>
+                    <p>
+                        Using<standard name="tei">TEI</standard>, <standard name="epidoc">EpiDoc</standard>
+                        <resource format="xml" target="https://github.com/Brown-University-Library/usep-data/blob/master/xml_inscriptions/transcribed/CA.Berk.UC.HMA.L.8-4278.xml" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+
+
+        <project url="http://cds.library.brown.edu/projects/Inscriptions/index.shtml">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-21" resp="#TZ">entry added</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Inscriptions of Israel / Palestine</title>
+            <country>United States of America</country>
+            <dates>
+                <date when="1996">project-start</date>
+                <date when="ongoing">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://cds.library.brown.edu/projects/Inscriptions/index.shtml">The Inscriptions of Israel/Palestine project seeks to collect and make accessible over the Web all of the previously published inscriptions (and their English translations) of Israel/Palestine from the Persian period through the Islamic conquest (ca. 500 BCE - 640 CE). There are about 15,000 of these inscriptions, written primarily in Hebrew, Aramaic, Greek and Latin, by Jews, Christians, Greeks, and Romans. They range from imperial declarations on monumental architecture to notices of donations in synagogues to humble names scratched on ossuaries, and include everything in between.
+                    As of March, 2016 there are approximately 2,500 inscriptions in the database, with more added regularly. All are encoded using the Epidoc guidelines.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="U.S. Epigraphy Project" url="http://usepigraphy.brown.edu/projects/usep/links/">found via the link list of the
+                        U.S. Epigraphy Project</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Satlow, Michael</name>
+                                <email>Michael_Satlow@brown.edu</email>
+                                <institution>Brown University</institution>
+                            </person>
+                            <!--<person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>-->
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">collect and share inscriptions of Israel/Palestine</aim>
+                        <aim key="">allow data to be integrated with other contextual information</aim>
+                        <aim key="">allow for easy access to it</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <institution role="funding" from="?" to="?">Goldhirsh-Yellin Foundation</institution>
+                        <institution role="lead partner" from="1996" to="1998">Institute for Advanced Digital Technology in the Humanities at the University of Virginia</institution>
+                        <institution role="lead partner" from="1999" to="2001">Indiana University</institution>
+                        <institution role="lead partner" from="2002" to="ongoing">Brown University</institution>
+                        <institution role="cooperation" from="?" to="?">Center of Digital Scholarship</institution>
+                     </institutions>
+                    <textSource>
+                        <lang>Hebrew</lang>
+                        <lang>Aramaic</lang>
+                        <lang>Greek</lang>
+                        <lang>Latin</lang>
+                        <genre>imperial declarations</genre>
+                        <genre>notices of donations</genre>
+                        <genre>others</genre>
+                        <dating from="500 BC" to="640 AD">500 BC to 640 AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz"></note>
+                    <p>
+                        Using<standard name="tei">TEI</standard>, <standard name="epidoc">EpiDoc</standard>
+                        <resource format="xml" target="http://library.brown.edu/cds/projects/iip/view_xml/abur0001/" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+
+
+        <project url="http://digiliblt.lett.unipmn.it/index.php">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-21" resp="#TZ">entry added</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Biblioteca digitale di testi latini tardoantichi (digilibLT)</title>
+            <country>Italy</country>
+            <dates>
+                <date when="2001">project-start</date>
+                <!--<date when="2000">project-end</date>-->
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://digiliblt.lett.unipmn.it/index.php">The Digital library of late-antique Latin texts – digilibLT – publishes prose texts written in Latin in the late antiquity (from the 2nd to the 7th century AD). The library intends to make available all the works of pagan content. Only a few works of Christian authors and themes are included, by now, in order to allow the necessary comparisons of linguistic uses in late antiquity.The texts are annotated according to the XML-TEI standards, and are offered free of charge to the public for reading and research. The library also offers a complete canon of authors and works, including detailed information on the critical editions on which the digital texts are based, and listing, if the case, editorial changes which deviate from the critical editions chosen as reference. Search windows are designed to allow users to search either the entire collection of texts or a selection of them (by author, period, or type of text) or single authors and works. Texts can be downloaded freely, which allows individual scholars to work on their areas of interest with maximum flexibility. The library also provides short entries on late-antique authors and works, bibliographies, and canon entries. Finally, the library also includes some important works on late-antique Latin prose authors, offering the texts in PDF form or listing links to websites where these works can be found.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="CATMA" url="http://www.catma.de/affiliated-projects.html">found via the link list of CATMA</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Tabacco, Raffaella</name>
+                                <!--<email></email>-->
+                                <institution>Università del Piemonte Orientale</institution>
+                            </person>
+                            <person>
+                                <name>Lana, Maurizio</name>
+                                <email>maurizio.lana@uniupo.it</email>
+                                <institution>Università del Piemonte Orientale</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">provision of a digital corpus of late antique Latin texts</aim>
+                        <aim key="">become a reference website for scholars working on late antiquity</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <institution role="funding" from="?" to="?">Regione Piemonte</institution>
+                        <institution role="lead partner" from="2001" to="?">Università del Piemonte Orientale</institution>
+                        <institution role="lead partner" from="2001" to="?">Università di Torino</institution>
+                        <!--<institution role="cooperation" from="" to=""></institution>-->
+                    </institutions>
+                    <textSource>
+                        <lang>Latin</lang>
+                        <genre>uncertain</genre>
+                        <dating from="2nd century AD" to="7th century AD">2nd to 7th century AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz">XML files can only be downloaded when registered.</note>
+                    <p>
+                        Using<standard name="tei">TEI</standard>
+                        <resource format="xml" target="http://digiliblt.lett.unipmn.it/opera.php#" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="http://scriptorium.english.cam.ac.uk/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-23" resp="#TZ">entry added</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Scriptorium. Medieval and Early Modern Manuscripts Online</title>
+            <country>United Kingdom</country>
+            <dates>
+                <date when="2006">project-start</date>
+                <date when="2009">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://scriptorium.english.cam.ac.uk/project/">Scriptorium: Medieval and Early Modern Manuscripts Online is a three-year (2006-2009) AHRC-funded Resource Enhancement Project, based in the Faculty of English at the University of Cambridge.
+                    We are constructing a digital archive of manuscript miscellanies and commonplace books from the period c. 1450-1720; our website will provide unrestricted public access to these images. We will also develop and publish a set of online pedagogical and research resources supporting late medieval and early modern manuscript studies.
+                    We will be working with the manuscript collections in a number of college libraries in Cambridge, as well as the Cambridge University Library, the Brotherton Library in Leeds, and other archives, such as that of Holkham Hall in Norfolk.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="Teuchos" url="http://www.teuchos.uni-hamburg.de/digitalisierte-handschriften">found via the link list of
+                        Teuchos</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Dr. Beadle, Richard</name>
+                                <email>rb243@cam.ac.uk</email>
+                                <institution>St John's College, Cambridge</institution>
+                            </person>
+                            <person>
+                                <name>Dr. Burrow, Colin</name>
+                                <email>cjb1002@cam.ac.uk</email>
+                                <institution>All Souls College, Oxford</institution>
+                            </person>
+                            <person>
+                                <name>Dr. Lyne, Raphael</name>
+                                <email>rtrl100@cam.ac.uk</email>
+                                <institution>New Hall, Cambridge</institution>
+                            </person>
+                            <person>
+                                <name>Dr. Zurcher, Andrew</name>
+                                <email>aez20@hermes.cam.ac.uk</email>
+                                <institution>Queen's College, Oxford</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digitize manuscripts from different libraries</aim>
+                        <aim key="">provide unrestricted public access to the images</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <institution role="funding" from="2006" to="2009">AHRC</institution>
+                        <institution role="lead partner" from="2006" to="2009"></institution>
+                        <institution role="cooperation" from="2006" to="2009">Centre for Applied Research in Education Technologies (CARET)</institution>
+                        <institution role="cooperation" from="2006" to="2009">DSpace@Cambridge, the university's digital repository</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Latin</lang>
+                        <lang>English</lang>
+                        <genre>devotional</genre>
+                        <genre>medicine</genre>
+                        <genre>law</genre>
+                        <genre>others</genre>
+                        <dating from="1450 AD" to="1720 AD">1450 to 1720 AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz">Dublin Core is used for several images. <resource target="http://scriptorium.english.cam.ac.uk/project/process.php"></resource></note>
+                    <p>
+                        Using<standard name="tei">TEI</standard>
+                        <resource format="xml" target="http://scriptorium.english.cam.ac.uk/manuscripts/tei/Ll.1.18.xml" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="http://digi.ub.uni-heidelberg.de/de/bpd/index.html">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-23" resp="#TZ">entry added</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Bibliotheca Palatina digital</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2001">project-start</date>
+                <date when="2017">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://digi.ub.uni-heidelberg.de/de/bpd/projekt/beschreibung.html">Bereits im Jahr 2001 begann die Universitätsbibliothek Heidelberg im Rahmen eines DFG-Projektes damit, erste Bände ihrer berühmten Büchersammlung mit modernen digitalen Techniken ins Internet zu stellen. Seit diesen Anfängen arbeitet sie im Rahmen mehrerer Projekte, die die Digitalisierung und Erschließung von Teilen dieser Sammlung zum Ziel haben, an der virtuellen Rekonstruktion der Bibliotheca Palatina.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">The digitization of the Bibliotheca Palatina took place within the scope of several projects: <url>http://digi.ub.uni-heidelberg.de/de/bpd/projekt/beschreibung.html</url></note>
+                    <searchWord key="Teuchos" url="http://www.teuchos.uni-hamburg.de/digitalisierte-handschriften">found via the link list of
+                        Teuchos</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="unspecified">
+                            <person>
+                                <name>Dr. Effinger, Maria</name>
+                                <email>Effinger@ub.uni-heidelberg.de</email>
+                                <institution>Universitätsbibliothek Heidelberg, Abteilung Historische Sammlungen</institution>
+                            </person>
+                            <person>
+                                <name>Dr. Wolf, Thomas</name>
+                                <email>Wolf@ub.uni-heidelberg.de</email>
+                                <institution>Universitätsbibliothek Heideleberg, Digitalisierungszentrum</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">digitization of the inventory of the Pfälzische Landbibliothek (Bibliotheca Palatina)</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <institution role="funding" from="2001" to="2003">DFG</institution>
+                        <institution role="funding" from="2003" to="?">Gesellschaft der Freunde der Universität Heidelberg</institution>
+                        <institution role="funding" from="2006" to="2009">Manfred-Lautenschläger-Stiftung</institution>
+                        <institution role="funding" from="2012" to="?">Manfred-Lautenschläger-Stiftung</institution>
+                        <institution role="funding" from="2014" to="2017">DFG</institution>
+                        <institution role="lead partner" from="2001" to="2017">Universitätsbibliothek Heidelberg</institution>
+                        <institution role="lead partner" from="2010" to="2013">Verwaltung der Staatlichen Schlösser und Gärten Hessen</institution>
+                        <institution role="cooperation" from="2010" to="?">Biblioteca Apostolica Vaticana</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>German</lang>
+                        <lang>Latin</lang>
+                        <lang>Greek</lang>
+                        <genre>uncertain</genre>
+                        <dating from="9th century AD" to="17th century AD">9th to 17th century AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz"></note>
+                    <p>
+                        Using<standard name="mets">METS</standard>
+                        <resource format="xml" target="http://digi.ub.uni-heidelberg.de/diglitData4/mets/cpg1.xml" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="http://papyri.info/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-23" resp="#TZ">entry added</date>
+                <date when="2016-08-24" resp="#TZ">translating information into English</date>
+            </revision>
+            <title>Papyri.info</title>
+            <country>United States of America</country>
+            <dates>
+                <date when="2006/07">project-start</date>
+                <date when="2013">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://papyri.info/docs/about">Prototype: Under leadership of Roger Bagnall and with funding from the Andrew W. Mellon Foundation and the National Endowment for the Humanities, in 2006/07, Columbia University Libraries developed specifications for a 'Papyrological Navigator,' (PN) in order to demonstrate that multiple digital papyrological resources could be co-displayed in a scholarly web resource. In the following year a prototype PN was released. In 2007/08, with further support from the Mellon Foundation, a Duke-led team launched 'Integrating Digital Papyrology', whose three phases ran through 2012. The goals were to migrate the DDbDP from SGML to TEI EpiDoc XML, and from betacode to Unicode; to map DDbDP texts and HGV metadata to corresponding APIS images and catalog records, and to convert both HGV and APIS data to EpiDoc; to enhance the Papyrological Navigator; to create a version controlled, transparent and auditable, multi-author, web-based, real-time, tag-lite, editing environment, which--in tandem with a new editorial infrastructure--would allow the entire community of papyrologists to take editorial control of core disciplinary data. In 2009 the new PN and Papyrological Editor (PE) were moved to NYU's Institute for the Study of the Ancient World, which was the seat of production until July 2013.
+                    Release: In 2010 the new papyri.info was released to production (see J. Sosin's presentation to the 26th Intl Papyrological Congress), featuring the new PE and a completely redesigned PN.
+                    Stewardship: In July 2013 the Duke University Libraries, again with the generous support of the Mellon Foundation, launched the Duke Collaboratory for Classics Computing (DC3), a digital classics unit embedded in the Libraries. A core part of their mission is the maintenance and enhancement of the papyri.info toolset and community.
+                    Moving Parts: See the top level data flow. The PN supports browse and faceted search of the constellation of papyri.info resources. It relies on an RDF triple store (Apache Jena) to manage the relationships between documents from different sources and Apache Solr for its search and faceting capabilities. The PE (1) allows users to add new or change existing 'publications' in the PN, edit the EpiDoc, either via database-style form (for APIS, HGV, BP) or proxy EpiDoc syntax called Leiden+ (for DDbDP), (2) enables submission of all such edits to peer review, which may result in commission of such to the canonical repository, and (3) provides transparent version-control (via git) of all such edits, system-wide. This bundle of services is referred to as Son of Suda on Line (SoSOL), in homage to the Suda On Line project and our colleague Ross Scaife.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="Berliner Papyrusdatenbank" url="http://ww2.smb.museum/berlpap/index.php/partner/">found via the link list of the
+                        Berliner Papyrusdatenbank</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Bagnall, Roger</name>
+                                <email>roger.bagnall@nyu.edu</email>
+                                <email>hugh.cayless@duke.edu</email>
+                                <institution>New York University, Institute for the Study of the Ancient World</institution>
+                            </person>
+                            <!--<person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>-->
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">co-displayal of multiple digital papyrological resources in a scholarly web resource</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <institution role="funding" from="2006/07" to="?">Andrew W. Mellon Foundation</institution>
+                        <institution role="funding" from="2006/07" to="?">National Endowment for the Humanities</institution>
+                        <institution role="lead partner" from="2006/07" to="2008">Columbia University Libraries</institution>
+                        <institution role="lead partner" from="2009" to="2013">New York University, Institute for the Study of the Ancient World</institution>
+                        <institution role="cooperation" from="" to="">The Advanced Papyrological Information System (APIS)</institution>
+                        <institution role="cooperation" from="" to="">The Duke Databank of Documentary Papyri (DDbDP)</institution>
+                        <institution role="cooperation" from="" to="">Heiderlberger Gesamtverzeichnis der griechischen Papyrusurkunden Äygptens</institution>
+                        <institution role="cooperation" from="" to="">Bibliographie Papyrologique</institution>
+                        <institution role="cooperation" from="" to="">Trismegistos</institution>
+                        <institution role="cooperation" from="" to="">The Arabic Papyrology Database</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>Ancient Greek</lang>
+                        <lang>Latin</lang>
+                        <lang>Demotic</lang>
+                        <lang>Arab</lang>
+                        <lang>Hieratic</lang>
+                        <lang>Coptic</lang>
+                        <lang>Egyptian</lang>
+                        <genre>uncertain</genre>
+                        <dating from="2100 BC" to="1950 AD">2100 BC to 1950 AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz"></note>
+                    <p>
+                        Using<standard name="tei">TEI</standard>
+                        <resource format="xml" target="http://papyri.info/apis/britmus.apis.58992/source" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="http://www.deutschestextarchiv.de/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-24" resp="#TZ">entry added</date>
+            </revision>
+            <title>Deutsches Textarchiv</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2007">project-start</date>
+                <date when="2015">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://www.deutschestextarchiv.de/">Das Deutsche Textarchiv stellt einen disziplinen- und gattungsübergreifenden Grundbestand deutschsprachiger Texte aus dem Zeitraum von ca. 1600 bis 1900 bereit. Die Textauswahl erfolgte auf der Grundlage einer von Akademiemitgliedern erstellten und ausführlich kommentierten, umfangreichen Bibliographie. In Ergänzung wurden einschlägige Literaturgeschichten und (Fach-)Bibliographien ausgewertet. Aus der Gesamtliste der auf diesem Wege ermittelten Titel wurde von der DTA-Projektgruppe ein hinsichtlich der repräsentierten Textsorten und Disziplinen ausgewogenes Korpus zusammengestellt.</desc>
+                    
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via DARIAH-Projekt 
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">DTA-texts are freely provided for the user.</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Klein, Wolfgang</name>
+                                <email>klein@mpi.nl</email>
+                                <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                            </person>
+                            <person>
+                                <name>Dr. Geyken, Alexander</name>
+                                <email>geyken@bbaw.de</email>
+                                <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">gathering the complete array of the German language</aim>
+                        <aim key="">establishing a historical reference corpus in German</aim>
+                        <aim key="">image digitization of the sources</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <institution role="funding" from="2007" to="2013">DFG</institution>
+                        <institution role="lead partner" from="2007" to="2015">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>German</lang>
+                        <genre>uncertain</genre>
+                        <dating from="1600 AD" to="1900 AD">1600 to 1900 AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz">To get to the exampale, click "XML (TEI P5)" on the right side below the point "Downloads".klicken.<unsure>The metadata TEI-Header, CMDI and Dublin Core can be downloaded as well on the right side.</unsure></note>
+                    <p>
+                        Using<standard name="tei">TEI P5</standard>, <standard name="dc">OAI Dublin Core</standard>
+                        <resource format="xml" target="http://www.deutschestextarchiv.de/book/show/adams_elektricitaet_1785" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="http://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/germania-sacra/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-24" resp="#TZ">entry added</date>
+            </revision>
+            <title>Germania Sacra. Die Kirche des Alten Reiches und ihre Institutionen</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2008">project-start</date>
+                <date when="2033">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/germania-sacra/">Die Germania Sacra erschließt die Quellen der Kirche des Alten Reiches, dem Rückgrat der kirchlichen wie der weltlich-politischen Ordnung, und bereitet das überlieferte Material in Handbuchformat auf. 
+                    Sie stellt die Kirche und ihre Institutionen von den Anfängen der deutschen Bistümer im 3./4. Jahrhundert bis zu deren Auflösung in der Reformation bzw. am Beginn des 19. Jahrhunderts epochenübergreifend dar.
+                    Die seit Beginn des Jahres 2008 an der Akademie der Wissenschaften zu Göttingen angesiedelte „Dritte Folge“ der Germania Sacra konzentriert sich auf die Beschreibung der Bistümer und Domkapitel auf dem Gebiet der Bundesrepublik Deutschland.
+                    Die überlieferten Quellen werden nach einheitlichem Muster aufbereitet, um der Forschung strukturierte und vergleichbare Daten zu der Kirche des Alten Reiches zur Verfügung zu stellen. Die Germania Sacra erarbeitet die Grundlagen für weiterführende Forschungen zur Verfassungs- und Kirchengeschichte, zur Reichs- und Landesgeschichte, zur Wirtschafts- und Sozialgeschichte, zur Bildungsgeschichte, zur Historischen Geographie, zur Siedlungsgeschichte, zur Prosopographie, zur Mentalitäten-, Frömmigkeits- und Patroziniengeschichte des Mittelalters wie der Neuzeit.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz">The project was founded in 1917 at the Kaiser-Wilhelm-Institut by Paul Fridolin Kehr begründet ("Alte Folge"). In 1956, it was transferred to the Max-Plack-Institut für Geschichte in Göttingen ("Neue Folge"). The current "Dritte Folge" is located at the Akademie der Wissenschaften zu Göttingen.</note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via DARIAH-Projekt
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Dr. Röckelein, Hedwig</name>
+                                <email>hroecke@gwdg.de</email>
+                                <institution>Seminar für Mittlere und Neuere Geschichte, Georg-August-Universität Göttingen</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Flachenecker, Helmut</name>
+                                <email>helmut.flachenecker@uni-wuerzburg.de</email>
+                                <institution>Institut für Geschichte, Bayerische Julius-Maximilians-Universität</institution>
+                            </person>
+                            <person>
+                                <name>Prof. Dr. Rexroth, Frank</name>
+                                <email>frank.rexroth@uni-goettingen.de</email>
+                                <institution>Seminar für Mittlere und Neuere Geschichte, Georg-August-Universität Göttingen</institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">gathering sources about the church of the ancient world</aim>
+                        <aim key="">editing of the material as a manual</aim>
+                        <aim key="">epoch-spanning portrayal of the church and its institutions</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz">More cooperation partners are listed here: <url>http://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/germania-sacra/kooperationen/</url>.</note>
+                        <institution role="lead partner" from="2008" to="">Akademie der Wissenschaften zu Göttingen</institution>
+                        <institution role="cooperation" from="" to="">Germania Benedictina</institution>
+                        <institution role="cooperation" from="" to="">Helvetia Sacra</institution>
+                        <institution role="cooperation" from="" to="">Monumenta Germaniae Historica</institution>
+                        <institution role="cooperation" from="" to="">Digitales Historisches Archiv Köln</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>uncertain</lang>
+                        <genre>uncertain</genre>
+                        <dating from="3/4th century AD" to="19th century AD">3/4th to 19th century AD</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz">Data sets are on the right side of the page under the point "Linked Data". <unsure>You can download it in RDF/XML, Turtle or json-ld.</unsure></note>
+                    <p>
+                        Using<standard name="unspecified"></standard>
+                        <resource format="xml" target="http://adw-goe.de/forschung/forschungsprojekte-akademienprogramm/germania-sacra/klosterdatenbank/datenbankabfrage/gsn/2077/?tx_find_find%5BunderlyingQuery%5D%5Bposition%5D=1" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="http://www.cendari.eu/">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-24" resp="#TZ">entry added</date>
+            </revision>
+            <title>Collaborative European Digital Archive Infrastructure (CENDARI)</title>
+            <country>United States of America?</country>
+            <dates>
+                <date when="2012">project-start</date>
+                <date when="2006?">project-end</date>
+                <!--<date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url="http://dhd-blog.org/?p=6210"/>
+            </links>
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://www.cendari.eu/about">CENDARI is an acronym referring to the Collaborative European Digital Archival Research Infrastructure, a 4-year, European Commission-funded project which integrates digital archives and resources for the pilot areas of medieval culture and the First World War.
+                    The aim of CENDARI is to pilot the implementation of a virtual research infrastructure which will allow scholars to access historical resources across institutional and national boundaries.  At the core of the CENDARI environment are federated archival resources from more than a thousand institutions across Europe and the world. 
+                    The project brings information and computer scientists together with leading historians and existing historical research infrastructures (archives, libraries and other digital projects) to improve the conditions for historical scholarship in Europe, through active response to the impact of the digital age on scholarly and archival practice.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via DARIAH-Projekt
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Prof. Winter, Jay</name>
+                                <email>jay.winter@yale.edu</email>
+                                <institution>Department of History, Yale University</institution>
+                            </person>
+                            <!--<person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>-->
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key="">implement a virtual research infrastructure for allowing scholars to access historical resources across institutional and national boundaries</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz">More cooperation partners are listed here: <url>http://www.cendari.eu/about</url>.</note>
+                        <institution role="funding" from="2012" to="?">European Commission</institution>
+                        <!--<institution role="lead partner" from="" to=""></institution>-->
+                        <institution role="cooperation" from="" to="">Freie Universität Berlin</institution>
+                        <institution role="cooperation" from="" to="">University of Birmingham</institution>
+                        <institution role="cooperation" from="" to="">Trinity College Dublin</institution>
+                    </institutions>
+                    <textSource>
+                        <lang>uncertain</lang>
+                        <genre>uncertain</genre>
+                        <dating from="Middle Ages" to="">Middle Ages and the First World War</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz"></note>
+                    <p>
+                        Using<standard name="dc">OAI Dublin Core</standard>, <standard name="other">EAD 2002</standard>
+                        <resource format="xml" target="https://archives.cendari.dariah.eu/index.php/ancient-papyri-illuminated-manuscripts-from-byzantine-empire-and-renaissance-italy-written-in-greek;dc?sf_format=xml" type="example"></resource>
+                        <resource format="xml" target="https://archives.cendari.dariah.eu/index.php/ancient-papyri-illuminated-manuscripts-from-byzantine-empire-and-renaissance-italy-written-in-greek" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="http://digitale-sammlungen.ulb.uni-bonn.de/topic/view/16431">
+            <revision status="to_controll">
+                <date type="entry-added" when="2016-08-24" resp="#TZ">entry added</date>
+            </revision>
+            <title>Goussen library collection</title>
+            <country>Germany</country>
+            <dates>
+                <date when="2007">project-start</date>
+                <!--<date when="2000">project-end</date>
+                <date when="2000">project-update</date>-->
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <!--<links>
+                <linkDesc url=""/>
+            </links>-->
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://digitale-sammlungen.ulb.uni-bonn.de/topic/view/16431">The Goussen library collection is a specialist library for oriental church history. It contains prints in Western classical and modern languages, but predominantly prints in oriental languages such as Syrian, Coptic, Ethiopian, Arabic, Armenian and Georgian languages from the 16th to the 20th century (the focus is on the 18th and the 19th century). The former owner Heinrich Goussen (1863 – 1927) collected nearly every print within the language groups that had ever been published about the subject. The collection contains numerous rare or valuable oriental prints. There could hardly a collection be put together as completely as here, not even from the holdings of large European libraries.
+                    In 2007 the Universitäts- und Landesbibliothek Bonn digitised approx. 850 prints of the Goussen library collection under a programme of the State of North Rhine-Westphalia to preserve its holdings. It includes all titles published in Europe until 1800, all publications in the original language as well as all publications that were published outside Europe. For copyright reasons the year 1900 was chosen as the last year of publication to be included in the digitisation project. The digitisation was generally conducted by means of a microfilm, which was produced first. Books with special features (red and black print of the texts, items with illustrations, interleaved copies as well as all prints published until 1800) were digitised in colour.
+                    The part of the Goussen Library Collection, which has been digitised under the project, will be gradually complemented by titles that meet the same criteria but have been published as of 1901. In addition, the Universitäts- und Landesbibliothek Bonn will also digitise individual items, which are not covered by the project, if this is requested by a user.</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="dh-dashboard" url="http://dhdashboard.de/">found via DARIAH-Project
+                        Browser</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <!--<responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>
+                            <person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>-->
+                    <aims>
+                        <aim key="">digitization of the Goussen Library Collection</aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <!--<institution role="funding" from="" to=""></institution>-->
+                        <institution role="lead partner" from="2007" to="?">Universitäts- und Landesbibliothek Bonn</institution>
+                        <!--<institution role="cooperation" from="" to=""></institution>-->
+                    </institutions>
+                    <textSource>
+                        <lang>Syrian</lang>
+                        <lang>Coptic</lang>
+                        <lang>Ehtiopian</lang>
+                        <lang>Arabic</lang>
+                        <lang>Armenian</lang>
+                        <lang>Georgian</lang>
+                        <genre>uncertain</genre>
+                        <dating from="16th century" to="19th century">16th to 19th century</dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz"></note>
+                    <p>
+                        Using<standard name="mets/mods">METS/MODS</standard>
+                        <resource format="xml" target="http://digitale-sammlungen.ulb.uni-bonn.de/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;mode=view&amp;identifier=47466" type="example"></resource>
+                        <!--<api documentation="" url=""></api>-->
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+        <project url="">
+            <revision status="draft">
+                <date type="entry-added" when="2016-08-23" resp="#TZ">entry added</date>
+            </revision>
+            <title></title>
+            <country></country>
+            <dates>
+                <date when="2000">project-start</date>
+                <date when="2000">project-end</date>
+                <date when="2000">project-update</date>
+            </dates>
+            
+            <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+            <links>
+                <linkDesc url=""/>
+            </links>
+            
+            <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+            
+            <information>
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source=""></desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#tz">
+                    <note resp="#tz"></note>
+                    <searchWord key="Berliner Papyrusdatenbank" url="http://ww2.smb.museum/berlpap/index.php/partner/">über die Link-Seite der
+                        Berliner Papyrusdatenbank gefunden</searchWord>
+                    <kelliaRating points="uncertain">uncertain</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>
+                            <person>
+                                <name>Nachname, Vorname</name>
+                                <email></email>
+                                <institution></institution>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim key=""></aim>
+                    </aims>
+                    <institutions>
+                        <note resp="#tz"></note>
+                        <institution role="funding" from="" to=""></institution>
+                        <institution role="funding" from="" to=""></institution>
+                        <institution role="lead partner" from="" to=""></institution>
+                        <institution role="cooperation" from="" to=""></institution>
+                    </institutions>
+                    <textSource>
+                        <lang></lang>
+                        <lang></lang>
+                        <genre></genre>
+                        <dating from="" to=""></dating>
+                    </textSource>
+                </desc>
+            </information>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    <note resp="#tz"></note>
+                    <p>
+                        Using<standard name="unspecified"></standard>
+                        <resource format="xml" target="" type="example"></resource>
+                        <api documentation="" url=""></api>
+                    </p>
+                    <sampleData>
+                        
+                    </sampleData>
+                </dataSet>
+            </data>
+        </project>
+        
+        
+    </projects>
+        
+
+    
+    
+
+
+    <!-- ######### -->
+
+    <!--<standards>
+        <standard xml:id="mets">
+            <name>METS</name>
+            <url>http://www.loc.gov/standards/mets/</url>
+            <desc/>
+        </standard>
+        <standard xml:id="tei">
+            <name>TEI</name>
+            <url>http://www.tei-c.org</url>
+            <desc/>
+        </standard>
+    </standards>-->
+</kelliaEditions>

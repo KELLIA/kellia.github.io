@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns="http://www.uni-goettingen.de/kellia"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd">
+    <kelliaHead>
+        <title>eDitions</title>
+        <revision status="draft">
+            <date when="" version="" resp=""/>
+        </revision>
+        <researcher path="">
+            <respStmt>
+                <resp>scientific personal</resp>
+                <person xml:id="US">
+                    <name>Uwe Sikora</name>
+                    <email>sikora@sub.uni-goettingen.de</email>
+                    <desc>genious</desc>
+                    <institution>GAUG</institution>
+                </person>
+                <person xml:id="SM">
+                    <name>So Miyagawa</name>
+                    <email>sm@example.de</email>
+                    <desc/>
+                    <institution>GAUG/Kyoto</institution>
+                </person>
+                <person xml:id="TZ">
+                    <name>Tiffany Ziegler</name>
+                    <email>tz@example.de</email>
+                    <desc>our saviour</desc>
+                    <institution>GAUG</institution>
+                </person>
+            </respStmt>
+        </researcher>
+    </kelliaHead>
+
+    <projects>
+        <project url="http://copticscriptorium.org/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-11-15" resp="#SM">entry added</date>
+                             <date type="entry-added" when="2015-04-05" resp="#SM">content modified</date>
+            </revision>
+            <projectDesc>
+                <title>Coptic SCRIPTORIUM</title>
+                <country>United States</country>
+                <dates>
+                    <date when="2013">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="2016">project-update</date>
+                </dates>
+
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://copticscriptorium.org/"/>
+                </links>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://example.com">Project description from some source</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <kelliaRating points="5">Not bad</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Caroline Schroeder</name>
+                            <email>carrieschroeder@mac.com</email>
+                        </person>
+                        <person>
+                            <name>Amir Zeldes</name>
+                            <email>Amir.Zeldes@georgetown.edu </email>
+                        </person>
+                    </respStmt>
+                    <projectAims>
+                        <aim>Richly annotated linguistic corpora of Sahidic Coptic</aim>
+                    </projectAims>
+                    <institutions>
+                        <note url=""/>
+                        <institution>NEH </institution>
+                    </institutions>
+                    <textSource xml:lang="coptic">
+                        <lang>cp</lang>
+                        <genre>letters, sermons, Bible etc.</genre>
+                        <epoche>Late Antiquity</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+
+                    <!-- url zu dem Datendownload -->
+                    <url target="https://github.com/CopticScriptorium"/>
+
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                      <!--  <url type="api" target="http://example-url.to/data/api"/>         -->
+
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">Coptic SCRIPTORIUM is a short form of Sahidic Corpus Research: Internet Platform for Interdisciplinary multilayer Methods. It is "a platform for interdisciplinary and computational research in texts in the Coptic language, particularly the Sahidic dialect.  As an open-source, open-access initiative, our technologies and corpus facilitate a collaborative environment for digital research for all scholars working in Coptic." As it says, it is a richly annotated text corpus of Sahidic Coptic. The way to annotated is based on Corpus Linguistics. Amir Zeldes and his team in Berlin made a platform to realize a corpus that is based on a rigid linguistic discipline and that is using XML as the data storage file format. This platform is called ANNIS and Coptic SCRIPTORIUM is take an advantage of it since its beginning. Now, the number of texts are small compared with the whole number of all the Coptic manuscripts. Nevertheless, this corpus has tokens more than 200,000. This number is good compared with corpora of other historical languages except Greek, Latin, Sanskrit, Arabic and Classical Chinese." </desc>
+
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>TEI-XML</test>
+                        <test>EpiDoc</test> 
+                        <test>PaulaXML</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+
+        <project url="http://vsarpj.orinst.ox.ac.uk/corpus/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-04-05" resp="#SM">entry added</date>
+            </revision>
+            <projectDesc>
+                <title>The Oxford Corpus of Old Japanese</title>
+                <country>The United Kingdom of Great Britain and Northern Ireland</country>
+                <dates>
+                    <date when="2013">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="2016">project-update</date>
+                </dates>
+                
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://copticscriptorium.org/"/>
+                </links>
+                
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+                
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://vsarpj.orinst.ox.ac.uk/corpus/texts.html">Project description from some source</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <kelliaRating points="2">You can see all the texts with romanization on the website, but you cannot download the data. It says it the data format is XML and the website is displayed using XSLT. Lexicon Search allows you to see all the ocurrences of lemmas. However, the user-interface does not look good and difficult to understand. The website says KWIC (keyword-in-cotext) search will be available soon. THis will make you search a token as if you are looking at a concordance. </kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>FRELLESVIG, Bjarke</name>
+                            <email>vsarpj@orinst.ox.ac.uk</email>
+                        </person>
+                        <person>
+                            <name>HORN, Stephen Wright</name>
+             
+                        </person>
+                        <person>
+                            <name>RUSSELL, Kerri L</name>
+                        </person>
+                
+                    </respStmt>
+                    <projectAims>
+                        <aim>Text data of all the Old Japnese texts with romanization</aim>
+                    </projectAims>
+                    <institutions>
+                        <institution>The University of Oxford</institution>
+                        <institution>British Academy</institution>
+                        <institution>Arts &amp; Humanities Research Council</institution>
+                    </institutions>
+                    <textSource xml:lang="Japanese">
+                        <lang>jp</lang>
+                        <genre>poetry, epics etc.</genre>
+                        <epoche>500?-794?</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="xml">
+                    
+                    <!-- url zu dem Datendownload -->
+                    <url target="http://vsarpj.orinst.ox.ac.uk/corpus/texts.html"/>
+                    
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <!--  <url type="api" target="http://example-url.to/data/api"/>         -->
+                    
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="xml" schema="tei">This is the first electric text corpus of Old </desc>
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>TEI-XML</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+        
+        
+        
+        <project url="http://pj.ninjal.ac.jp/corpus_center/bccwj/en/">
+                <revision status="draft">
+                    <date type="entry-added" when="2015-11-15" resp="#SM">entry added</date>
+                    <date type="entry-added" when="2015-04-05" resp="#SM">content modified</date>
+                </revision>
+                <projectDesc>
+                    <title>Balanced Corpus of Contemporary Written Japanese (BCCWJ)</title>
+                    <country>Japan</country>
+                    <dates>
+                        <date when="2006">project-start</date>
+                        <date when="?">project-end</date>
+                        <date when="2016">project-update</date>
+                    </dates>
+                    
+                    <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                    <links>
+                        <url target="http://pj.ninjal.ac.jp/corpus_center/bccwj/en/"/>
+                    </links>
+                    
+                    <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+                    
+                    <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                    <desc source="https://www.ninjal.ac.jp/english/products/bccwj/">"BCCWJ is a balanced corpus of one hundred million words of contemporary written Japanese. BCCWJ is one of the components of KOTONOHA. It is probably the most important of all the KOTONOHA component corpora, because it is the written register of the contemporary Japanese that is the greatest focus of interest for language researchers as well as the general public. It is also the contemporary written language that has the greatest applicability to such applications as dictionaries and teaching materials. The compilation of BCCWJ started in 2006 as a five-year project, and is supported partly by a Grant-in-Aid for Scientific Research on Priority Area from MEXT (Japanese ministry of education) : Japanese Corpus.
+                        
+                        As shown in the figure below, BCCWJ consists of three subcorpora. The one in the top left corner is called the Publication Subcorpus. Samples of this corpus are extracted randomly from the population of all books, magazines, and major newspapers published in the years 2001-2005.
+                        
+                        The corpus in the top right corner is called the Library Subcorpus. Its population consists of all books that are catalogued at more than 13 metropolitan libraries in Tokyo.
+                        
+                        Lastly, the corpus at the bottom is called the Special-purpose Subcorpus. This corpus contains a series of mutually unrelated mini corpora that are required for specific research purposes of the NINJAL research groups. The mini corpora include governmental white papers, textbooks, laws, bestselling books, and text from the Internet (provided by the courtesy of Yahoo! Japan Inc). Each of these mini corpora contains text of several million words."</desc>
+                    
+                    <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                    <desc resp="#sm">
+                        <kelliaRating points="4">This corpus allows you to search various aspects of Japanese language. You can search for various conjugation of verbs, collocation, co-occurence etc. within highly detailed conditions. However, the schema of XML is very special only for this project. It means the data itself is not compatible and can not be applied for other platform freely. And they do not allow us to download the data.</kelliaRating>
+                        <respStmt>
+                            <resp>Editors</resp>
+                            <person>
+                                <name></name>
+                                <email></email>
+                            </person>
+                            <person>
+                                <name></name>
+                                <email></email>
+                            </person>
+                        </respStmt>
+                        <projectAims>
+                            <aim>Richly annotated linguistic corpora of Written Japanese</aim>
+                        </projectAims>
+                        <institutions>
+                            <note url=""/>
+                            <institution>NINJAL</institution>
+                            <institution>MEXT</institution>
+                        </institutions>
+                        <textSource xml:lang="Japanese">
+                            <lang>jp</lang>
+                            <genre>novels, newspapers, reports etc.</genre>
+                            <epoche>Postwar period till today</epoche>
+                        </textSource>
+                    </desc>
+                </projectDesc>
+                
+                <!-- 
+                Data-Section 
+                ################### 
+            -->
+                <dataDesc>
+                    <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                    <dataSet when="2014-01-01" type="">
+                        
+                        <!-- url zu dem Datendownload -->
+                        <url target="https://github.com/CopticScriptorium"/>
+                        
+                        <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                        <!--  <url type="api" target="http://example-url.to/data/api"/>         -->
+                        
+                        <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                        <desc format="..." schema="...">Coptic SCRIPTORIUM is a short form of Sahidic Corpus Research: Internet Platform for Interdisciplinary multilayer Methods. It is "a platform for interdisciplinary and computational research in texts in the Coptic language, particularly the Sahidic dialect.  As an open-source, open-access initiative, our technologies and corpus facilitate a collaborative environment for digital research for all scholars working in Coptic." As it says, it is a richly annotated text corpus of Sahidic Coptic. The way to annotated is based on Corpus Linguistics. Amir Zeldes and his team in Berlin made a platform to realize a corpus that is based on a rigid linguistic discipline and that is using XML as the data storage file format. This platform is called ANNIS and Coptic SCRIPTORIUM is take an advantage of it since its beginning. Now, the number of texts are small compared with the whole number of all the Coptic manuscripts. Nevertheless, this corpus has tokens more than 200,000. This number is good compared with corpora of other historical languages except Greek, Latin, Sanskrit, Arabic and Classical Chinese." </desc>
+                        
+                        <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                        <example>
+                            <test>M-XML</test>
+                            <test>C-XML</test>
+                        </example>
+                    </dataSet>
+                </dataDesc>
+            </project>
+
+        <project url="http://ramses.ulg.ac.be/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-12-21" resp="#SM">entry added</date>
+                <date type="modification" when="2015-1-16" resp="#SM">entry modified</date>
+                         <date type="modification" when="2015-1-16" resp="#SM">content modified</date>
+            </revision>
+            <projectDesc>
+                <title>Projet Ramsès</title>
+                <country>Beligium</country>
+                <dates>
+                    <date when="2006">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="?">project-update</date>
+                </dates>
+
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://ramses.ulg.ac.be/"/>
+                </links>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://example.com">Project description from some source</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <searchWord key="google">Dictionary &amp; corpus of Late Egyptian </searchWord>
+                    <kelliaRating points="5">Not bad</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Jean Winand</name>
+                            <email>j.winand@ulg.ac.be</email>
+                        </person>
+                        <person>
+                            <name>Stéphane Polis</name>
+                            <email>s.polis@ulg.ac.be</email>
+                        </person>
+                        <person>
+                            <name>Serge Rosmorduc</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <projectAims>
+                        <aim>Richly annotated linguistic corpora of Late Egyptian with more than 500,000 tokens and translation in French and English.</aim>
+                    </projectAims>
+                    <institutions>
+                        <note url=""/>
+                        <institution>Université de Liège</institution>
+                    </institutions>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <epoche>1,800 BCE-</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+
+
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+
+                    <!-- url zu dem Datendownload -->
+                    <!-- <url target="http://example-url.to/data"/>>
+
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+<!--                    <url type="api" target="http://example-url.to/data/api"/>>
+
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">This is a well-organized corpus of Late Egyptian texts. </desc>
+
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>There's no downloadble data.'</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+
+        <project url="https://wdb.jinsha.tsukuba.ac.jp/hdb/">
+            <revision status="draft">
+                <date when="" version="" resp=""/>
+            </revision>
+            <projectDesc>
+                <title>Hieratic Database Project</title>
+                <country>Japan</country>
+                <dates>
+                    <date when="2015">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="?">project-update</date>
+                </dates>
+
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="https://wdb.jinsha.tsukuba.ac.jp/hdb/"/>
+                </links>
+
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="https://wdb.jinsha.tsukuba.ac.jp/hdb/">Hieratic Database
+                    Project</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <searchWord key="google">Hieratic Database</searchWord>
+                    <kelliaRating points="5">bad</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Masakatsu Nagai</name>
+                            <email>hm@example.de</email>
+                        </person>
+                        <person>
+                            <name>Stéphane Polis</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Serge Rosmorduc</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <projectAims>
+                        <aim>Database of Hieratic?</aim>
+                    </projectAims>
+                    <institutions>
+                        <note url=""/>
+                        <institution role="funding etc.">Tsukuba University?</institution>
+                    </institutions>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <epoche>3,000 BCE-</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+
+
+
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+
+                    <!-- url zu dem Datendownload -->
+                    <url target="http://example-url.to/data"/>
+
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <url type="api" target="http://example-url.to/data/api"/>
+
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>etc</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+        
+        <project url="http://otdo.aa.tufs.ac.jp/">
+            <revision status="">
+                <date when="2016-04-05" resp="#SM">ENTRY ADDED</date>
+            </revision>
+            <projectDesc>
+                <title>Old Tibetan Documents Online(</title>
+                <country>Japan</country>
+            </projectDesc>
+            <dataDesc></dataDesc>
+        </project>
+        
+        
+        
+        <project url="http://vega-vocabulaire-egyptien-ancien.fr/">
+            <revision status="draft">
+                <date when="2016-03-23" version="1" resp="SM"/>
+            </revision>
+            <projectDesc>
+                <title>Véga: vocabulaire de l'égyptien ancien</title>
+                <country>France</country>
+                <dates>
+                    <date when="2014">project-start</date>
+                    <date when="?">project-end</date>
+                    <date when="?">project-update</date>
+                </dates>
+                
+                <!-- Wenn noch zusaätzliche URLs von Interesse sind, dann hier rein -->
+                <links>
+                    <url target="http://vega-vocabulaire-egyptien-ancien.fr/"/>
+                </links>
+                
+                <!-- 
+                    Description-Section 
+                    ################### 
+                -->
+                
+                <!-- eine externe Beschreibung mit Angabe der Quelle als URL -->
+                <desc source="http://vega-vocabulaire-egyptien-ancien.fr/">Véga: vocabulaire de l'égyptien ancien</desc>
+                
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#sm">
+                    <searchWord key="google">Ein ägyptisches Wörterbuch</searchWord>
+                    <kelliaRating points="5">far from completion</kelliaRating>
+                    <respStmt>
+                        <resp>Editors</resp>
+                        <person>
+                            <name>Frédéric Servajean</name>
+                            <email>hm@example.de</email>
+                        </person>
+                        <person>
+                            <name>Adrienn Almásy</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Charlène Cassier</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Janie Chun Hung Kee</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Federico Contardi</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Jérémie Florès</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Magali Massiera</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Anaïs Martin</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Émilie Martinet</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Alexandra Nespoulous‑Phalippou</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Isabelle Régen</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Frédéric Rouffet</name>
+                            <email>mt@example.de</email>
+                        </person>
+                        <person>
+                            <name>Laurie Rouvière</name>
+                            <email>mt@example.de</email>
+                        </person>
+                    </respStmt>
+                    <projectAims>
+                        <aim>Make a beautiful and styllistic online dictionary of Ancient Egyptian en mode</aim>
+                    </projectAims>
+                    <institutions>
+                        <note url=""/>
+                        <institution role="funding etc.">Université Paul-Valéry Montpellier</institution>
+                        <institution role="funding etc.">archimede: arcéologie et histoire de la méditerrané et de l'égypte anciennes</institution>
+                        <institution role="funding etc.">intactile DESIGN</institution>
+                        <institution role="funding etc.">cnrs</institution>
+                        <institution role="funding etc.">Investissement d'Avenir</institution>
+                        <institution role="funding etc.">Ministère de l'Éducation Nationale, de l'Enseignement Supérieur et de la Recherche</institution>
+                        <institution role="funding etc.">Huma-Num</institution>
+                    </institutions>
+                    <textSource xml:lang="egyptian">
+                        <lang>eg</lang>
+                        <genre>various</genre>
+                        <epoche>3,000 BCE-</epoche>
+                    </textSource>
+                </desc>
+            </projectDesc>
+            
+            
+            
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <dataDesc>
+                <!-- dataSet ist ein einzelner Datensatz, der von einem Projekt angeboten wird.
+                Wenn bekannt, kann über @when ein Datum angegeben werden, von wann die Daten stammen.
+                @type spezifiziert den Typ der Daten: Handelt es sich um die digitale Edition, um XSLT Stylesheets oder um sonstiges?-->
+                <dataSet when="2014-01-01" type="">
+                    
+                    <!-- url zu dem Datendownload -->
+                    <url target="http://example-url.to/data"/>
+                    
+                    <!-- Wenn api vorhanden, dann hier beschreiben. Wenn nicht, dann auskommentieren -->
+                    <url type="api" target="http://example-url.to/data/api"/>
+                    
+                    <!-- Beschreibung des Datensatzes. ref @target kann als Link verwendet werden. -->
+                    <desc format="..." schema="...">Kurzbeschreibung des Datensatzes</desc>
+                    
+                    <!-- Datenbeispiel mit Ausschnitten aus den XML-Daten -->
+                    <example>
+                        <test>etc</test>
+                    </example>
+                </dataSet>
+            </dataDesc>
+        </project>
+    </projects>
+    <!-- ######### -->
+
+    <!--<standards>
+        <standard xml:id="mets">
+            <name>METS</name>
+            <url>http://www.loc.gov/standards/mets/</url>
+            <desc/>
+        </standard>
+        <standard xml:id="tei">
+            <name>TEI</name>
+            <url>http://www.tei-c.org</url>
+            <desc/>
+        </standard>
+    </standards>-->
+</kelliaEditions>

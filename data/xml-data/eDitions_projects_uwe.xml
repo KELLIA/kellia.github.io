@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kelliaEditions xmlns="http://www.uni-goettingen.de/kellia"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uni-goettingen.de/kellia ../schemata/kellia_eDitions.xsd">
+    <kelliaHead>
+        <title>eDitions: Uwes stuff</title>
+        <revision status="draft">
+            <date when="2016-03-15" version="0.1" resp="us">entered InsAph</date>
+            <date when="2016-04-28" version="0.2" resp="us">converted to actual schema</date>
+        </revision>
+        <researcher path="eDitions_researchers.xml"/>
+    </kelliaHead>
+
+    <projects>
+
+        <project url="http://insaph.kcl.ac.uk/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-11-15" resp="#US #SM #TZ"/>
+            </revision>
+            <title>InsAph - Inscriptions of Aphrodisias Project</title>
+            <country>United Kingdom</country>
+            <information>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html"> Betreut von Gabriel
+                    Bodard et al., London, King's College London / Centre for Computing in the
+                    Humanities, 2005-. Projekt zur verteilten Internet-Edition der Inschriften von
+                    Aphrodisias auf der Grundlage eines community-spezifischen XML-Dialekts für
+                    epigraphische Texte (Epidoc) und in Verbindung mit archäologischen
+                    Informationen. Die teilweise bereits im Druck edierten Inschriften werden in das
+                    Projekt eingebunden und elektronisch neu herausgegeben (Beispiel).</desc>
+
+                <!-- eine eigene Beschreibung mit Angabe des Verantwortlichen -->
+                <desc resp="#us">
+                    <kelliaRating points="5">very good data, conformant to EpiDoc and TEI
+                        P5</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name>Bodard, Gabriel</name>
+                                <!--<email>hm@example.de</email>-->
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim>edition</aim>
+                    </aims>
+                </desc>
+            </information>
+            <!-- 
+                Data-Section 
+                ################### 
+            -->
+            <data>
+                <dataSet when="2004-01-01" type="encoded-text">
+                    <p><standard name="epidoc">Using Epidoc<resource format="xml"
+                                target="http://insaph.kcl.ac.uk/ala2004/redist/inscriptions/inscriptions.zip"
+                                >download files as *.zip archive</resource></standard></p>
+                    <p><resource target="http://insaph.kcl.ac.uk/ala2004/inscription/index.html"
+                            type="visual" format="html">HTML-Serialisierung</resource>. "The
+                        inscriptions can be viewed by number, by section, by date, by location, by
+                        type of text, and by type of monument."</p>
+                </dataSet>
+
+                <dataSet when="2007-01-01" type="encoded-text">
+                    <p><standard name="epidoc">Using Epidoc<resource type="example" format="xml"
+                                target="http://insaph.kcl.ac.uk/iaph2007/xml/iAph010001.xml"
+                            /></standard></p>
+                    <p>using <api url="http://insaph.kcl.ac.uk/iaph2007/xml/">API: "We have also
+                            made all of the XML files available online at this website via a direct
+                            URL http://insaph.kcl.ac.uk/iaph2007/xml/ followed by the inscription
+                            filename in the form iAph+6-digit number+.xml. You may download these
+                            files, or point your database or XML processor directly to them and
+                            generate the results elsewhere. These files validate to the EpiDoc DTD
+                            version 5, which is online both at the Stoa and on this site."</api></p>
+                    <p><resource type="visual" format="html"
+                            target="http://insaph.kcl.ac.uk/iaph2007/inscriptions/index.html"
+                            >"Slightly more than 1 500 inscriptions—about one-third previously
+                            unpublished—are presented in this edition of the Inscriptions of
+                            Aphrodisias. The texts are numbered by location, with each major
+                            monument or zone of the site given a chapter heading (between 1 and 15);
+                            the primary table of contents lists the files in this
+                        order."</resource></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://www.stoa.org/hippo/">
+            <revision status="draft">
+                <date type="entry-added" when="2015-11-15" resp="#US #SM #TZ"/>
+            </revision>
+            <title>The Confessions of Augustine: An Electronic Edition</title>
+            <country>United Kingdom</country>
+            <information>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Text and commentary
+                    by James J. O'Donnell, o.O., 1992. SGML encoding and HTML conversion by Anne
+                    Mahoney for the Stoa Consortium, 1999. "Each book of the text has a link to
+                    introductory commentary on that book, and each section of the text has a link to
+                    detailed comments on the section. Links within the commentary connect not only
+                    to the section of text directly being annotated, but also to other parts of the
+                    text and commentary. Footnotes in the commentary appear at the end of each book;
+                    the footnote numbers are links from the commentary text to the footnote and from
+                    the footnote text back to the commentary. Where possible, links have been
+                    provided to the texts of classical works and Biblical passages cited in the
+                    commentary." [from resource]</desc>
+
+                <desc resp="#us">
+                    <kelliaRating points="5">very good data, conformant to EpiDoc and TEI
+                        P5</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editors">
+                            <person>
+                                <name role="">O'Donnell, James J.</name>
+                            </person>
+                            <person>
+                                <name role="">Mahoney, Anne</name>
+                            </person>
+                        </respStmt>
+                    </responsibles>
+                    <aims>
+                        <aim>edition</aim>
+                    </aims>
+                </desc>
+            </information>
+
+            <data>
+                <dataSet>
+                    <p><standard name="unspecified">using internal SGML<resource format="sgml"/> and
+                            HTML als representation format<resource format="html" type="visual"
+                            /></standard></p>
+
+                </dataSet>
+
+            </data>
+        </project>
+
+        <project
+            url="http://www.augustinus.de/bwo/dcms/sites/bistum/extern/zfa/cags/cag-online.html">
+            <revision status="draft">
+                <date type="entry-added" when="2015-11-15" resp="#US #SM #TZ"/>
+            </revision>
+            <title>Corpus Augustinianum Gissense a Cornelio Mayer editum</title>
+            <country>United Kingdom</country>
+            <information>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Hg. von Cornelius
+                    Mayer, Basel, Schwabe, 1996. ISBN 978-3796509894. Die CD-ROM-Ausgabe beruht auf
+                    einer neuen Zusammenstellung der jeweils besten verfügbaren Ausgabe. Zusätzlich
+                    sind "sämtliche Zitate" nach ihrer Herkunft ausgewiesen, das Gesamtœuvre
+                    "linguistisch aufbereitet" (lemmatisiert) und um eine bibliographische Datenbank
+                    der Forschungsliteratur erweitert. Der Link zielt auf eine Informationsseite zum
+                    immer noch laufenden Projekt.</desc>
+
+                <desc resp="#us">
+                    <kelliaRating points="5">very good data, conformant to EpiDoc and TEI
+                        P5</kelliaRating>
+                    <responsibles>
+                        <respStmt type="Editor">
+                            <person>
+                                <name role="">Mayer, Cornelius</name>
+                            </person>
+                        </respStmt>
+
+
+                    </responsibles>
+                    <aims>
+                        <aim>edition</aim>
+                    </aims>
+                </desc>
+
+            </information>
+
+            <data>
+                <dataSet>
+                    <p>Registration required. No explicit information about encoding standards
+                            <standard name="unspecified"/>.</p>
+                </dataSet>
+            </data>
+        </project>
+
+
+        <project url="http://nestlealand.uni-muenster.de/">
+            <!--<tag>bible ancient nt</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Digital Nestle-Aland Prototype (Greek New Testament)</title>
+
+            <information>
+                <desc>
+                    <responsibles>
+                        <respStmt type="">
+                            <person>
+                                <name/>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Published by the
+                    Institute for New Testament Textual Research of University of Münster in
+                    collaboration with Scholarly Digital Editions and the Deutsche
+                    Bibelgesellschaft, Münster / Birmingham / Stuttgart, 2003-2005. (offline since
+                    08/06) "The Digital Nestle-Aland is the forthcoming electronic version of the
+                    standard scholarly edition of the Greek New Testament. It offers two major
+                    features not available in the printed book: (1) Transcripts of important Greek
+                    manuscripts of the New Testament, (2) New complete apparatus based on these
+                    transcripts." [from resource]</desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p> Since using NT-VMR most probably <standard name="tei">TEI-XML</standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://codexsinaiticus.org/en/">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Codex Sinaiticus</title>
+
+            <information>
+                <desc><responsibles>
+                        <respStmt type="">
+                            <person>
+                                <name>Milne, Ronald</name>
+                            </person>
+                            <person>
+                                <name>Tuck, John</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Directed by Ronald
+                    Milne and John Tuck, London, British Library, 2007. "Codex Sinaiticus is one of
+                    the most important books in the world. Handwritten well over 1600 years ago, the
+                    manuscript contains the Christian Bible in Greek, including the oldest complete
+                    copy of the New Testament." [from resource] The edition contains high-quality
+                    images, physical descriptions, transcriptions, critical annotations and
+                    translations.</desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>Using <standard name="tei">TEI-XML. <resource type="download" format="zip"
+                                target="http://codexsinaiticus.org/download/sinaiticus_1-02b.xml.zip"
+                                >Download of the Ressource (ZIP)</resource></standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://catullusonline.org/CatullusOnline/index.php">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Catullus Online - An Online Repertory of Conjectures on Catullus</title>
+
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name>Kiss, Dániel</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Ed. by Dániel Kiss,
+                    München, Center for Advanced Studies, Ludwig-Maximilians-Universität, 2009-2013.
+                    "This website offers a critical edition of the poems of Catullus, a repertory of
+                    conjectures on the text, an overview of the ancient quotations from Catullus
+                    that have independent source value, and high-quality images of some of the most
+                    important manuscripts." [from resource]</desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>
+                        <standard name="unspecified">No information on website</standard> and just
+                            <resource format="html" type="visual"
+                            target="http://www.catullusonline.org/CatullusOnline/index.php?dir=poems"
+                            >html-representation</resource>. </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://pom.bbaw.de/cmg/">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Corpus Medicorum Graecorum / Latinorum</title>
+
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name>Brockmann, Christian</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Hg. von Christian
+                    Brockmann, Berlin, Berlin-Brandenburgische Akademie der Wissenschaften,
+                    2005-2008. Das Langzeitunternehmen versucht neue Wege zu gehen. Zu Galen,
+                    Kommentar zu Hippokrates, Über die Gelenke ist 2005 eine "Probeedition"
+                    erschienen, die wahlfreie Zusammenstellungen von Handschriftenfaksimiles, neu
+                    erstelltem kritischen Text, Editions-Apparat, verschiedenen kanonischen
+                    Zählungen und Übersetzung erlaubt.</desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p> No word about standards, most probably <standard name="tei">TEI <resource
+                                type="visual" format="html" target="http://pom.bbaw.de/cmg/"
+                            /></standard>
+                    </p>
+
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://hyperdonat.tge-adonis.fr/" xml:lang="fr">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Hyperdonat - Une édition électronique des commentaires de Donat aux comédies de
+                Térence</title>
+
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name>Bureau, Bruno</name>
+                            </person>
+                            <person>
+                                <name>Ingarao, Maud</name>
+                            </person>
+                            <person>
+                                <name>Nicolas, Christian</name>
+                            </person>
+                            <person>
+                                <name>Emmanuelle, Raymond</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Bruno Bureau, Maud
+                    Ingarao, Christian Nicolas, Emmanuelle Raymond (éds), Lyon, Université Lyon III
+                    / ENS de Lyon, 2007-2011. "Hyperdonat est originellement un projet d’édition
+                    hypertexte du commentaire attribué à Aelius Donat aux comédies de Térence. Le
+                    projet s’inscrit dans une réflexion plus vaste sur l’édition hypertexte de
+                    commentaires de nature variée. Ce site présente au fur et à mesure les résultats
+                    - corpus et fonctionnalités - produits au sein du projet." [from resource] For a
+                    documentation of the project see the blog hyperdonat.hypotheses.org</desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>According to the website project is using <standard name="tei"
+                        >TEI</standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://euripidesscholia.org/" xml:lang="en">
+            <!-- <tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Euripides Scholia</title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name>Mastronarde, Donald J.</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Beta version 1
+                    Created by Donald J. Mastronarde, Berkeley (CA), University of California
+                    Berkeley, 2010. The "site is the home of a new open-access digital edition of
+                    the scholia on the plays of the ancient Athenian tragedian Euripides (born ca.
+                    485-480, died winter 407/406 BCE). There are [via filters] currently three
+                    levels of detail offered: full view shows each scholion followed by all public
+                    elements that have been provided in the edition (not all elements appear for
+                    every scholion); expert view shows the same but also adds two optional elements
+                    intended for the author and collaborators; the view with trans. and app. shows
+                    only the scholion and a translation (if available) and the apparatus criticus
+                    (if there are variants). The content can be filtered to include everything
+                    (prefatory material or arguments and scholia of all kinds); only the old scholia
+                    (scholia vetera); all scholia except those tagged as glosses ..." [from
+                    resource] </desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>Using <standard name="tei">modified TEI <resource format="html" type="visual"
+                                >Just html representation</resource></standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://inslib.kcl.ac.uk/irt2009/" xml:lang="en">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title> IRT - The Inscriptions of Roman Tripolitania </title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Tripolitania, Roman</name>
+                            </person>
+                            <person>
+                                <name role="">Reynolds, J. M.</name>
+                            </person>
+                            <person>
+                                <name role="">Ward-Perkins, J. B.</name>
+                            </person>
+                            <person>
+                                <name role="">Bodard, Gabriel</name>
+                            </person>
+                            <person>
+                                <name role="">Roueché, Charlotte</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Inscriptions of
+                    Roman Tripolitania, by J. M. Reynolds and J. B. Ward-Perkins, enhanced
+                    electronic reissue by Gabriel Bodard and Charlotte Roueché (2009). ISBN
+                    978-1-897747-23-0. "The first publication of Inscriptions of Roman Tripolitania,
+                    which appeared in 1952, has long been out of print. Produced in post-war
+                    conditions, it only included illustrations of a few inscriptions, although very
+                    many of them had been photographed; and it only offered limited geographic
+                    information. The purposes of this enhanced reissue are, therefore, to make the
+                    original material available again, and to provide the full photographic record,
+                    together with geographical data linking the inscriptions to maps and gazetteers,
+                    and so to other resources. Electronic publication makes this possible, and also
+                    allows us to offer greater functionality, such as free text searches. We have
+                    included the material from the supplement which contained further texts,
+                    numbered in the same sequence (973-996): 'Inscriptions of Roman Tripolitania: a
+                    supplement', published in PBSR 23 (1955), 124-147, and we have incorporated
+                    corrections and emendations made in that article; but we have not attempted to
+                    alter or emend any item otherwise. The indices of this edition are generated
+                    from the texts themselves. This means that in some cases they will diverge from
+                    those in the original edition, usually being fuller: but the material in three
+                    texts not included in that edition (261, 262 and 855) and the Neo-Punic personal
+                    names do not appear in these indices." [from resource] </desc>
+            </information>
+            <data>
+                <dataSet when="2009-01-01">
+                    <p>Using <standard name="epidoc">EpiDoc <resource type="example" format="xml"
+                                target="http://inslib.kcl.ac.uk/irt2009/IRT002.xml"
+                                >IRT002.xml</resource><resource type="download" format="zip"
+                                target="http://inslib.kcl.ac.uk/irt2009/redist/inscr/irt2009_inscriptions.zip"
+                            /></standard><standard name="tei">TEI-P5 <resource type="download"
+                                format="zip"
+                                target="http://inslib.kcl.ac.uk/irt2009/redist/inscr/irt2009-P5.zip"
+                            /></standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://iospe.kcl.ac.uk/index.html" xml:lang="en">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>IOSPE - Ancient Inscriptions of the Northern Black Sea</title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Ivantchik, Askold</name>
+                            </person>
+                            <person>
+                                <name role="">Polinskaya, Irene</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Northern Black Sea
+                    Directed by Askold Ivantchik and Irene Polinskaya, London: King's College
+                    London, 2011. "The aims of the project include a new study of all Ancient Greek
+                    and Latin inscriptions originating from the Northern Coast of the Black Sea; and
+                    publication of Russian and English critical editions of the inscriptions in
+                    print and digital formats. [...] The new conception of the IOSPE corpus consists
+                    in capturing in its entirety the ancient epigraphic production of the northern
+                    Pontic region – that is, not only inscriptions made on stone (lapidary
+                    inscriptions), but also on other media and fabrics, such as ceramics, metal, and
+                    bone. [...] The first stage of the project involves publication of Lapidary
+                    Inscriptions. There will be about 5,000 lapidary texts published in IOSPE, about
+                    three times as many as in the original corpus." </desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p><standard name="epidoc">EpiDoc <resource type="example" format="xml"
+                                target="http://iospe.kcl.ac.uk/5.20.xml"/></standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://www.digitalmishnah.umd.edu/" xml:lang="en">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Digital Mishnah</title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Lapin, Hayim</name>
+                            </person>
+                            <person>
+                                <name role="">Brown, Travis</name>
+                            </person>
+                            <person>
+                                <name role="">Muñoz, Trevor</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Developed by Hayim
+                    Lapin, with Travis Brown and Trevor Muñoz. College Park (MD): MITH (Maryland
+                    Institute for Technology and the Humanities) 2012-2013. "The Digital Mishnah
+                    Project will provide users with a database of digitized manuscripts of the
+                    Mishnah from around the world, along with tools for collation, comparison, and
+                    analysis. This demo provides fully marked up transcriptions of twenty-two
+                    witnesses to a sample chapter, Bava Metsia ch 2, and illustrates basic
+                    functionalities. In a number of cases, the witnesses available for browse expand
+                    beyond the sample chapter to include all of Bava Qamma, Bava Metsi'a, and Bava
+                    Batra." [from resource] </desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>
+                        <standard name="tei">TEI-P5 <resource type="example" format="xml"
+                                target="http://www.digitalmishnah.umd.edu/S01715.xml"/></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://mama.csad.ox.ac.uk/" xml:lang="en">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Monumenta Asiae Minoris Antiqua XI - Monuments from Phrygia and Lykaonia</title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Thonemann, Peter</name>
+                            </person>
+                            <person>
+                                <name role="">Crowther, Charles</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Peter Thonemann and
+                    Charles Crowther, Centre for the Study of Ancient Documents, Oxford: University
+                    of Oxford, Version 1.0, 2012 "Monumenta Asiae Minoris Antiqua (MAMA) XI [is] a
+                    corpus of 387 inscriptions and other ancient monuments from Phrygia and
+                    Lykaonia, recorded by Sir William Calder (1881-1960) and Dr Michael Ballance
+                    (†27 July 2006) in the course of annual expeditions to Asia Minor in 1954-1957.
+                    The MAMA XI project has been funded by a grant from the Arts and Humanities
+                    Research Council, and is based at the Centre for the Study of Ancient Documents
+                    in Oxford." [from resource] </desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>
+                        <standard name="epidoc">EpiDoc<resource type="example" format="xml"
+                                target="http://mama.csad.ox.ac.uk/xml/MAMA-XI-176.xml"/>
+                            <resource type="visual"
+                                target="http://mama.csad.ox.ac.uk/monuments/MAMA-XI-176.html"
+                                format="html"/></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://www.mqdq.it/public/" xml:lang="it">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>musique deoque</title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Mastandrea, Paolo</name>
+                            </person>
+                            <person>
+                                <name role="">Perrelli, Raffaele</name>
+                            </person>
+                            <person>
+                                <name role="">Biondi, Gilberto</name>
+                            </person>
+                            <person>
+                                <name role="">Zurli, Loriano</name>
+                            </person>
+                            <person>
+                                <name role="">Viparelli, Valeria</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Project lead by
+                    Paolo Mastandrea, Raffaele Perrelli, Gilberto Biondi, Loriano Zurli and Valeria
+                    Viparelli, [no publishing place or institution mentioned], 2007 "The 'Musisque
+                    Deoque. A digital archive of Latin poetry, from its origins to the Italian
+                    Renaissance' Research Project, was established at the end of 2005. Its aims is
+                    to create a singular Latin poetry’s database, supplemented and updated with
+                    critical apparatus and exegetical equipments." [from resource] </desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>
+                        <standard name="unspecified"><resource type="visual" format="html"
+                                target="http://www.mqdq.it/public/hellenica/testo/testo/codice/ANTH_GRA%7Cep03%7C001"
+                            /></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://vindolanda.csad.ox.ac.uk/" xml:lang="en">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title> Vindolanda Tablets Online </title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Bowman, Alan</name>
+                            </person>
+                            <person>
+                                <name role="">Crowther, Charles</name>
+                            </person>
+                            <person>
+                                <name role="">Pearce, John</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Directed by Alan
+                    Bowman, Charles Crowther and John Pearce, Oxford, Oxford University, 2001-2003.
+                    Digitale Ausgabe der Vindolanda-Fragmente: römische Wachstafeln (und Holztafeln)
+                    des 1./2. Jahrhunderts aus einer archäologischen Grabung am Hadrianswall. "The
+                    website includes texts, translations, notes and new high-resolution 'zoomable'
+                    digital images of all the published tablets. A virtual exhibition draws on the
+                    texts and archaeological evidence from Vindolanda and other sites on Britain's
+                    northern frontier to introduce the content and context of the tablets to a
+                    non-specialist audience. Other resources within the website include a reference
+                    guide to specialised aspects of Roman life encountered in these documents, such
+                    as currency and military terminology, the scholarly introductions to the tablets
+                    and an account of the creation of digital texts and images." [from resource]
+                </desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>
+                        <standard name="epidoc"><resource type="visual" format="html"
+                                target="http://vindolanda.csad.ox.ac.uk/4DLink2/4DACTION/WebRequestQuery?searchTerm=291&amp;searchType=number&amp;searchField=TVII"
+                                /><resource type="example" format="xml"
+                                    target="http://vindolanda.csad.ox.ac.uk/Search/tablet-xml-files/291.xml"
+                            /></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://www.cmcl.it/" xml:lang="it">
+            <!--<tag>copt ancient letter</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>CMCL - Corpus dei Manoscritti Copti Letterari</title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Tito, Orlandi</name>
+                            </person>
+                            <person>
+                                <name role="">Bresciani, Edda</name>
+                            </person>
+                            <person>
+                                <name role="">Camplani , Alberto </name>
+                            </person>
+                            <person>
+                                <name role="">Emmel, Stephen </name>
+                            </person>
+                            <person>
+                                <name role="">Layton , Bentley </name>
+                            </person>
+                            <person>
+                                <name role="">Pericoli Ridolfini , Francesco S.</name>
+                            </person>
+                            <person>
+                                <name role="">Simonetti, Manlio</name>
+                            </person>
+                            <person>
+                                <name role="">Buzi , Paola </name>
+                            </person>
+                            <person>
+                                <name role="">Suciu , Alin</name>
+                            </person>
+                            <person>
+                                <name role="">Atanassova , Diliana</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Unter der Leitung
+                    von Tito Orlandi, Rom / Hamburg, Università di Roma und Hiob Ludolf Zentrum
+                    Hamburg, 2003-2004. "The CMCL is an enterprise dedicated to the study of
+                    Egyptian Christian culture in the I-XII centuries C.E., especially for the
+                    documents in Coptic language. This web site contains the archives of the CMCL:
+                    texts, grammar, history of literature, catalogue of manuscripts, bibliography."
+                    [from resource] Die Online-Publikationen sind nur auf Subskriptionsbasis
+                    zugänglich.</desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>
+                        <standard name="unspecified"></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://www.corimu.unisi.it/" xml:lang="it">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>Corpus Rhythmorum Musicum (saec. IV-IX) - I</title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Stella, Francesco</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Ed. by Francesco
+                    Stella et al, Siena, Università degli studi di Siena ad Arezzo, 2009. Contains
+                    manuscript descriptions and images (forthcoming?), manuscript transcriptions
+                    ("diplomatic" and "half diplomatic"), critical texts with apparatus,
+                    concordances, statistical data (on linguistic phenomena).</desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>
+                        <standard name="unspecified"><resource type="visual" target="http://www.corimu.unisi.it/scheda.php?idSchede=6" format="html" /></standard>
+                    </p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://www.abdn.ac.uk/bestiary/" xml:lang="en">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title>The Aberdeen Bestiary</title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Beavan, Iain</name>
+                            </person>
+                            <person>
+                                <name role="">Arnott, Michael</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html"> Ed. by Iain Beavan,
+                    Michael Arnott et al., Aberdeen, University of Aberdeen, 1995-. Umfassende
+                    Edition mit Faksimile, Transkription, Übersetzung, Kommentar, Einleitung,
+                    kodikologische Beschreibung, Index, Bibliografie, Suchmaske. Allerdings versteht
+                    sich das Projekt selbst nicht als "definitive edition of the text", sondern als
+                    Arbeitsmittel für den Benutzer.</desc>
+            </information>
+            <data>
+                <dataSet>
+                    <p>no exchange data-formats<standard name="unspecified"><resource target="http://www.abdn.ac.uk/bestiary/translat/16v.hti" type="visual" format="html"></resource></standard></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://www.janeausten.ac.uk/index.html" xml:lang="en">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title> Jane Austen’s Fiction Manuscripts Digital Edition </title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Beavan, Iain</name>
+                            </person>
+                            <person>
+                                <name role="">Arnott, Michael</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html"> Ed. by Kathryn
+                    Sutherland et al., London, Centre for Computing in the Humanities, King's
+                    College London, 2011. "The Jane Austen’s Fiction Manuscripts Digital Edition
+                    gathers together in the virtual space of the web some 1100 pages of fiction
+                    written in Jane Austen’s own hand. Through digital reunification, it is now
+                    possible to access, read, and compare high quality images of original
+                    manuscripts whose material forms are scattered around the world in libraries and
+                    private collections. [...] The main resources in the digital edition are the
+                    manuscripts themselves, accessed through the manuscript menu and grouped
+                    chronologically and according to their material states as fair copies (the
+                    Juvenilia and Lady Susan), working drafts (The Watsons, Persuasion, Sanditon),
+                    and further materials. Each manuscript can be opened in a variety of ways: as
+                    facsimile pages which can be magnified using ‘zoomify’; as transcribed text set
+                    side by side with the original manuscript page; or through a Headnote that
+                    provides details of the manuscript’s history and physical description." [from
+                    resource] </desc>
+            </information>
+            <data>
+                <dataSet desc="http://www.janeausten.ac.uk/edition/technical.html">
+
+                    <p>xml-data not directly available: using <standard name="tei">TEI-XML<resource
+                                type="documentation"
+                                target="http://www.janeausten.ac.uk/redist/JA_encoding_model.pdf"
+                                format="pdf">Dokumentation der Encoding-Richtlinien als
+                                PDF</resource></standard>
+                    </p>
+                    <p>"The metadata was automatically extracted from the images using the
+                        ImageMagick and ExifTool software, and the <standard name="mets"
+                            >METS</standard> files were generated from these using XSLT, with a
+                        custom Python script acting as glue to this process."</p>
+                    <p><resource type="visual" format="html"
+                            target="http://www.janeausten.ac.uk/index.html"
+                            >HTML-Serialisierung</resource></p>
+                </dataSet>
+            </data>
+        </project>
+
+        <project url="http://diglib.hab.de/edoc/ed000166/start.htm" xml:lang="en">
+            <!--<tag>ancient</tag>-->
+            <revision status="draft">
+                <date type="entry" when="2015-11-15"/>
+            </revision>
+            <title> Jacques de Fonteny's Livre d'Enigmes - Manuscript of an Early 17th-Century
+                Para-Emblematic, Illustrated Sonnet Sequence. </title>
+            <links>
+                <linkDesc url=""/>
+            </links>
+            <information>
+                <desc><responsibles>
+                        <respStmt>
+                            <person>
+                                <name role="">Strasser, Gerhard F.</name>
+                            </person>
+                            <person>
+                                <name role="">Glaser, Eva Christina</name>
+                            </person>
+                        </respStmt>
+                    </responsibles></desc>
+                <desc source="http://www.digitale-edition.de/vlet_ancient.html">Ed. by Gerhard F.
+                    Strasser, assist. by Eva Christina Glaser. Wolfenbüttel: Herzog August
+                    Bibliothek, 2012. TEI-based digital edition offering facsimile, original
+                    transcription, and modern french transcription with some prefatory remarks,
+                    commentary and bibliography. </desc>
+            </information>
+            <data>
+                <dataSet>
+
+                    <p>Einmal gibts ein <standard name="mets">Metadatenprofil in METS/XML<resource
+                                type="example" format="xml"
+                                target="http://diglib.hab.de/edoc/ed000166/mets.xml"/><resource
+                                type="processing" format="xsl"
+                                target="http://diglib.hab.de/rules/styles/mets.xsl"/></standard></p>
+                    <p>Textdaten werden in <standard name="tei">TEI <resource type="example"
+                                format="xml" target="http://diglib.hab.de/edoc/ed000166/start.xml"
+                                /><resource type="processing" format="xsl"
+                                target="http://diglib.hab.de/edoc/ed000166/start.xsl"/></standard>
+                        encodiert</p>
+                    <p><resource type="visual" format="html"
+                            target="http://diglib.hab.de/edoc/ed000166/start.htm"
+                            >HTML-Serialisierung</resource> vorhanden</p>
+                </dataSet>
+            </data>
+        </project>
+
+    </projects>
+    <!-- ######### -->
+
+    <!--<standards>
+        <standard xml:id="mets">
+            <name>METS</name>
+            <url>http://www.loc.gov/standards/mets/</url>
+            <desc/>
+        </standard>
+        <standard xml:id="tei">
+            <name>TEI</name>
+            <url>http://www.tei-c.org</url>
+            <desc/>
+        </standard>
+    </standards>-->
+</kelliaEditions>
